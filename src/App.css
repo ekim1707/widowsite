@@ -1,33 +1,741 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  width: 100%;
+  height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.iframe-home {
+  height: auto;
+  width: 16.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -30%;
+  animation: move 16s linear 16s infinite;
+  overflow: hidden;
+}
+iframe:hover {
+  pointer-events: none;
+  cursor: default;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  height: 18%;
+}
+.image2 {
+  animation-delay: 2s;
+}
+.image3 {
+  animation-delay: 4s;
+}
+.image4 {
+  animation-delay: 6s;
+}
+.image5 {
+  animation-delay: 8s;
+}
+.image6 {
+  animation-delay: 10s;
+}
+.image7 {
+  animation-delay: 12s;
+}
+.image8 {
+  animation-delay: 14s;
+}
+
+@keyframes move {
+  from {
+    right: -30%;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.toggle-heroes {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background: transparent;
+}
+.background {
+  position: absolute;
+  width: 100%;
+  height: 92%;
+  margin: 0;
+  padding: 0;
+  background: url('https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/04/18112648/Overwatch-free-to-play-analyst-Michael-Pachter.jpg.optimal.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -3;
+  opacity: .5;
+}
+.body-heroes {
+  position: absolute;
+  top: 10%;
+  height: 82%;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+}
+.body-image {
+  position: absolute;
+  width: 100%;
+  height: 74%;
+  right: 0%;
+  animation: none;
+  opacity: .5;
+  background-image: url('https://static.gamespot.com/uploads/original/1585/15855271/3360330-widowmaker-starcraft.jpg');
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+  font-size: 80px;
+  font-weight: bolder;
+  color: whitesmoke;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  height: 8%;
+  bottom: 0%;
+  background: whitesmoke;
+  padding: 0;
+}
+.navbar, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div.navbar.row::after {
+  content: none;
+  cursor: pointer;
+}
+.navs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: lightgray;
+}
+.navs:hover {
+  color: gray;
+}
+.selected-target {
+  color: gray;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/520886a2-df00-49da-9960-62cde5154979/dc4h1yn-258c6467-e7e3-490a-b60d-fcbf0b3db774.png/v1/fill/w_909,h_879,strp/widowmaker_s_scope_by_hucklefred_dc4h1yn-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTkxIiwicGF0aCI6IlwvZlwvNTIwODg2YTItZGYwMC00OWRhLTk5NjAtNjJjZGU1MTU0OTc5XC9kYzRoMXluLTI1OGM2NDY3LWU3ZTMtNDkwYS1iNjBkLWZjYmYwYjNkYjc3NC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3uzGIwAh42ZSGJPf7TkEvDULCuQ_0Bt3nvGegB5wSZ4');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.material-icons {
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 18vh;
+  font-size: 60px;
+  font-weight: bolder;
+  color: gray;
+}
+.welcome-message {
+  flex-direction: row;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid gray; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: .10em auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; /* Adjust as needed */
+  animation: 
+    typing 2s steps(8, end),
+    blink-caret .75s step-end infinite,
+    fade 12s linear;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 18% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+
+@keyframes fade {
+  0%, 40% {
+    opacity: 1
+  }
+  80%, 100% {
+    opacity: 0
+  }
+}
+
+.zoom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  background: purple;
+}
+.card:hover {
+  cursor: pointer;
+  background: gold;
+}
+.card-content {
+  font-size: 15px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.card-image {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+.hero-image {
+  flex-grow: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card #Orisa, .card #Wrecking-Ball {
+  justify-content: flex-end;
+}
+.card-image #Orisa, .card-image #Wrecking-Ball {
+  flex-grow: 0;
+}
+.card #Junkrat {
+  justify-content: center;
+}
+.card-image #Junkrat {
+  flex-grow: 0;
+}
+.card-image #Baptiste {
+  margin-top: -3vh;
+}
+.btn-large, .btn-large:after {
+  background: lightgray;
+  margin: 5px;
+}
+.btn-large:hover {
+  background: lightgray;
+}
+.btn-large:focus{
+  background-color: gold;
+}
+
+.video-body {
+  display: flex;
+  width: 100%;
+  height: 77%;
+  flex-flow: row nowrap;
+}
+.video-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+}
+.video-iframe-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  border-top: 5px solid silver;
+  border-bottom: 5px solid silver;
+}
+.video-iframe:hover {
+  cursor: pointer;
+}
+.video-comment-right {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+  border: 5px solid silver;
+  border-bottom: none;
+  font-weight: bolder;
+}
+
+.video-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-weight: normal;
+  background: transparent;
+  border-bottom: 5px solid silver;
+}
+.commentary {
+  padding: 0 5px 0 5px;
+  border-top: 5px solid silver;
+}
+.video-lis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12.5%;
+  border: 5px solid silver;
+  border-bottom: none;
+  overflow: hidden;
+}
+.video-lis:hover {
+  cursor: pointer;
+}
+.toggle-size {
+  height: 13.5%;
+}
+.video-lis-names {
+  padding: 10px;
+  width: 100%;
+}
+.video-lis-images {
+  width: auto;
+  height: 100%;
+}
+.video-lis-names:active, .video-lis-images:active {
+  pointer-events: none;
+}
+ul {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-image {
+  position: absolute;
+  width: 15%;
+  height: 60%;
+  background-image: url('https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4c/Widowmaker-portrait.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -2;
+}
+.sidebar-image:hover {
+  pointer-events: none;
+}
+
+.video-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background: whitesmoke;
+}
+.video-hero {
+  border: 5px solid silver;
+  border-right: none;
+  border-bottom: none;
+}
+.video-hero:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background: gold;
+}
+.selected-font {
+  color: gold;
+}
+
+.forum-flex-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+}
+.forum-title-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background: #f0a830;
+}
+.forum-title-image {
+  width: 20%;
+  height: 100%;
+  background: url('./agora_logo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.disclaimer-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background: #f0a830;
+  border-bottom: 1px solid gray;
+}
+.disclaimer-image {
+  width: 5%;
+  height: 100%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background: url('./emoji.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.disclaimer-message {
+  width: 60%;
+  height: 100%;
+  font-size: 2vh;
+}
+.forum-messageboard-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100%;
+  height: 67%;
+}
+.forum-messageboard-post {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 34.5%;
+  height: 99.5%;
+  border: 1px solid gray;
+  border-radius: 10px 10px 0 0;
+  background: #f0a830;
+  padding: 5px;
+  margin: 0;
+}
+.forum-post-container {
+  width: 100%;
+  height: 84%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+textarea:focus {
+  outline: none;
+  border-radius: 10px;
+}
+.forum-messageboard {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 64.5%;
+  height: 99.5%;
+  border: 1px solid gray;
+  border-radius: 10px 10px 0 0;
+  background: #f0a830;
+  overflow-y: scroll;
+  padding: 5px;
+}
+.forum-messageboard-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: whitesmoke;
+  overflow-y: scroll;
+}
+.forum-messageboard-message {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  overflow-y: scroll;
+  text-align: left;
+  font-size: 2vh;
+}
+.forum-messageboard-tag {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  font-size: .75em;
+  color: blue;
+}
+.forum-messageboard-tagrow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 40%;
+  font-size: 1.35em;
+  overflow: hidden;
+}
+.forum-messageboard-timestamp {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  color: black;
+}
+.forum-post-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 17%;
+}
+.input-field-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  width: 60%;
+  height: 95%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: whitesmoke;
+}
+.input-field {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 0;
+}
+label {
+  pointer-events: none;
+}
+input[type=text]:not(.browser-default) {
+  margin-right: 15px;
+  color: teal;
+  font-size: 2em;
+}
+.xlarge {
+  width: auto;
+  height: 95%;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.youtube-channel-link {
+  width: 10%;
+  height: 100%;
+  border: 5px solid silver;
+  border-bottom: none;
+  background: url('https://www.fourjay.org/myphoto/f/0/589_youtube-png.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#all-portrait {
+  padding: 10px;
+}
+
+#golf-clap {
+  padding: 30px 15px 30px 15px;
+}
+
+.modal {
+  width: 90%;
+  max-height: 100%;
+  overflow: visible;
+  top: 5% !important;
+}
+.modal-content {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.modal-background-image {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -2;
+}
+.modal.modal-fixed-footer {
+  height: 90%;
+}
+.modal-row-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+.modal-col-left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.15em;
+  font-weight: bolder;
+  /* -webkit-text-stroke: .5px black; */
+  color: black;
+  width: 37.5%;
+  height: 100%;
+}
+.modal-title-text-background {
+  width: 80%;
+  padding: 10px;
+  background: rgb(255, 215, 0, 0.5);
+  border-radius: 25px;
+}
+.modal-title {
+  font-size: 1.75em;
+}
+.ability-icons {
+  width: 4vw;
+  height: 6vh;
+  padding: 5px;
+}
+.modal-row-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  width: 60%;
+  height: 100%;
+}
+.modal-row-body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+}
+.modal-body-left {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 37.5%;
+  height: 100%;
+}
+.modal-description-background {
+  width: 80%;
+  padding: 10px;
+  background: rgb(255, 215, 0, 0.5);
+  border-radius: 25px;
+}
+.modal-iframe-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+.ability-col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  width: 19%;
+  height: 100%;
+  border: 3px solid white;
+  border-radius: 25px;
+  background: gold;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.warn-icon {
+  display: none;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: red;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  margin: 0;
 }

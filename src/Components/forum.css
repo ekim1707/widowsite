@@ -1,0 +1,13 @@
+.warning {
+    font-weight: bolder;
+    color: red !important;
+}
+.reveal {
+    display: flex;
+    position: absolute;
+    right: 8px;
+}
+#forum-textarea {
+    font-size: 3em;
+    color: teal;
+}

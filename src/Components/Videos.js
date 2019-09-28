@@ -19,11 +19,6 @@ class Videos extends Component {
     componentDidMount() {
 
         document.getElementById('0').classList.add('selected');
-        const navs = document.querySelectorAll('.navs');
-        navs.forEach((nav) => {
-            nav.classList.remove('selected-target');
-        });
-        document.getElementById('videos').classList.add('selected-target');
 
         const controlClick = (e) => {
 
@@ -151,6 +146,12 @@ class Videos extends Component {
               });
               document.getElementById('19').classList.add('selected');
               this.selectVideo(el.id);
+            } else if (el.id === '20') {
+              videoLis.forEach((li) => {
+                li.classList.remove('selected');
+              });
+              document.getElementById('20').classList.add('selected');
+              this.selectVideo(el.id);
             } else if (el.id === 'widow-portrait') {
               videoLis.forEach((li) => {
                 li.classList.remove('selected');
@@ -160,7 +161,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('widow-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4c/Widowmaker-portrait.png')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/c0/7e/91/c07e91f9e49a67fa4648503813847c40.jpg')";
               this.clickHero('Widowmaker');
             } else if (el.id === 'sombra-portrait') {
               videoLis.forEach((li) => {
@@ -171,7 +172,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('sombra-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c5/Sombra-portrait.png/350px-Sombra-portrait.png?version=661875cb5da293e8e78dd3ce4f72ba51')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/564x/9b/35/0c/9b350c02262c028b3269bc17551942c8.jpg')";
               this.clickHero('Sombra');
             } else if (el.id === 'ana-portrait') {
               videoLis.forEach((li) => {
@@ -182,7 +183,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('ana-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/76/Ana.png/287px-Ana.png?version=b84dfa70be7bb27422e72a6e0584b2ed')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/70l4CM4.jpg')";
               this.clickHero('Ana');
             } else if (el.id === 'junkrat-portrait') {
               videoLis.forEach((li) => {
@@ -193,7 +194,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('junkrat-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/9/99/Junkrat-Portrait.png/573px-Junkrat-Portrait.png?version=c23334dae852756b575df8a32ea34708')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/84/51/90/84519048b449d09ef1bdfcefd1179d8a.jpg')";
               this.clickHero('Junkrat');
             } else if (el.id === 'pharah-portrait') {
               videoLis.forEach((li) => {
@@ -204,7 +205,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('pharah-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/2/26/Pharah-portrait.png/535px-Pharah-portrait.png?version=a093b1b23791a2d362de36cc2e659943')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/a1/84/5e/a1845e76c0b76977eae1b1d74ce08011.jpg')";
               this.clickHero('Pharah');
             } else if (el.id === 'golf-clap') {
               videoLis.forEach((li) => {
@@ -215,7 +216,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('golf-clap').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/600px-Overwatch_circle_logo.svg.png')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
               this.clickHero('Orisa');
             } else if (el.id === 'torbjorn-portrait') {
               videoLis.forEach((li) => {
@@ -226,7 +227,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('torbjorn-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c5/Torbjorn-portrait.png/700px-Torbjorn-portrait.png?version=73146334ff995247b1eff7699ceb509b')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/bb/73/ee/bb73ee2cf588b33b9e303bcbe0ed95d3.jpg')";
               this.clickHero('Torbjörn');
             } else if (el.id === 'kinda-funny') {
               videoLis.forEach((li) => {
@@ -237,7 +238,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('kinda-funny').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/600px-Overwatch_circle_logo.svg.png')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
               this.clickHero('Reinhardt');
             } else if (el.id === 'all-portrait') {
               videoLis.forEach((li) => {
@@ -248,7 +249,7 @@ class Videos extends Component {
                 portrait.classList.remove('selected');
               });
               document.getElementById('all-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/600px-Overwatch_circle_logo.svg.png')";
+              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
               this.clickHero('DV.a');
             }
         }
@@ -301,21 +302,19 @@ class Videos extends Component {
                     <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/torbjorn/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
                     <img src="http://icons.iconarchive.com/icons/tribalmarkings/colorflow/256/miscellaneous-icon.png" width="10%" height="100%" alt="video-header" className="video-hero" id="all-portrait" />
                     <img src="https://www.fortnitehut.com/fortnite-font-generator-images/dD1Hb2xmIENsYXAmcz0xNzBweCZjPUExRDU0RCY.png" width="10%" height="100%" alt="video-header" className="video-hero" id="golf-clap" />
-                    <img src="https://s3.amazonaws.com/gt7sp-prod/decal/40/12/40/6061845103291401240_1.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />
+                    <img src="https://www.pngkey.com/png/full/809-8095773_website-web-product-kinda-funny-joomla-design-clipart.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />
                     <a className="youtube-channel-link" href="https://www.youtube.com/channel/UCdijCKSJ9gNdCEQKlIO8lRA/playlists?view_as=subscriber" target="_blank" rel="noopener noreferrer" id="youtube-link"><span></span></a>
                 </div>
                 <div className="video-body">
                     <div className="video-menu-container">
-                        <div className="sidebar-image" id="sidebar-image"></div>
                         <div className="video-menu">
                             <ul>
                                 {featuredTitles}
                             </ul>
                         </div>
+                        <div className="sidebar-image" id="sidebar-image"></div>
                     </div>
-                    <div className="video-iframe-container">
-                        <iframe title="mainFrame" className="video-iframe" width="100%" height="100%" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </div>
+                    <iframe title="mainFrame" className="video-iframe" width="100%" height="100%" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div className="video-comment-right selected">
                         Commentary
                         <div className="video-menu commentary selected">

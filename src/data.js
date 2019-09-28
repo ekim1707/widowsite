@@ -1,21 +1,95 @@
 const data = [
     {
-        name: 'DV.a',
+        name: ['DV.a', 'Hana Song (송하나)', 'hanasong'],
+        age: '19',
+        height: `1.67m/5'5"`,
+        nationality: 'Korean',
+        occupation: ['Professional Gamer (formerly)', 'Mech Pilot', 'Actress'],
+        voice: 'Charlet Chung',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/d/dc/Dva_portrait.png/revision/latest?cb=20160429040128', 
-        videos: [{name: 'Reaper Is Too Easy To Take Seriously', embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Only for noobs', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reaper/icon-portrait.png'},
-        {name: '60% KP', embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8", comment: 'new', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/dva/icon-portrait.png'},
-        {name: 'Yes I Actually Played Mercy. Once.', embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb", comment: 'mercy',  image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mercy/icon-portrait.png'},
-        {name: 'Im Actually A Pretty Sick Shield Tank', embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM", comment: 'rein', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'},
-        {name: 'Mercy Needed A Cowboy', embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'McCree', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
-        {name: "It's High Noon", embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'McCree', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
-        {name: 'Swear This Hanzo Hero Is So Stupid', embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Hanzo', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/hanzo/icon-portrait.png'},
-        {name: 'Yeah Its Sym But Still Pretty Epic VOD', embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Sym', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'}, 
-        {name: 'Can I At Least Get a Card', embed: "https://www.youtube.com/embed/x84xe5GdNfo", comment: 'Hey', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
-        {name: 'Dominant Soldier Considering The Rust', embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Hey', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
-        {name: 'Tracer Begins', embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD", comment: 'Hiya', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
-        {name: 'Tracer Vs Clan owo', embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'hiya', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
-        {name: '49% KP Rialto', embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'hiya', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},],
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/d/dc/Dva_portrait.png/revision/latest?cb=20160429040128', 'https://images5.alphacoders.com/659/thumb-350-659055.jpg'], 
+        videos: 
+        [{name: '28% Team DMG',
+        embed: 'https://www.youtube.com/embed/rxO1t2uRFy4',
+        comment: `Three of my favorite DPS mains/former-mains featured in one game. Pretty happy with how I played
+        overall for each hero.`,
+        image: 'https://www.wherescape.com/media/3274/montage-color.png'},
+        {name: 'Reaper Is Too Easy To Take Seriously', 
+        embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I used to take Reaper seriously a long time ago when I first started playing, and at some point
+        people started thinking I was a Reaper main. I don't quite have the ability I used to anymore, but even now in those
+        rare instances I decide to fire up my old Reaper skills up again, I still hold my own alright.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reaper/icon-portrait.png'},
+        {name: '60% KP', 
+        embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8", 
+        comment: `I lost interest in playing DVa (and just tanks in general) a long time ago, but I still think whenever I reach
+        into the toolbag, I will always be able to at least play her competently.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/dva/icon-portrait.png'},
+        {name: 'Yes I Actually Played Mercy. Once.', 
+        embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb", 
+        comment: `Mercy is the most boring hero ever lol. I think I could count the amount of times I've played her in my
+        entire life on two hands, but this one particular game was actually a little bit fun in the end.`,  
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mercy/icon-portrait.png'},
+        {name: 'Im Actually A Pretty Sick Shield Tank', 
+        embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM", 
+        comment: `Rein was probably the hero I was most scared to try when I first started playing, just because he seemed so
+        complicated and difficult. One day, I told my team in public chat that I was trying him for the first time to learn, and I apologized
+        in advance, but in the end we ended up winning, and everybody congradulated me. I stopped being scared to play him from there
+        and at for one brief period down the road, I was a pretty nasty Rein (and just shield tank in general). Then I lost interest, and since then,
+        I've played Rein maybe four times over the past two years. This is one of those rare times.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'},
+        {name: 'Mercy Needed A Cowboy', 
+        embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `Other McCrees vex me so much because they never play him the right way, but as long as they get a huge flanking
+        High Noon, they seem to think they're McCree "mains" for some reason. Back in the day, I actually
+        reached what I considered to be a high level McCree. Then one day, all my settings got reset, I never recovered my original
+        sensitivity setting for McCree, and I never was the same. I pretty much stopped playing him completely after that, but
+        recently, I've had a few decent games, like this one.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
+        {name: "It's High Noon", 
+        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I'm definitely not a good McCree myself (at least not anymore), but I'd say in games like
+        this one, I at least didn't throw for my team like 80% of McCrees do and don't even realize.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
+        {name: 'Swear This Hanzo Hero Is So Stupid', 
+        embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `There really is no hero I hate more than Hanzo. As I tell many people, I prefered him more
+        when he had scatter. I probably play him as rarely as I do Mercy, but this one time I think
+        I did alright.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/hanzo/icon-portrait.png'},
+        {name: 'Yeah Sym But Still Pretty Epic', 
+        embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I've actually had a handful of epic Sym games (considering I play her so rarely), but this is the
+        only video of one I was able to find. In particular, I'm proud of this VOD because of the play I made at the end,
+        which was completely improvised and not scripted to any extent.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'}, 
+        {name: 'Can I At Least Get a Card', 
+        embed: "https://www.youtube.com/embed/x84xe5GdNfo", 
+        comment: `When I first started playing, I exclusively played Soldier for about a year. And I say "exclusively"
+        in the strictest sense. These days aren't nearly the same, but when I do play him, I feel pretty comfortable
+        regardless of how long it's been until then. This game made me chuckle because I don't think I could have possibly
+        been more productive or helped my team win more, but for some reason Blizzard didn't even think I deserved a card.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
+        {name: 'Dominant Soldier IMO', 
+        embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `Dusted off Soldier again and had a pretty decent game.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
+        {name: 'Tracer Begins', 
+        embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD", 
+        comment: `This game is special because I seriously did not play Tracer a single time in over two years
+        before this one. I thought on a whim that it might be nice to train hard and add Tracer to my bag of mains,
+        and these were the first two games into my quest. Considering the inexperience and awkwardness, especially with the type
+        of hero Tracer is, I was pretty happy with my performance (esp the last pulse felt good).`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
+        {name: 'Tracer Vs Clan owo', 
+        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I just enjoyed this game because the entire owo clan I was playing against was so goofy and chill.
+        Had prior experience with them, and we always keep it light and fun and have a good time in the end.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
+        {name: '49% KP Rialto', 
+        embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I was pretty frustrated with my team in this game. Hopefully you can understand why yourself.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'}],
         modalData: [{
             quote: '"오오오~? 좀 멋진데! (Ooooo, not bad!)"',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b9/Ability-dva1.png/200px-Ability-dva1.png?version=ac54689044c1ec52b2afcedb2de20e71',
@@ -32,58 +106,103 @@ const data = [
             she is always one of the cornerstones a good team generates its plan of attack around. It is imperative, as a good DVa, to learn
             good positioning, specifically in terms of using her Matrix to protect teammates (especially healers), as well as knowing
             when to rush into the fray to try to finish off a weak opponent (and likewise, when to rush out). It is important to note that a DVa
-            that gets de-Meched too easily can often be the entire reason why teams lose games. Keeping all of these things in mind is most
-            likely far more important than pulling off huge DVa bombs.`,
+            that gets de-Meched too easily can often be the entire reason why teams lose games. Keeping all of these things in mind is far more important than pulling off huge DVa bombs.`,
             iframe: 'https://www.youtube.com/embed/jN3TISLTVyc',
             backgroundImage: 'https://i.ytimg.com/vi/thA-3guCaug/maxresdefault.jpg'
         }]
     },
     {
-        name: 'Orisa',
+        name: ['Orisa', 'Orisa'],
+        age: '1 month',
+        height: `2.22m/7'4"`,
+        nationality: 'none',
+        occupation: ['Guardian Robot'],
+        voice: 'Cherrelle Skeete',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/f/f9/Orisa_portrait.png/revision/latest?cb=20170323183330', 
-        videos: [{name: 'Jumpshot A Pharah In Mid-Air', embed: 'https://www.youtube.com/embed/5Z2vqL1XLyE?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `Probably my personal favorite all-time play just because of the level of difficulty of it all.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: 'Genji Blade Jumpshot-Headshot', embed: 'https://www.youtube.com/embed/1yKVJmDID8w?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f9/Orisa_portrait.png/revision/latest?cb=20170323183330', 'https://i.pinimg.com/originals/e6/66/8f/e6668fdc94ebf28ed87ad4a76e5b49ad.png'], 
+        videos: 
+        [{name: 'Jumpshot A Pharah In Mid-Air', 
+        embed: 'https://www.youtube.com/embed/5Z2vqL1XLyE?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        comment: `Probably my personal favorite all-time play just because of the level of difficulty of it all.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'Genji Blade Jumpshot-Headshot', 
+        embed: 'https://www.youtube.com/embed/1yKVJmDID8w?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
         comment: `This will always stay prominent in my highlight vault forever just because it was probably my first really epic-feeling play I ever made with Widowmaker. I was at the very beginning stage of becoming a widow main at the time, and this particular game as a whole I was just
         connecting shot after shot (I ended the round on fire as the clip shows). So of course the enemy team starts to target me, and that Genji in particular went full rage mode. In the clip, I had just killed him moments before the clip start, and right away I knew he was going to come back at me
         at least once more time with blade. That entire sequence I was firing into the crowd (and missing a lot), I was really just looking for him in my peripheral and waiting, and what you saw from the second he took that hop and dash-bladed right into me until I headshotted him was all premeditated
-        on my end. It literally all just came down to whether I would land the shot or not.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: 'I Have My Reasons', embed: 'https://www.youtube.com/embed/kDXcaT_z0rk?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        on my end. It literally all just came down to whether I would land the shot or not.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'I Have My Reasons', 
+        embed: 'https://www.youtube.com/embed/kDXcaT_z0rk?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
         comment: `You might think this is a weird clip to include here. Duly noted. But one of the greatest things I take pride in as a Widow main is destroying enemy Tires (and sometimes even just having the prescence of mind to do it). This clip may not look like much as a viewer, but in game, with the
-        circumstances surrounding me, I was very proud of myself for being able to land a shot and help destroy that Tire, when I really had such a small window of opportunity to hit it to begin with.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: 'Ice In The Veins', embed: 'https://www.youtube.com/embed/S3YfOnv5XRU?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `This play wasn't even really a matter of skill as much as just having the balls to not flinch and fire straight with a Genji blade coming right at you.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: '"Tracer Begins", The Highlights', embed: 'https://www.youtube.com/embed/q9Qq-g3Z4yg?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        circumstances surrounding me, I was very proud of myself for being able to land a shot and help destroy that Tire, when I really had such a small window of opportunity to hit it to begin with.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'Ice In The Veins', 
+        embed: 'https://www.youtube.com/embed/S3YfOnv5XRU?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        comment: `This play wasn't even really a matter of skill as much as just not flinching in the face of a Genji-blade coming right at me.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: '"Tracer Begins", The Highlights', 
+        embed: 'https://www.youtube.com/embed/q9Qq-g3Z4yg?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
         comment: `This was literally my first attempt to play Tracer seriously in the past 2 years at least. It's far more powerful watching the entire VOD, which is in the MISC VOD list, but for certain the climatic ending of it all was the last bomb I stuck on their Monkey, after exuding some very strong
-        patience, which wiped out the rest of their team in one play and won us the game. There was a lot of chatter generated in that game because of me as wellx, which can all be seen in the full VOD.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
-        {name: 'Group Boop', embed: 'https://www.youtube.com/embed/STlrev4wI1E?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        commnet: `Not much to say here except I really like to boop lol.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
-        {name: 'Mother-Daughter Drama', embed: 'https://www.youtube.com/embed/dqDL_0CVeNI?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `Anyone who plays Ana seriously would understand that felt really really really good.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: 'Pharah Mass Boop', embed: 'https://www.youtube.com/embed/beuRqY9EJLk?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Distinctly remember the enemy Mercy calling me "mean" after that one. It was a feelsgoodman moment for sure.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
-        {name: 'Girl Power', embed: "https://www.youtube.com/embed/QpRLxnzwKEA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Usually don't team up with Mei's and like it, but for this one time I made an exception.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: 'Cat-like Reflexes', embed: "https://www.youtube.com/embed/DAISDT2SKi4?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Split-second concust blast at probably the only moment that boop could have successfully been made. Felt pretty good.`,  image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
-        {name: 'Old Lady Goes Beserk', embed: "https://www.youtube.com/embed/yD-LX-PeEBY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Definitely don't think that highlight did justice to the amount of ass-kicking I was giving all the opponents that were diving me at once while I was isolated.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: "Flight Artist", embed: 'https://www.youtube.com/embed/9p3I1Qqg7hE?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Might ask, "Hey pd, why even take the time to shoot a Hanzo who's already falling to his death anyway?". All I'm going to say is, I have reasons, and they are threefold. If you really want to know, then ask me.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
-        {name: "What's An Emoji-Tire?", embed: 'https://www.youtube.com/embed/nELak42ycBA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Have to admit I saw that play done already before I did it myself. Still didn't make me enjoy it any less.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: "Sometimes You Don't See What's In Front Of You", embed: 'https://www.youtube.com/embed/H8sCVaBeA9E?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Definitely started to get the hang of the timing behind truly effective Junk Tires after maining him for a bit.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'What Are The Percentages?', embed: 'https://www.youtube.com/embed/FAtLjpXhUaY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Really feel like I had almost 0 margin of error for getting out of that Soldier's visor alive.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}, 
-        {name: "Infra-red, They're As Good As Dead", embed: "https://www.youtube.com/embed/W6IOEieXQg0?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Just some sniping through trees with that lovely infra-red sight.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: "Air Darts, Baby", embed: 'https://www.youtube.com/embed/mXN1jKwxrTo?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        patience, which wiped out the rest of their team in one play and won us the game. There was a lot of chatter generated in that game because of me as wellx, which can all be seen in the full VOD.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
+        {name: 'Group Boop', 
+        embed: 'https://www.youtube.com/embed/STlrev4wI1E?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        comment: `Not much to say here except I really like to boop lol.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
+        {name: 'Mother-Daughter Drama', 
+        embed: 'https://www.youtube.com/embed/dqDL_0CVeNI?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        comment: `Anyone who plays Ana seriously would understand that felt really really really good.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
+        {name: 'Pharah Mass Boop', 
+        embed: 'https://www.youtube.com/embed/beuRqY9EJLk?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        comment: `Distinctly remember the enemy Mercy calling me "mean" after that one. It was a feelsgoodman moment for sure.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
+        {name: 'Girl Power', 
+        embed: "https://www.youtube.com/embed/QpRLxnzwKEA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        comment: `Usually don't team up with Mei's and like it, but for this one time I made an exception.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
+        {name: 'Cat-like Reflexes', 
+        embed: "https://www.youtube.com/embed/DAISDT2SKi4?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        comment: `Split-second concust blast at probably the only moment that boop could have successfully been made. Felt pretty good.`,  
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
+        {name: 'Old Lady Goes Beserk', 
+        embed: "https://www.youtube.com/embed/yD-LX-PeEBY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        comment: `Definitely don't think that highlight did justice to the amount of ass-kicking I was giving all the opponents that were diving me at once while I was isolated.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
+        {name: "Flight Artist", 
+        embed: 'https://www.youtube.com/embed/9p3I1Qqg7hE?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        comment: `Might ask, "Hey pd, why even take the time to shoot a Hanzo who's already falling to his death anyway?". All I'm going to say is, I have reasons, and they are threefold. If you really want to know, then ask me.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
+        {name: "What's An Emoji-Tire?", 
+        embed: 'https://www.youtube.com/embed/nELak42ycBA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        comment: `Have to admit I saw that play done already before I did it myself. Still didn't make me enjoy it any less.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: "Bravado Goes a Long Way", 
+        embed: 'https://www.youtube.com/embed/H8sCVaBeA9E?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        comment: `Definitely started to get the hang of the timing behind truly effective Junk Tires after maining him for a bit.
+        This Tire required me to be a little brash considering how vulnerable I was, but I had faith in myself.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: 'What Are The Percentages?', 
+        embed: 'https://www.youtube.com/embed/FAtLjpXhUaY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        comment: `Really feel like I had almost 0 margin of error for getting out of that Soldier's visor alive.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}, 
+        {name: "Infra-red, Good As Dead", 
+        embed: "https://www.youtube.com/embed/W6IOEieXQg0?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        comment: `Just some sniping through trees with that lovely infra-red sight.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: "Air Darts, Baby", 
+        embed: 'https://www.youtube.com/embed/mXN1jKwxrTo?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
         comment: `I think most serious Ana players would agree, there's not many better feelings than darting a Mercy, especially while she's in mid-flight.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: 'Bird?! Plane?! Uh... Pulse Bomb...?', embed: "https://www.youtube.com/embed/RtW2Nz6UF-k?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Freaking wack game with literally the most unhelpful team ever. I dropped that pulse bomb from above with rage at the cruelty of this stupid game's everlasting imbalanced matchmaking.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'}],
+        {name: 'Pulse From Above', 
+        embed: "https://www.youtube.com/embed/RtW2Nz6UF-k?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        comment: `Freaking wack game with literally the most unhelpful team ever. I dropped that pulse bomb from above with rage at the cruelty of this stupid game's everlasting imbalanced matchmaking.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
+        {name: 'Widow Highlight Reel', 
+        embed: "https://www.youtube.com/embed/Kd72ZTDWEes",
+        comment: `Three recent Widow highlights I saved.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}],
         modalData: [{
             quote: '"Do you need a hug?"',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/4/4a/Ability_Orisa_Fusion_Driver.png/200px-Ability_Orisa_Fusion_Driver.png?version=9541bd74b99b1f059fbc2aa6eae37432',
@@ -104,52 +223,112 @@ const data = [
         }]
     },
     {
-        name: 'Reinhardt',
+        name: ['Reinhardt', 'Reinhardt Wilhelm', 'ReinhardtWilhelm'],
+        age: '61',
+        height: `2.23m/7'4"`,
+        nationality: 'German',
+        occupation: ['Crusador (formerly)', 'Overwatch Agent (formerly)', 'Adventurer'],
+        voice: 'Darin De Paul',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/c/c7/Reinhardt_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041744', 
-        videos: [{name: 'Reaper Darted During DVa Bomb', embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', comment: 'Only for noobs', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: 'I Didnt Die? Seriously?', embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", comment: 'new', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'Ana Goes Rockclimbing', embed: "https://www.youtube.com/embed/CpDBiSESn4M?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", comment: 'mercy',  image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
-        {name: 'Nobody Notices A Sneaky Old Person', embed: "https://www.youtube.com/embed/jTRJjtarr-4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
-        comment: `I've mastered the art of standing so incredibly still that I become invisible to the naked eye. - Drax`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
-        {name: "If I'm Going Down You're Coming With Me", embed: 'https://www.youtube.com/embed/2BCVFzUMzns?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', comment: 'McCree', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
-        {name: "See Enemies In Small Room, Press Q, Celebrate", embed: 'https://www.youtube.com/embed/q3s547VmRuw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `After round, said to enemy team, "I thought you guys were having an English tea party up there or something". They enjoyed that lol.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
-        {name: 'Ahh yes.. The Art Of Deception Wins Again, Sensei', embed: 'https://www.youtube.com/embed/uK2_xGv0Q6w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Made the enemy widow lol in public chat after that one at least. I thought it was worth a good laugh.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: 'Suicide Note: "Screw Blizzard. - Ana"', embed: 'https://www.youtube.com/embed/gElqgCdR3Hw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c7/Reinhardt_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041744', 'https://pbs.twimg.com/media/CmSpDzLXYAAByLi.jpg'], 
+        videos: 
+        [{name: 'Reaper Darted During Bomb', 
+        embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        comment: 'Pretty glad I had the presence of mind to let him sleep through that bomb.', 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
+        {name: 'Suicide Note: "Screw Blizzard..."', 
+        embed: 'https://www.youtube.com/embed/gElqgCdR3Hw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `Ana: "I'm too freaking old to be trying to Nano a gigantic Reaper directly in front of me and have the Nano still somehow magically fly to a tiny baby DVa in some random corner of my FOV. You've had years and years and years to fix this stupid crap,
-        Blizzard, screw you, I'm out."`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'}, 
-        {name: 'Now Thats What I Call A Trap', embed: "https://www.youtube.com/embed/kALfdCpYtSg?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
+        Blizzard, screw you, I'm out."`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'}, 
+        {name: 'I Didnt Die? Seriously?', 
+        embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        comment: `This was probably a thousand times funnier to me while it happened than on the replay,
+        but I, for the life of me, could not figure out how I didn't die in the end.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: 'Ana Goes Rock-climbing', 
+        embed: "https://www.youtube.com/embed/CpDBiSESn4M?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        comment: `The first part of the clip is there to demonstrate how triggered I was getting bc of stupid crap
+        (like the lag in the video), but after that sequence I had with their monkey in primal, and then somehow
+        desperately hopping myself up the cliff onto safety and surviving, I was laughing to myself and feeling better
+        about things.`,  
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
+        {name: 'Old And Sneaky', 
+        embed: "https://www.youtube.com/embed/jTRJjtarr-4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
+        comment: `"I've mastered the art of standing so incredibly still that I become invisible to the naked eye."`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
+        {name: "...You're Coming With Me!", 
+        embed: 'https://www.youtube.com/embed/2BCVFzUMzns?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        comment: `I still literally laugh out loud every time I see this, no matter how many times I've seen it. The play
+        was complete luck, but the fact I somehow threw that pulse right on top of Reaper as I was getting owned is hilarious
+        to me, especially when I picture how the guy playing Reaper must have reacted.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
+        {name: "Step 1: Press Q. Step 2: Celebrate.", 
+        embed: 'https://www.youtube.com/embed/q3s547VmRuw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `After round, said to enemy team, "I thought you guys were having an English tea party up there or something". They enjoyed that lol.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
+        {name: 'The Art Of Deception', 
+        embed: 'https://www.youtube.com/embed/uK2_xGv0Q6w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `Made the enemy widow LOL in public chat after that one at least. I thought it was worth a good laugh.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'Now Thats What I Call A Trap', 
+        embed: "https://www.youtube.com/embed/kALfdCpYtSg?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
         comment: `Wish I was smart enough to record the entire scene. This Hamster must have had some secret ninja plan that I didn't understand bc I joined the game late as backfill, came out of 1st Defending Team spawn all lackadaisically up the stairs, and for some reason,
         even though EVERYONE else was still fighting over control of the first point, he blew right by me (without seeing me) into the entrace towards the last point at the end of the map. I literally had to stand still at the top of the spawn stairs for like 30 seconds and
         think to myself, "what the f?". That's when I set up the trap you see in this video, just praying he would come back out at some point and not just stay there forever, and though the video doesn't show it, I must have waited patiently a good 2 or 3 minutes before I was
-        finally rewarded. But it was completely 100% worth it.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: "Am I The Only One Who Didn't Think That Would Happen?", embed: 'https://www.youtube.com/embed/evMNtrRKgv4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        finally rewarded. But it was completely 100% worth it.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: "Honestly Didn't See It Coming", 
+        embed: 'https://www.youtube.com/embed/evMNtrRKgv4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `I don't know why, but I legit thought when I charged towards those doors that they would stay closed the entire time until after I hit them and came to a halt first. Looking back, I'm not really sure why I thought that, but for some reason, I did.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'},
-        {name: 'Peripheral Vision Issues?', embed: "https://www.youtube.com/embed/0EExq-yEEsQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", comment: 'Hiya', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: 'Do Not Quit Day Job For Ninja Training', embed: 'https://www.youtube.com/embed/stKhHuCtOvA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        {name: 'Peripheral Vision Issues?', 
+        embed: "https://www.youtube.com/embed/0EExq-yEEsQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        comment: `LOL that visual of that clueless, nerdy Mei walking directly into the pithole is just priceless.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'Do Not Quit Day Job For Ninja Training', 
+        embed: 'https://www.youtube.com/embed/stKhHuCtOvA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `Like how much of a noob do you have to be... If you're gonna lay a secret covert-op ninja plan to hide and flank the enemy team at the very start of the game, how are you gonna crouch patiently for so long, and then as soon as they open the gates, just bob
-        your head up like a goddam gopher to take a quick peak around. Lol I don't even want to be mean, but it's just so laughable with these noobs who play this game sometimes.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
-        {name: '"Slight" Calculation Error, Blizzard?', embed: 'https://www.youtube.com/embed/4ZVgMu2Z2_Y?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `"if (goldMedals === 2) {goldMedals = 3; return goldMedals;}" Rofl freaking Blizzard noobs.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/zenyatta/icon-portrait.png'},
-        {name: 'Once A Reinhardt, Always A Reinhardt', embed: 'https://www.youtube.com/embed/YJIRKHWmz8Q?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', comment: 'lol', image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'}, 
-        {name: 'Ah... The Simple Joys Of A Stupid Hero', embed: 'https://www.youtube.com/embed/LwtCH95hGyU?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `I don't Sym much, but when I do, I think it's the most retarded thing in the world.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'},
-        {name: 'Peek-A-Boo', embed: 'https://www.youtube.com/embed/ofjoCakxsnc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        your head up like a goddam gopher to take a quick peak around. Lol I don't even want to be mean, but it's just so laughable with these noobs who play this game sometimes.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: '"Slight" Calculation Error?', 
+        embed: 'https://www.youtube.com/embed/4ZVgMu2Z2_Y?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `"if (goldMedals === 2) {return goldMedals = 3;}" Rofl freaking Blizzard noobs.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/zenyatta/icon-portrait.png'},
+        {name: 'Once A Rein, Always A Rein', 
+        embed: 'https://www.youtube.com/embed/YJIRKHWmz8Q?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        comment: `Proud of myself for the high IQ. Not sure many other Reins would have even noticed the DVa camping
+        in that corner.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'}, 
+        {name: 'Simple Joys Of Stupid Heroes', 
+        embed: 'https://www.youtube.com/embed/LwtCH95hGyU?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `I don't Sym much, but when I do, I think it's the most retarded thing in the world.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'},
+        {name: 'Peek-A-Boo', 
+        embed: 'https://www.youtube.com/embed/ofjoCakxsnc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `It's only funny because the Sym and Moira were both trying hide behind the wall under me, and I thought someone was there, but I wasn't sure until after I kind of blindly Tired the area and ending up getting a 3-kill out of it.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'Rude Revival?', embed: 'https://www.youtube.com/embed/egK_CBnxIeQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        {name: 'Rude Revival?', 
+        embed: 'https://www.youtube.com/embed/egK_CBnxIeQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `Dude gets Res'd, must not have taken a single look around the entire time he was dead or in the middle of the Res, literally runs straight into a trap and insta-death as soon as he's reborn. That Mercy must have wanted to slap someone.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'Chronicles of Liam', embed: 'https://www.youtube.com/embed/0vPWd5PAqPM?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Horribly edited video, but seriously this guy on the other team, Liam, did nothing but run out of spawn and die over and over again the entire game.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'Silly Ninja, Tricks Are For Kids', embed: 'https://www.youtube.com/embed/wlr2v9P8mTE?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Pretty sure the only reason I think this clip is so funny is because it's Genji. If it was anyone else, I probably would've just been like "whatevs"`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
-        {name: 'Luck Or Skill', embed: 'https://www.youtube.com/embed/06zq5WsFT4w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        {name: 'Chronicles of Liam', 
+        embed: 'https://www.youtube.com/embed/0vPWd5PAqPM?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `Horribly edited video, but seriously this guy on the other team, Liam, did nothing but run out of spawn and die over and over again the entire game.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: 'Silly Ninja, Tricks Are For Kids', 
+        embed: 'https://www.youtube.com/embed/wlr2v9P8mTE?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        comment: `Pretty sure the only reason I think this clip is so funny is because it's Genji. If it was anyone else, I probably would've just been like "whatevs"`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: 'Luck Or Skill?', 
+        embed: 'https://www.youtube.com/embed/06zq5WsFT4w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
         comment: `Nothing hilarious, but seriously it's a pretty crazy sequence. After I misaimed my bombpack-jump, I had to go wall-riding for a bit, and then somehow I had the presence of mind at the last second to bombpack-hop myself barely back onto the ledge again
-        and avoid falling to my death. I think that was the most impressive part of the clip, even over the Tire itself, lol.`, image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'}],
+        and avoid falling to my death. I think that was the most impressive part of the clip, even over the Tire itself, lol.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
+        {name: 'Solo-Ult Much?', 
+        embed: 'https://www.youtube.com/embed/QlPW4O4nn7U',
+        comment: `If this doesn't qualify as a rage-solo-ult, then I don't even know anymore. I'll just quit the game.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}],
         modalData: [{
             quote: '"Precision German engineering."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c4/Ability-reinhardt1.png/200px-Ability-reinhardt1.png?version=c6df80775dc74395a9709280fc2f88b5',
@@ -173,9 +352,14 @@ const data = [
         }]
     },
     {
-        name: 'Roadhog',
+        name: ['Roadhog', 'Mako Rutledge', 'makorutledge'],
+        age: '48',
+        height: `2.2m/7'3"`,
+        nationality: 'Australian',
+        occupation: ['Enforcer (formerly)', 'Bodyguard'],
+        voice: 'Josh Petersdorf',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/1/15/Roadhog_portrait_m.png/revision/latest/scale-to-width-down/1000?cb=20160429040723', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/1/15/Roadhog_portrait_m.png/revision/latest/scale-to-width-down/1000?cb=20160429040723', 'https://cdnb.artstation.com/p/assets/images/images/012/529/619/large/writerbagsu-bag-.jpg?1535255361'], 
         videos: '',
         modalData: [{
             quote: '"Violence is usually the answer."',
@@ -189,7 +373,7 @@ const data = [
             labelThree: 'Take a Breather',
             labelFour: 'Chain Hook',
             labelFive: 'Whole Hog',
-            description: `Since the infancy of the game, Roadhog has quickly evolved into perhaps the most annoying opponent to face in the entire game. His greatest asset is probably
+            description: `Since the infancy of the game, Roadhog quickly evolved into perhaps the most annoying opponent anyone could possibly face. His greatest asset is probably
             his "Take a Breather" ability, which replenishes him with 300 HP almost instantly, making him excrutiatingly difficult to kill, especially one on one. His "Chain Hook" is
             also an essential skill for any top-level player, as it has the power to generate insta-kills if used correctly. "Whole Hog" can be surprisingly one of the more effective
             ultimates in the game as well, but only if used with the most optimum and clever timing, such as when booping an unprepared enemy opponent/team off the side of a map.`,
@@ -198,9 +382,14 @@ const data = [
         }]
     },
     {
-        name: 'Sigma',
+        name: ['Sigma', 'Siebren de Kuiper', 'siebrendekuiper'],
+        age: '62',
+        height: `unknown`,
+        nationality: 'Dutch',
+        occupation: ['Astrophysicist'],
+        voice: 'Boris Hiestand',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/5/54/Sigma_portrait.png/revision/latest?cb=20190724032655', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/5/54/Sigma_portrait.png/revision/latest?cb=20190724032655', 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbIEAGU6emtG84PZVDzccffJ8jbp9eSWBB2OpJ1RVp_D9fdIQp'],
         videos: '',
         modalData: [{
             quote: '"What is that melody?"',
@@ -224,9 +413,14 @@ const data = [
         }]
     },
     {
-        name: 'Winston',
+        name: ['Winston', 'Winston', 'monkey'],
+        age: '29',
+        height: `2.2m/7'3"`,
+        nationality: 'none',
+        occupation: ['Test Subject (formerly)', 'Scientist', 'Adventurer'],
+        voice: 'Crispin Freeman',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/4/42/Winston_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041559', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/4/42/Winston_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041559', 'https://cdna.artstation.com/p/assets/images/images/002/926/106/large/kaiyuan-lou-01-02.jpg?1467339039'],
         videos: '',
         modalData: [{
             quote: '"Did somebody say... peanut butter?"',
@@ -250,9 +444,14 @@ const data = [
         }]
     },
     {
-        name: 'Wrecking-Ball',
+        name: ['Wrecking-Ball', 'Hammond', 'wreckingball', 'hamster'],
+        age: '14',
+        height: `unknown`,
+        nationality: 'none',
+        occupation: ['Test Subject (formerly)', 'Mech Pilot', 'Mechanic'],
+        voice: 'Jonathan Lipow',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/8/83/WreckingBall_portrait.png/revision/latest?cb=20190114232714', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/8/83/WreckingBall_portrait.png/revision/latest?cb=20190114232714', 'https://i.ytimg.com/vi/gIFki1nOoLk/maxresdefault.jpg'],
         videos: '',
         modalData: [{
             quote: '"Beware of small mammals."',
@@ -276,9 +475,14 @@ const data = [
         }]
     },
     {
-        name: 'Zarya',
+        name: ['Zarya', 'Aleksandra Zaryanova (Александра Зарянова)', 'aleksandrazaryanova'],
+        age: '28',
+        height: `1.95m/6'5"`,
+        nationality: 'Russian',
+        occupation: ['Soldier'],
+        voice: 'Dolya Gavanski',
         class: 'Tank',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/d/d1/Zarya_portrait.png/revision/latest?cb=20160429041121', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/d/d1/Zarya_portrait.png/revision/latest?cb=20160429041121', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/441d3647-7105-40cb-936e-27839a506fe3/dab795l-88ef1c1c-b0bf-401c-962c-73a6a87dd813.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ0MWQzNjQ3LTcxMDUtNDBjYi05MzZlLTI3ODM5YTUwNmZlM1wvZGFiNzk1bC04OGVmMWMxYy1iMGJmLTQwMWMtOTYyYy03M2E2YTg3ZGQ4MTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3VcB50AO7RujHauScq7wdWhF1QhUZPlZ6kWoiYCkC3k'],
         videos: '',
         modalData: [{
             quote: '"Do you even lift?"',
@@ -300,9 +504,14 @@ const data = [
         }]
     },
     {
-        name: 'Ashe',
+        name: ['Ashe', `Elizabeth Caledonia "Calamity" Ashe`, 'elizabethcaledoniaashe', 'calamityashe', 'calamity'],
+        age: '39',
+        height: `unknown`,
+        nationality: 'American',
+        occupation: ['Thief', 'Gang Leader'],
+        voice: 'Jennifer Hale',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/c/c1/Ashe_portrait2.png/revision/latest?cb=20181106125518', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c1/Ashe_portrait2.png/revision/latest?cb=20181106125518', 'https://i.pinimg.com/originals/01/af/c9/01afc96fea9f6b29416c2ad7591cad32.jpg'],
         videos: '',
         modalData: [{
             quote: '"Bob, do something!"',
@@ -326,9 +535,14 @@ const data = [
         }]
     },
     {
-        name: 'Bastion',
+        name: ['Bastion', 'SST Laboratories Siege Automaton E54', 'sstlaboratorieseigeautomatone54', 'siegeautomatone54'],
+        age: '30',
+        height: `2.2m/7'3"`,
+        nationality: 'none',
+        occupation: ['Battle Automaton (formerly)', 'None'],
+        voice: 'Chris Metzen',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/6/6a/Bastion_portrait.png/revision/latest?cb=20160429042023', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/6/6a/Bastion_portrait.png/revision/latest?cb=20160429042023', 'https://orig14.deviantart.net/afff/f/2016/167/a/2/bastion_by_the_marker-da6iig6.png'],
         videos: '',
         modalData: [{
             quote: '"Boo doo boo doo!"',
@@ -351,9 +565,14 @@ const data = [
         }]
     },
     {
-        name: 'Doomfist',
+        name: ['Doomfist', 'Akande Ogundimu', 'akandeogundimu'],
+        age: '45',
+        height: `2.18m/7'1"`,
+        nationality: 'Nigerian',
+        occupation: ['Martial Artist (formerly)', 'Mercenary', 'CEO'],
+        voice: 'Sahr Ngaujah',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/0/0e/Doomfist_portrait.png/revision/latest?cb=20170807035611', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0e/Doomfist_portrait.png/revision/latest?cb=20170807035611', 'https://i.pinimg.com/originals/c3/e5/da/c3e5da160cc8f18584e4f8c9f718a8f2.jpg'],
         videos: '',
         modalData: [{
             quote: '"And they say chivalry is dead."',
@@ -376,9 +595,14 @@ const data = [
         }]
     },
     {
-        name: 'Genji',
+        name: ['Genji', 'Genji Shimada (島田源氏)', 'genjishimada'],
+        age: '35',
+        height: `1.68m/5'7"`,
+        nationality: 'Japanese',
+        occupation: ['Adventurer'],
+        voice: 'Gaku Space',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/0/04/Genji_portrait.png/revision/latest?cb=20160429040512', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/04/Genji_portrait.png/revision/latest?cb=20160429040512', 'https://i.imgur.com/z5FceWM.jpg'],
         videos: '',
         modalData: [{
             quote: '"You are only human."',
@@ -402,9 +626,14 @@ const data = [
         }]
     },
     {
-        name: 'Hanzo',
+        name: ['Hanzo', 'Hanzo Shimada (島田半蔵)', 'hanzoshimada'],
+        age: '38',
+        height: `1.73m/5'8'`,
+        nationality: 'Japanese',
+        occupation: ['Mercenary', 'Assassin'],
+        voice: 'Paul Nakauchi',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/c/c2/Hanzo_portrait.png/revision/latest?cb=20160429042113', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c2/Hanzo_portrait.png/revision/latest?cb=20160429042113', 'https://i.pinimg.com/736x/ee/73/8f/ee738fbeedf4fbe104e2b5d09c261ee6.jpg'],
         videos: '',
         modalData: [{
             quote: '"竜が我が敵を喰らう！(The dragon consumes my enemies!)"',
@@ -429,17 +658,46 @@ const data = [
         }]
     },
     {
-        name: 'Junkrat',
+        name: ['Junkrat', 'Jamison Fawkes', 'jamisonfawkes', 'jr'],
+        age: '25',
+        height: `1.95m/6'6"`,
+        nationality: 'Australian',
+        occupation: ['Anarchist', 'Thief', 'Demolitionist'],
+        voice: 'Chris Parson',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/5/53/Junkrat_portrait.png/revision/latest?cb=20160429040823', 
-        videos: [{name: 'Swear I Could Be A Top500 JR', embed: "https://www.youtube.com/embed/RAfgzbDCU1E", comment: 'JR'},
-        {name: 'Called A "God" Again', embed: "https://www.youtube.com/embed/MzI4jCXsOuY", comment: 'JR'},
-        {name: '"Nuts" Is A Compliment Right?', embed: "https://www.youtube.com/embed/4TmC-uRY3WA", comment: 'JR'},
-        {name: 'Feel Like After This Game I Need To Re-Tire. Get It?', embed: 'https://www.youtube.com/embed/m0ZbLvoiva4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', comment: 'JR'},
-        {name: 'IQ > Mechanics', embed: 'https://www.youtube.com/embed/6LcR9-NVmS4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', comment: 'JR'},
-        {name: 'Just For The Elims Of Tracer Alone, This VOD Is Priceless', embed: 'https://www.youtube.com/embed/P087uNtv8tw?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', comment: 'JR'},
-        {name: 'Another Rager Story', embed: 'https://www.youtube.com/embed/4Wsq5Pg3M0o?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', comment: 'JR'},
-        {name: '13k DMG Junk', embed: 'https://www.youtube.com/embed/njMbEHGNvdo?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', comment: 'JR'}],
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/5/53/Junkrat_portrait.png/revision/latest?cb=20160429040823', 'https://i.kym-cdn.com/photos/images/original/001/318/364/cc0.jpg'],
+        videos: 
+        [{name: 'Swear I Could Be A Top500 JR', 
+        embed: "https://www.youtube.com/embed/RAfgzbDCU1E", 
+        comment: `Junkrat's kit just feel like a natural fit to me.`},
+        {name: 'Called A "God" Again', 
+        embed: "https://www.youtube.com/embed/MzI4jCXsOuY", 
+        comment: `This was actually a hilarious video more than anything. Booped their Rein not once, but TWICE to his death while
+        he was charging right at me. Bonus points was him calling me a "God" a little while through the match.`},
+        {name: '"Nuts" Is A Compliment Right?', 
+        embed: "https://www.youtube.com/embed/4TmC-uRY3WA", 
+        comment: `Honestly I don't think the teammate that called me "Nuts" that match could have said it better. Especially towards
+        then end of that first round, I seriously just went into Super-Saiyan mode to try to win the point for our team, and I did
+        some pretty crazy stuff to get the job done.`},
+        {name: 'Feel Like Now I Need To Re-Tire. Get It?', 
+        embed: 'https://www.youtube.com/embed/m0ZbLvoiva4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        comment: `Another decent JR game.`},
+        {name: 'IQ > Mechanics', 
+        embed: 'https://www.youtube.com/embed/6LcR9-NVmS4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        comment: `This, along with a handful of other games, are among my most priceless because of a few
+        seriously high IQ plays I made that I don't think many other gamers could/would have themselves.`},
+        {name: 'Just Bc Of Tracer Alone, This Is Priceless', 
+        embed: 'https://www.youtube.com/embed/P087uNtv8tw?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        comment: `Never seen a Tracer in any context get owned so many repeated times by a Junkrat like in
+        this video. Those traps I left in the backline were intentional and not arbitrary/completely lucky.`},
+        {name: 'Another Rager Story', 
+        embed: 'https://www.youtube.com/embed/4Wsq5Pg3M0o?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        comment: `This was the funniest Junkrat game I ever played just because this guy raged so hard after.
+        He started out as Hog, and I presume as the result of getting triggered, he switched to the classic
+        rager-hero, Doomfist, and just repeatedly came after me time after time after time... kept failing.`},
+        {name: '13k DMG Junk', 
+        embed: 'https://www.youtube.com/embed/njMbEHGNvdo?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        comment: `One of my higher damage-output Junkrat performances.`}],
         modalData: [{
             quote: '"I really blew that one."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/a/ab/Ability-Junkrat1.png/200px-Ability-Junkrat1.png?version=bd1228de6cd38e2c5cfdeccfc06fb309',
@@ -461,9 +719,14 @@ const data = [
         }]
     },
     {
-        name: 'McCree',
+        name: ['McCree', 'Jesse McCree', 'jessemccree'],
+        age: '37',
+        height: `1.85m/6'1"`,
+        nationality: 'American',
+        occupation: ['Criminal (formerly)', 'Overwatch Agent (formerly)', 'Bounty Hunter'],
+        voice: 'Matthew Mercer',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/f/f3/Mccree_portrait.png/revision/latest?cb=20160429041214',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f3/Mccree_portrait.png/revision/latest?cb=20160429041214', 'https://pm1.narvii.com/6519/cf0621c0462c9c50dc8c3bd133c4fb676975f4b6_hq.jpg'],
         videos: '',
         modalData: [{
             quote: `"Well, it's high noon somewhere in the world."`,
@@ -488,9 +751,14 @@ const data = [
         }]
     },
     {
-        name: 'Mei',
+        name: ['Mei', 'Mei-Ling Zhou (周美灵)', 'meiling zhou', 'meilingzhou'],
+        age: '31',
+        height: `1.59m/5'3"`,
+        nationality: 'Chinese',
+        occupation: ['Climatologist', 'Adventurer'],
+        voice: 'Elise Zhang',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/3/3b/Mei_portrait.png/revision/latest?cb=20160429040329', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/3/3b/Mei_portrait.png/revision/latest?cb=20160429040329', 'https://pbs.twimg.com/media/Cknb8JWWkAEYqNS.png'],
         videos: '',
         modalData: [{
             quote: '"I was only trying to help!"',
@@ -513,18 +781,51 @@ const data = [
         }]
     },
     {
-        name: 'Pharah',
+        name: ['Pharah', 'Fareeha Amari', 'fareehaamari'],
+        age: '32',
+        height: `1.8m/5'11"`,
+        nationality: 'Egyptian',
+        occupation: ['Security Chief'],
+        voice: 'Jen Cohn',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/f/fe/Pharah_portrait.png/revision/latest?cb=20160429041650', 
-        videos: [{name: 'Almost Perfect?', embed: "https://www.youtube.com/embed/2cRCN9x4iJY", comment: 'Yup'},
-        {name: 'Dude Was A Legit Loser', embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fe/Pharah_portrait.png/revision/latest?cb=20160429041650', 'https://cdnb.artstation.com/p/assets/images/images/005/891/409/large/graxious-art-pharah-highres.jpg?1494490224'],
+        videos: 
+        [{name: 'Almost Perfect?', 
+        embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
+        comment: `Note the public chat where the dude gets killed out of spawn, taunts me, switches
+        himself to Pharah, gets owned, and never says another word.`},
+        {name: 'Dude Was Not Cool', 
+        embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
         comment: `Way to not take a video game (a QP game for that matter...) too seriously, bro`},
-        {name: 'How Do I Light It Up This Much And We Still Lose', embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', comment: 'Yup'},
-        {name: 'Leave This To A Professional', embed: "https://www.youtube.com/embed/feN6hK3MRD4", comment: 'Yup'},
-        {name: 'Gamers Are Babies', embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo", comment: 'Yup'},
-        {name: 'For Someone Who Retired From Pharah Long Ago, Still Pretty Decent', embed: 'https://www.youtube.com/embed/MIRx6eg-Pkc?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', comment: 'yup'},
-        {name: 'I Salivate For Pharah Vs Pharah Matchups', embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', comment: 'Hog'},
-        {name: 'Cant Touch This', embed: 'https://www.youtube.com/embed/ebArZqyg-QA?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', comment: 'yup'}],
+        {name: 'Really? What More Could I Have Done?', 
+        embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        comment: `I've always had occasional Pharah games where I'm raining down direct hit rockets
+        and thinking to myself, "I could not possibly be dealing any more damage right now... how are
+        we losing?`},
+        {name: 'Leave This To A Professional', 
+        embed: "https://www.youtube.com/embed/feN6hK3MRD4", 
+        comment: `This was during the days when I was a serious Pharah main. Got so angry after my
+        selfish, incompetent team after round 1 and started spamming the voiceline "leave this to a
+        professional" over and over again. Might have been obnoxious of me, but at least in the end
+        I did deliver on my promise as well.`},
+        {name: 'Gamers Are Babies', 
+        embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo", 
+        comment: `It was pretty funny this entire game because I stayed silent, but I was definitely
+        paying attention to these to babyish enemy teammates blasting each other in public chat all
+        game long. Finally lost it at the start of round 3 and just unloaded on them.`},
+        {name: 'Still Pretty Decent Considering Retired', 
+        embed: 'https://www.youtube.com/embed/MIRx6eg-Pkc?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        comment: `Felt like a retired pilot stepping back into a plane again. But felt like I still
+        has some moves in the end.`},
+        {name: 'I Salivate For Pharah Vs Pharah Matchups', 
+        embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        comment: `When I was maining Pharah, I prided myself on my Pharah vs Pharah skills because
+        it really didn't seem like there was anyone else who was close to my equal. Most of these
+        battles will be forever lost in history, but this is one I managed to preserve, where it
+        wasn't just a Pharah, but an entire Pharmacy that I basically handled on my own without aid.`},
+        {name: `Can't Touch This`, 
+        embed: 'https://www.youtube.com/embed/ebArZqyg-QA?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        comment: 'yup'}],
         modalData: [{
             quote: '"Play nice, play Pharah."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/78/Ability-parah1.png/200px-Ability-parah1.png?version=477900375b5d570f6a93a79f403ddbd8',
@@ -547,9 +848,14 @@ const data = [
         }]
     },
     {
-        name: 'Reaper',
+        name: ['Reaper', 'Gabriel Reyes', 'gabrielreyes'],
+        age: '58',
+        height: `1.85m/6'1"`,
+        nationality: 'American',
+        occupation: ['Mercenary'],
+        voice: 'Keith Ferguson',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/e/ee/Reaper_portrait.png/revision/latest?cb=20160429041404',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/e/ee/Reaper_portrait.png/revision/latest?cb=20160429041404', 'https://cdnb.artstation.com/p/assets/images/images/006/436/417/large/jeeyoung-lee-overwatch-reaper-el.jpg?1498580024'],
         videos: '',
         modalData: [{
             quote: '"If it lives, I can kill it."',
@@ -572,9 +878,14 @@ const data = [
         }]
     },
     {
-        name: 'Soldier: 76',
+        name: ['Soldier: 76', `John Francis "Jack" Morrison`, 'johnfrancismorrison', 'jack', 'jack morrison', 'jackmorrison'],
+        age: 'Mid-to-late 50s',
+        height: `1.85m/6'1"`,
+        nationality: 'American',
+        occupation: ['Overwatch Commander (formerly)', 'Vigilante'],
+        voice: 'Fred Tatasciore',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/c/c3/Soldier76_portrait.png/revision/latest?cb=20160429041023', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c3/Soldier76_portrait.png/revision/latest?cb=20160429041023', 'https://i.pinimg.com/originals/5c/9c/d4/5c9cd4abab900ad0c4128a11dbc7c713.jpg'],
         videos: '',
         modalData: [{
             quote: `"That's 'Sir' to you."`,
@@ -588,27 +899,55 @@ const data = [
             labelThree: 'Sprint',
             labelFour: 'Biotic Field',
             labelFive: 'Tactical Visor',
-            description: ``,
+            description: `Whenever first learning the game, Soldier is always the most recommended hero to start with. He plays like the typical first-person-shooter character,
+            with a simple, basic kit that is easy to understand and use. In the Meta, however, Soldier is completely situational, as he often lacks the effectiveness to justify
+            being chosen in high-level competition. Good Soldiers take advantage of his mobility and make finding high-ground/positioning a priority. Also, Biotic Fields are just
+            as useful to help out teammates as much as they are for individual use. "Tactical Visor" can be extremely powerful, especially when combo'd with "Nano", but only in
+            the perfect spots. On the flip-side, if not used wisely, it is often one of the most easily negated ults in the game.`,
             iframe: 'https://www.youtube.com/embed/V_0eqEbG7yA',
             backgroundImage: 'http://img06.deviantart.net/8b04/i/2016/145/a/2/76__by_xwaxwingx-da3snim.jpg'
         }]
     },
     {
-        name: 'Sombra',
+        name: ['Sombra', 'Olivia Colomar', 'oliviacolomar'],
+        age: '30',
+        height: `1.63m/5'4"`,
+        nationality: 'Mexican',
+        occupation: ['Hacker'],
+        voice: 'Carolina Ravassa',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/f/fc/Sombra_portrait.png/revision/latest?cb=20170105140023', 
-        videos: [{name: 'Relatively Dominant', embed: "https://www.youtube.com/embed/-oovWzSmQ8I", comment: 'Annoying'},
-        {name: 'Need More Familiarity', embed: "https://www.youtube.com/embed/NS-6tdlQcXA", comment: 'Annoying'},
-        {name: 'Still Shaky But Not Bad', embed: "https://www.youtube.com/embed/uSm9RlrYZ2g", comment: 'Annoying'},
-        {name: 'All Im Asking You To Do Is SOMETHING', embed: 'https://www.youtube.com/embed/Kx4YJM6aZHc?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fc/Sombra_portrait.png/revision/latest?cb=20170105140023', 'https://i.pinimg.com/originals/1e/8f/cd/1e8fcdd80bc5b7602da332547642de26.jpg'],
+        videos: 
+        [{name: 'Relatively Dominant', 
+        embed: "https://www.youtube.com/embed/-oovWzSmQ8I", 
+        comment: `Sombra was the hero I decided to take seriously most recently, with pretty positive results. I was afraid of her
+        kit because it looked intimidating at first, but now I feel pretty comfortable and play at least competently I feel.`},
+        {name: 'Need More Familiarity', 
+        embed: "https://www.youtube.com/embed/NS-6tdlQcXA", 
+        comment: `My intro into Sombra (my kit fails should tell the entire story).`},
+        {name: 'Still Shaky But Not Bad', 
+        embed: "https://www.youtube.com/embed/uSm9RlrYZ2g", 
+        comment: `Baby steps are required to learn Sombra well.`},
+        {name: 'All Im Asking You To Do Is SOMETHING', 
+        embed: 'https://www.youtube.com/embed/Kx4YJM6aZHc?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
         comment: `No exaggeration, if EITHER of our proud, skilled-hero-only-mains were competent to even a fraction of a degree, I would have
         basically obliterated the entire enemy team, possibly without even dying once. It was only bc I was so surprised after I took out half the team
         and assumed with two snipers on our side I wouldnt see Pharah still alive that I ended up dying. From there I tilted bc I was trying to take
         out Pharah for them by myself. Unbelievably frustrating.`},
-        {name: 'Felt Awkward But 33 Hacked, Silver Silver', embed: 'https://www.youtube.com/embed/Du3b_Auwr6M?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Sombra'},
-        {name: 'Start Battles By Getting Clean Picks And We Still Lose? Wtf...?', embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Sombra'},
-        {name: 'Almost Never Sombra... It Should Show', embed: 'https://www.youtube.com/embed/klPr7JhUH8g?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', comment: 'Sombra'},
-        {name: 'I Need To Stop Solo-Que', embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
+        {name: 'Felt Awkward But 33 Hacked, Silver Silver', 
+        embed: 'https://www.youtube.com/embed/Du3b_Auwr6M?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `Didn't even feel like I played well, but I still got silver, silver somehow...`},
+        {name: `How... Just How... That's All...`, 
+        embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I don't know what I'm supposed to do more to start a game than get clean, crucial
+        picks on enemy healers... such that I deserve to be on the losing team in the end somehow.`},
+        {name: 'Almost Never Sombra... It Should Show', 
+        embed: 'https://www.youtube.com/embed/klPr7JhUH8g?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        comment: `I was a very awkward Sombra at the beginning. The most frustrating thing to me was
+        when I intended to throw a translocator, and instead translocated out of the area because I
+        didn't realize there was already another active translocator out there I threw earlier.`},
+        {name: 'I Need To Stop Solo-Que', 
+        embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
         comment: `Me playing Sombra with my typical awful team of randos: solid hack on enemy shield tank, empty clip into enemy, reload, empty clip again, reload, get enemy to 1, asks self "self,
         why hasnt anyone died yet?", asks self "should I give up before I get destroyed?", (all the while still emptying clips like a madman), starts to panic, gives up, teleports away, slowly unravels
         mentally and somewhat loses the will to continue living in this cruel world, gets hunted down and owned by random Reaper just prancing around... Awesome times, thanks for the wonderful matchmaking, Blizzard!`}],
@@ -624,15 +963,24 @@ const data = [
             labelThree: 'Stealth',
             labelFour: 'Translocator',
             labelFive: 'EMP',
-            description: '',
+            description: `Sombra was a more recent addition to the game, and she created an element that had never been seen before and started to change how teams won fights. "EMP" turned out to be
+            such a powerful ult that many team-fights solely centered around each team just hoping their Sombra would farm "EMP" faster than the other. As a result, being a good Sombra has turned into
+            a gamer's ability to farm "EMP" as quickly as possible, more than anything. Beyond that, Sombra players must be intelligent/patient and know which enemies are vulnerable, especially in the
+            backline, and when to try to take them down. Being a smart situational hacker can be almost as important as farming "EMP", if done at an elite level. For example, knowing exactly when/how
+            to hack an enemy's Reinhardt and nullifying his shield for teammates to take advantage of can sometimes win a team-fight completely on its own.`,
             iframe: 'https://www.youtube.com/embed/CzmWNIshnXE',
             backgroundImage: 'https://em.wattpad.com/5444a343b8654b7b07f8b04adff70c4bd97809c5/68747470733a2f2f696d6730302e64657669616e746172742e6e65742f353136302f692f323031362f3331372f652f332f736f6d6272615f5f5f6f76657277617463685f62795f6572656d61735f73752d64616f616d76622e6a7067?s=fit&h=360&w=360&q=80'
         }]
     },
     {
-        name: 'Symmetra',
+        name: ['Symmetra', 'Satya Vaswani (सत्य वासवानी)', 'satyavaswani'],
+        age: '28',
+        height: `1.7m/5'7"`,
+        nationality: 'Indian',
+        occupation: ['Architech'],
+        voice: 'Anjali Bhimani',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/e/eb/Symmetra_portrait.png/revision/latest?cb=20160429041836', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/e/eb/Symmetra_portrait.png/revision/latest?cb=20160429041836', 'https://pbs.twimg.com/media/DN382aZXUAEJHH7.jpg'],
         videos: '',
         modalData: [{
             quote: '"Such a lack of imagination."',
@@ -646,23 +994,58 @@ const data = [
             labelThree: '',
             labelFour: 'Teleporter',
             labelFive: 'Photon Barrier',
-            description: '',
+            description: `Along with Mei, Symmetra is often the hero that gamers love to hate the most. The old Symmetra required absolutely zero mechanics, as her turrets
+            and primary fire with both auto-locking. Blizzard has recently "nerfed" her to what she is now (although it hasn't felt like much of a nerf). Symmetras basically
+            need to be good at turret-placement, aggregating them in sneaky places, such as behind walls, such that when enemies are exposed they are left basically helpless
+            to defend themselves until they're already dead. Symmetra has two different styles of primary fire (one tracking and one projectile), and both are equally as effective
+            in the right situations. "Teleporter" has basically turned into a fad that has lost popularity, but the "Photon Barrier" ultimate has emerged as a force in the game,
+            especially due to its massive sustainability: it lasts 15(!!!) full seconds.`,
             iframe: 'https://www.youtube.com/embed/-0TPg0rgmBo',
             backgroundImage: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/08/11094220/952e4fd6-2231-4194-b759-bcdfcfd1015d.jpg'
         }]
     },
     {
-        name: 'Torbjörn',
+        name: ['Torbjörn', 'Torbjörn Lindholm', 'torbjorn'],
+        age: '57',
+        height: `1.4m/4'7"`,
+        nationality: 'Swedish',
+        occupation: ['Weapons Designer', 'Chief Engineer (formerly)'],
+        voice: 'Keith Silverstein',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/e/e5/Torbjorn_portrait.png/revision/latest?cb=20160429041926', 
-        videos: [{name: 'Frustration Dominance', embed: "https://www.youtube.com/embed/xJmczeAocck", comment: 'Sure'},
-        {name: 'Give Cred to a Good Mercy', embed: "https://www.youtube.com/embed/N_NqxS4uudc", comment: 'Sure'},
-        {name: 'Didnt Even Play Well...', embed: "https://www.youtube.com/embed/HRxKvJ1ny9k", comment: 'Sure'},
-        {name: 'Partially Dont Play Torb Anymore Cause Its Too Easy', embed: 'https://www.youtube.com/embed/KKdQkMrwSgQ?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', comment: 'sure'},
-        {name: 'Gotta Love All Gold On 5 DPS Team', embed: 'https://www.youtube.com/embed/7-jlU-9qIak?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', comment: 'sure'},
-        {name: 'Stupid Games With Stupid Gamers...', embed: 'https://www.youtube.com/embed/qaHXoenJnJk?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', comment: 'sure'},
-        {name: 'At Least I Try To Be A Good Guy In This Game Of Selfish Noobs', embed: 'https://www.youtube.com/embed/pTcdMUC2T5Q?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', comment: 'sure'},
-        {name: '52% KP Torb', embed: 'https://www.youtube.com/embed/djKFBbI3NSo?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', comment: 'sure'}],
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/e/e5/Torbjorn_portrait.png/revision/latest?cb=20160429041926', 'https://joesdaily.com/wp-content/uploads/2017/08/torbjorn-fan-art.jpg'],
+        videos: 
+        [{name: 'Frustration Dominance', 
+        embed: "https://www.youtube.com/embed/xJmczeAocck", 
+        comment: `Was trying to play a real game out of spawn, until I saw our team run out with some kind of goofball, garbage comp.
+        So naturally, like the mature man I am, I decided to handle obnoxiousness by adding fuel to the fire, and I chose Torb (without
+        the intention of playing seriously). The rest of the video speaks for itself.`},
+        {name: 'Give Cred to a Good Mercy', 
+        embed: "https://www.youtube.com/embed/N_NqxS4uudc", 
+        comment: `I will always dominate with Torb no matter when I pick him, but for this game in particular, I have to give all the
+        credit to a legit Mercy.`},
+        {name: 'Didnt Even Play Well...', 
+        embed: "https://www.youtube.com/embed/HRxKvJ1ny9k", 
+        comment: `Even when I don't play well with Torb I still always carry.`},
+        {name: `Honestly Too Easy Is No Fun`, 
+        embed: 'https://www.youtube.com/embed/KKdQkMrwSgQ?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        comment: `What does it say about Blizzard's game design when there are so many heroes that are
+        so easy to master that they end up becoming too boring to ever play.`},
+        {name: 'Gotta Love All Gold On 5 DPS Team', 
+        embed: 'https://www.youtube.com/embed/7-jlU-9qIak?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        comment: `Five DPS players and the Torb gets all the golds. Blizzard developers really have
+        to look into this thing called "game-balance"...`},
+        {name: 'Stupid Games With Stupid Gamers...', 
+        embed: 'https://www.youtube.com/embed/qaHXoenJnJk?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        comment: `See title.`},
+        {name: 'At Least I Try...', 
+        embed: 'https://www.youtube.com/embed/pTcdMUC2T5Q?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        comment: `Everybody in the game is selfish. I tried for quite a long time to think team-first
+        in every possible way, until I realized that it's pointless with this demographic of prinkly-faced,
+        adolescent gamer punks. These days when someone complains about selfish teammates, I just shrug
+        it off. I probably tried harder than anyone for years, don't know what else more I could do.`},
+        {name: '52% KP Torb', 
+        embed: 'https://www.youtube.com/embed/djKFBbI3NSo?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        comment: 'sure'}],
         modalData: [{
             quote: `"You're making a chicken out of a feather!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b2/Ability-torbjorn1.png/200px-Ability-torbjorn1.png?version=416a016cdc58c4c400cf860e3f08f111',
@@ -675,15 +1058,25 @@ const data = [
             labelThree: 'Deploy Turret',
             labelFour: 'Overload',
             labelFive: 'Molten Core',
-            description: '',
+            description: `While the new Torb is a definite nerf of the old one, he still remains one of the easiest heroes to succeed with in the game. Solid Torb play also
+            centers around being clever with turret positioning, much like Symmetra, but what a Torb does away from his turret with primary fire is almost as important these
+            days. One of Torb's new abilities, "Overload", gives him an adrenaline-like shot of energy, which increases his mobility, rate of primary-fire, and health point total
+            for its entire duration. This gives Torb more opportunities to jump into battles and take out vulnerable enemies at certain times. At high levels, his turret can
+            often be more valuable, in fact, as a distraction than a primary source of damage-dealing. Torb's new "Molten Core" can deal massive damage to multiple enemies at once,
+            and thus can be regarded as one of the more useful ults in competitive matches.`,
             iframe: 'https://www.youtube.com/embed/Ev0ZgWhGVuo',
             backgroundImage: 'http://7wallpapers.net/wp-content/uploads/15_Overwatch-Torbjorn.jpg'
         }]
     },
     {
-        name: 'Tracer',
+        name: ['Tracer', 'Lena Oxton', 'lenaoxton'],
+        age: '26',
+        height: `1.62m/5'4"`,
+        nationality: 'British',
+        occupation: ['Adventurer Pilot (formerly)', 'Overwatch Agent (formerly)'],
+        voice: 'Cara Theobold',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/8/86/Tracer_portrait.png/revision/latest?cb=2016042904130',
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/8/86/Tracer_portrait.png/revision/latest?cb=2016042904130', 'https://i.pinimg.com/originals/80/64/63/806463a592aac5d492ef3d2387069e14.jpg'],
         videos: '',
         modalData: [{
             quote: '"Ever get that feeling of déjà vu?"',
@@ -697,27 +1090,70 @@ const data = [
             labelThree: '',
             labelFour: 'Recall',
             labelFive: 'Pulse Bomb',
-            description: '',
+            description: `As evidenced by the cover of the game itself, Tracer was originally one of the core (if not the absolute core) heroes in the entire game.
+            Her presence in the Meta has drastically faded to date, however, and that is just basically because she lost most of her effectiveness with all the new
+            changes Blizzard made to the game. In the past, it used to be fairly realistic for a Tracer to blink around battles and take out targets on her own. These
+            days, it has almost become impossible, especially if the enemy team has good healing. Tracer's spray-attack style, coupled with the weakness of her spray
+            generally leads her to just wound opponents enough for them to get healed again over and over, to the point that she is basically doing nothing but feeding.
+            "Pulse Bomb" is an effective ult, but it is basically all-or-nothing and lacks the ability to be game-changing (usually).`,
             iframe: 'https://www.youtube.com/embed/_SvYmsNCWsw',
             backgroundImage: 'https://cdna.artstation.com/p/assets/images/images/001/773/960/large/will-murai-tracer.jpg?1452544187'
         }]
     },
     {
-        name: 'Widowmaker',
+        name: ['Widowmaker', 'Amélie Lacroix (née Guillard)', 'amelie lacroix', 'amelielacroix', 'neeguillard', 'nee guillard'],
+        age: '33',
+        height: `1.75m/5'9"`,
+        nationality: 'French',
+        occupation: ['Ballet Dancer (formerly)', 'Assassin'],
+        voice: 'Chloe Hollings',
         class: 'Damage',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021',
-        videos: [{name: 'Frustrating Bastion', embed: "https://www.youtube.com/embed/OoRNDbx1ygs", comment: 'Sure'},
-        {name: 'Nobody Cares About Team', embed: "https://www.youtube.com/embed/g3nhCGfdA-8", comment: 'Sure'},
-        {name: 'Windows Sucks', embed: "https://www.youtube.com/embed/vpgViDuVEq0", comment: 'Sure'}, 
-        {name: 'No Stats But Sick Shots', embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", comment: 'Sure'},
-        {name: "Considering Lag I'll Take It", embed: "https://www.youtube.com/embed/c_u9TKPakA4?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", comment: 'Sure'},
-        {name: 'Accused Of "Spamming" At The End By A Butthurt Genji Rofl', embed: "https://www.youtube.com/embed/o599aAObFvs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD", comment: 'Sure'}, 
-        {name: 'Hold Up... Youre Mad At Me For "Maining" In QP? Seriously...?', embed: "https://www.youtube.com/embed/7sugwBQFT6k?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD",
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
+        videos: 
+        [{name: 'Frustrating Bastion', 
+        embed: "https://www.youtube.com/embed/OoRNDbx1ygs", 
+        comment: `My goodness I really wish the original teammate we had didn't leave after the 1st round and let this awful,
+        obnoxious-for-no-reason Bastion main onto our team for the last two rounds. I will always be proud of myself for basically
+        winning the game for our team at the very end of the game with what I considered an epic, high-IQ stall until the rest of
+        my team could return from spawn.`},
+        {name: 'Nobody Cares About Team', 
+        embed: "https://www.youtube.com/embed/g3nhCGfdA-8", 
+        comment: `Let's look at the summary of this clip. Round 1, I unselfishly go healer because my team's comp needs it.
+        Round 2, I'm pissed off about getting destroyed in Round 1 because of incompetent DPS teammates, so I switch to Widow.
+        I think I did a pretty decent job of it too. Round 3, I look at my comp, and I want to keep Widowing, but I know our team
+        has a glaring hole at shield tank, so I sacrifice myself again. Another round of incompetent DPS teammates, and we get
+        throttled. Another wonderful experience playing this Blizzard masterpiece.`},
+        {name: 'Windows Sucks', 
+        embed: "https://www.youtube.com/embed/vpgViDuVEq0", 
+        comment: `Wasn't my sharpest Widow, but still produced for my team relatively well all game. Then, right at the most crucial
+        moment, with second left on the game clock, my computer gave me a worthless Windows Update notification, and despite the fact
+        I made sure long ago in my settings to "not be disturbed in game mode", it still minimized my screen anyway, and by the time
+        I was able to calm my computer down enough to recover my game screen, I was already crushed by a Reinhardt charge, and the game
+        was lost. Awesome.`}, 
+        {name: 'A Few High-Skill Shots', 
+        embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", 
+        comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
+        I wasn't really consistently productive, I guess.`},
+        {name: "Literally... Idek", 
+        embed: "https://www.youtube.com/embed/B9NEI8zwUT4", 
+        comment: `Keep in mind I almost never call out anyone publicly for performance-level in this game (I only call people out
+        when they're acting like clowns), but this game was just unreal in how epicly bad the rest of my team must have been to have
+        been losing these battles. Sure enough, after the game I spec-ed our Junkrat/Doomfist(?) on replay, and it was like watching
+        a monkey play.`},
+        {name: `"Doom, Get Widow" Lol`, 
+        embed: "https://www.youtube.com/embed/LSZYGfABz-k", 
+        comment: `Unfortunately no screenshot, but this is the same "GreenAlien" dude who just one game ago was bragging to the public
+        chat because he apparently reached top500 (um... really...? *insert thinking_face emoji here*), and just kept saying obnoxious
+        jibberish over and over until I finally had to block him. Ah the stupidity of youth... this kid was probably 12 years old at best.`}, 
+        {name: `Wait... It's Wrong To "Main" In QP?`, 
+        embed: "https://www.youtube.com/embed/7sugwBQFT6k?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD",
         comment: `Since when did they make the "unwritten rule" that you shouldnt play your "main" in QP? Am I just crazy or isnt QP supposed to be where nobody really gives
         a crap or takes it too seriously, such that everyone can feel free to play whatever hero they want to at any given moment? This Sombra raged at me for "trying hard" with
         my "main" (as if she even knew Widow was my main...?), but isn't it somewhat ironic that she's the one taking a QP game seriously enough to rage at me in public chat to
         begin with...? Just sayin lol.`},
-        {name: 'DVa Personally Thanked Me After Round 2', embed: "https://www.youtube.com/embed/dW29-2adXmI?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", comment: 'Sure'}],
+        {name: 'The DVa Thank You', 
+        embed: "https://www.youtube.com/embed/dW29-2adXmI?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", 
+        comment: `Finally felt redeemed after a kind teammate thanked me publicly for my work.`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',
@@ -730,23 +1166,62 @@ const data = [
             labelThree: '',
             labelFour: 'Venom Mine',
             labelFive: 'Infra-Sight',
-            description: '',
+            description: `When Overwatch was first created, Widowmaker was the main sensation that fans loved to see. The most popular players in the game all had elite hitscan mechanics,
+            and highlights consisted of amazing headshots that a normal human would not even think was possible. Sadly, the game has changed with Blizzard's ambition to grow in popularity,
+            and as an indirect effect, Widowmaker's effectiveness has declined sharply. The best Widowmakers spend a lot of time practicing mechanics, namely through repeated training in
+            Widow 1v1 headshot deathmatch competition. Along with that, good Widows must be smart with positioning and disguising location to the enemy team, as due to her design, she can
+            often be helpless to an enemy team's coordinated dive attack. "Venom Mines" can often be more helpful than they seem, and "Infra-sight" can be crucial, but rarely game-changing.`,
             iframe: 'https://www.youtube.com/embed/fvPp6XbbTb0',
             backgroundImage: 'https://i.ytimg.com/vi/0ZQ7faeKYJg/maxresdefault.jpg'
         }]
     },
     {
-        name: 'Ana',
+        name: ['Ana', 'Ana Amari (أنا عماري)', 'anaamari'],
+        age: '60',
+        height: `1.81m/6'`,
+        nationality: 'Egyptian',
+        occupation: ['Overwatch Second-In-Command Captain (formerly)', 'Bounty Hunter'],
+        voice: 'Aysha Selim',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/0/0b/Ana_portrait2.png/revision/latest?cb=20181108050042', 
-        videos: [{name: '87% Of Match On Fire', embed: "https://www.youtube.com/embed/T23iBK5O--U", comment: 'Harlmoni'},
-        {name: 'Dude Called Me a God', embed: "https://www.youtube.com/embed/gaYul7AXnqY", comment: 'Harlmoni'},
-        {name: 'Justified Meanness', embed: 'https://www.youtube.com/embed/cDQWPIjW0wk?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', comment: 'Harlmoni'},
-        {name: 'Sick Ana in Crappy Game', embed: "https://www.youtube.com/embed/e6e-LVdC30Q", comment: 'Harlmoni'},
-        {name: 'Pretty Good Ana But Thanks To Better Team', embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', comment: 'Harlmoni'},
-        {name: 'One Of Best Ana Games', embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', comment: 'Harlmoni'},
-        {name: 'Top Ana-play With Good Widow Cap', embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', comment: 'Harlmoni'},
-        {name: 'Healer Montage (2nd Round Ana)', embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', comment: 'Harlmoni'}],
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/Ana_portrait2.png/revision/latest?cb=20181108050042', 'https://static.zerochan.net/Ana.%28Overwatch%29.full.2184432.jpg'],
+        videos: 
+        [{name: '87% Of Match On Fire', 
+        embed: "https://www.youtube.com/embed/T23iBK5O--U", 
+        comment: `Even I didn't realize until the end of the game that I was anywhere close to 87% on fire. Overall made good
+        decision and had some key plays though.`},
+        {name: 'Dude Called Me a God', 
+        embed: "https://www.youtube.com/embed/gaYul7AXnqY", 
+        comment: `Unfortunately, the sad thing is after the enemy Rein called me a "God", I kind of lost focus on the game itself
+        and started throwing. Ended up feeling like I had to switch to Moira, but I didn't play well there either. Still, everything
+        up to the moment he called me out in public chat was pretty solid Ana play.`},
+        {name: 'Justified Meanness', 
+        embed: 'https://www.youtube.com/embed/cDQWPIjW0wk?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `I only troll others publicly in game when I feel like they deserve to be trolled. If someone seems like a good,
+        decent person (with or without having any decent skill level), then I wouldn't ever even think about trolling them. But if
+        someone is acting like an obnoxious, self-serving child, which happens to be the grand majority of the Overwatch demographic,
+        then I have no motivation but to troll, regardless of moral ethic. On a side note, not really sure if anyone else could have
+        predicted and darted that Doomfist right out of spawn like I did to start the game.`},
+        {name: 'Sick Ana in Crappy Game', 
+        embed: "https://www.youtube.com/embed/e6e-LVdC30Q", 
+        comment: `Probably one of my favorite high-IQ plays was when I had the presence of mind to jump onto the gondola during that
+        DVa bomb to stay alive and jump right back into the battle.`},
+        {name: 'Pretty Good Ana But Thanks To Better Team', 
+        embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `Made some good plays and enjoyed an entertaining game, but at the end of the game, I had to admit that it was mostly
+        just because our team was so much better than theirs.`},
+        {name: 'One Of Best Ana Games', 
+        embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `Right after this game was over, I remember telling myself that it felt like the best Ana game I ever played. After
+        some time passed, and I watched the replay, it didn't really seem so special anymore. If you could leave your own feedback in
+        the forum, I would love to hear it.`},
+        {name: 'Top Ana-play With Good Widow Cap', 
+        embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `Felt like a strong Ana game, made better with a solid Widow switch at the end to finish the enemy team off.`},
+        {name: 'Healer Montage (2nd Round Ana)', 
+        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `One of my favorite videos. Decided from the start of the game I was going to try this montage-type thing to showcase my
+        versatility and skill-level as a support (god-willing the game went 3 full rounds to begin with), and in the end I felt like I played
+        solid every round that I played.`}],
         modalData: [{
             quote: `"It's just a scratch, you'll be fine!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/fc/Ability-ana1.png/200px-Ability-ana1.png?version=1101920478ed5840a6a4d4698ee87951',
@@ -759,18 +1234,27 @@ const data = [
             labelThree: '',
             labelFour: 'Biotic Grenade',
             labelFive: 'Nano Boost',
-            description: '',
+            description: `It seems like Ana has been around forever, but she is actually one of the newest support heroes in the game. Ana is often underrated in her ability and
+            how much she can do for her team, mostly because the average Ana tends not to know how to use her to her full potential. ML-17, Jjonak, and Ryujehong tend to showcase Ana
+            the best, with amazing accuracy, decision-making, dart-consistency, and maximized-use of grenades. Nano in competitive play can often feel scripted, as it usually has to
+            go to a Genji or Reinhardt at a designated time (however beware Nano's inability to go to the intended person). Grenades most notably can be pivotal in team-fights, as they
+            can save the lives of teammates, while at the same time damaging enemies and preventing them from receiving healing for a short period.`,
             iframe: 'https://www.youtube.com/embed/wZW9uCFc7uk',
             backgroundImage: 'https://cdnb.artstation.com/p/assets/images/images/004/896/099/large/simon-newport-ana-uplox.jpg?1487055936'
         }]
     },
     {
-        name: 'Baptiste',
+        name: ['Baptiste', 'Jean-Baptiste Augustin', 'Jeanbaptiste augustin', 'jeanbaptisteaugustin', 'jean'],
+        age: '36',
+        height: `unknown`,
+        nationality: 'Haitian',
+        occupation: ['Combat Medic'],
+        voice: 'Benz Antoine',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/5/5d/Baptiste_portrait.png/revision/latest?cb=20190226231221', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/5/5d/Baptiste_portrait.png/revision/latest?cb=20190226231221', 'https://cdnb.artstation.com/p/assets/images/images/017/164/783/large/velocity-light-.jpg?1554889145'],
         videos: '',
         modalData: [{
-            quote: `"Statistically speaking, I usually get most of my team back alive. But... who's counting?"`,
+            quote: `"Statistically speaking, I usually get most of my team back alive. But who's counting?"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/e/e5/Baptiste-ability5.png/154px-Baptiste-ability5.png?version=6d96a78260cc22680e72c65e5e193adc',
             primaryTwo: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/2/26/Baptiste-ability1.png/200px-Baptiste-ability1.png?version=57cd947f03260a7ee371a4fc8b5b298a',
             abilityOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b3/Baptiste-ability2.png/200px-Baptiste-ability2.png?version=413bc917adff5393854c732a60a63840',
@@ -779,17 +1263,27 @@ const data = [
             labelOne: 'Exo Boots',
             labelTwo: 'Biotic Launcher',
             labelThree: 'Regenerative Burst',
-            labelFour: 'Immoortality Field',
+            labelFour: 'Immortality Field',
             labelFive: 'Amplification Matrix',
-            description: '',
+            description: `Baptiste is Blizzard's latest attempt at a new support hero, and he has an interesting skillset that can make him useful at times, and also seem somewhat
+            of a ridiculous concept at others. It is of course important to be good mechanically with his primary fire, as it is his primary source of both healing and dealing damage,
+            but his true value is in his "Immortality Field", which has the power of keeping all teammates underneath it alive during its duration (or until it is destroyed). When
+            used in the right spot, it can completely turn a teammate's certain demise into an easy elim on the predator instead. "Exo Boots" primary have the most value in terms of
+            positioning and attaining high-ground, and "Amplification Matrix" can often seem silly more than anything, and rarely proves to be pivotal, unless in unique situations when
+            coupled with teammate ults.`,
             iframe: 'https://www.youtube.com/embed/pg9xerZ5xog',
             backgroundImage: 'https://www.gamerbraves.com/wp-content/uploads/2019/03/Baptiste-Overwatch-feature-image.jpg'
         }]
     },
     {
-        name: 'Brigitte',
+        name: ['Brigitte', 'Brigitte Lindholm', 'brigittelindholm'],
+        age: '23',
+        height: `unknown`,
+        nationality: 'Swedish',
+        occupation: ['Mechanical Engineer', 'Adventurer', 'Squire'],
+        voice: 'Matilda Smedius',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/7/7b/Brigitte_portrait.png/revision/latest?cb=20190114232133', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/7/7b/Brigitte_portrait.png/revision/latest?cb=20190114232133', 'https://i.pinimg.com/236x/c1/19/49/c11949a444abd618fce24fc71410d4b6.jpg'],
         videos: '',
         modalData: [{
             quote: '"The best offense is a good defence."',
@@ -803,15 +1297,24 @@ const data = [
             labelThree: 'Whip Shot',
             labelFour: 'Shield Bash',
             labelFive: 'Rally',
-            description: '',
+            description: `Blizzard single-handedly might have dug their own grave when they introduced Brigitte. In fact, Brigitte might have been the greatest reason that
+            Tracer eventually fell off the map, and even worse, Brigitte may have been the root cause of GOATS. Her introduction to the game started a mass outcry from longtime
+            players to Blizzard, as her amateurish and OP design began to make the game ridiculous. Since then, Blizzard developers have made multiple attempts to nerf her and
+            mitigate the damage, but at this point, her effect on the game cannot be reversed. She features her own self-shield, which she can also use as a bashing device that
+            has the power to momentarily stun any enemy in any situation, much like a McCree-flashbang that requires no aim.`,
             iframe: 'https://www.youtube.com/embed/npKO8YDCb1c',
             backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Ub2Ln1K19KV6yHzF2CWcA37kzoFIlRballK5oQvmH7Cprkjf'
         }]
     },
     {
-        name: 'Lúcio',
+        name: ['Lúcio', 'Lúcio Correia dos Santos', 'Lucio', 'luciocorreia', 'luciocorreiadossantos'],
+        age: '26',
+        height: `1.6 m/5'3"`,
+        nationality: 'Brazilian',
+        occupation: ['DJ', 'Freedom Fighter'],
+        voice: 'Jonny Cruz',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/6/60/Lucio_portrait.png/revision/latest?cb=20160429040926', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/6/60/Lucio_portrait.png/revision/latest?cb=20160429040926', 'https://www.destructoid.com//ul/393366-2859086-lucio_vafp.jpg'],
         videos: '',
         modalData: [{
             quote: '"Why are you so angry?"',
@@ -825,15 +1328,24 @@ const data = [
             labelThree: 'Crossfade',
             labelFour: 'Amp It Up',
             labelFive: 'Sound Barrier',
-            description: '',
+            description: `Since inception, Lúcio has been and continues to be a staple healer in the Meta at every competitive level. He also
+            in general is one of the more entertaining heroes to play because the variety of his kit and the versatility of things he can accomplish.
+            Learning top-level wall-riding is crucial for any future Lúcio main, as well as providing speed-boost to teammates when needed. "Crossfade"
+            (where he basically pushes an enemy), is most useful on maps with edges that a Lúcio can boop enemies off of. "Sound Barrier", along with
+            "Transcendence" will always be a team's most crucial assest, and in top-level play, it is mostly likely going to be saved for a future moment.`,
             iframe: 'https://www.youtube.com/embed/ywTNgR3ldFc',
             backgroundImage: 'https://static.gamespot.com/uploads/screen_kubrick/1585/15855271/3562046-2917004-lucio_009.jpg'
         }]
     },
     {
-        name: 'Mercy',
+        name: ['Mercy', 'Angela Ziegler', 'angelaziegler'],
+        age: '37',
+        height: `1.7m/5'7"`,
+        nationality: 'Swiss',
+        occupation: ['Field Medic', 'First Responder'],
+        voice: 'Lucie Pohl',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/c/cd/Mercy_portrait.png/revision/latest?cb=20160429042205', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/cd/Mercy_portrait.png/revision/latest?cb=20160429042205', 'https://wallpaperstream.com/wallpapers/thumbnails/overwatch/Mercy-Overwatch-Artwork_thumb.jpg'],
         videos: '',
         modalData: [{
             quote: `"Sometimes I don't know why I even bother..."`,
@@ -847,15 +1359,25 @@ const data = [
             labelThree: 'Guardian Angel',
             labelFour: 'Resurrect',
             labelFive: 'Valkyrie',
-            description: '',
+            description: `Mercy was originally the healer that opponents hated the most, and then after a string of very significant nerfs, she suddenly
+            turned into the healer that opponents didn't fear. In the pro scene, she is often not ever seen unless a team decides to run a Pharmacy in a
+            certain situation. Her greatest asset is her "Resurrect" ability, which can turn the tides in team fights, however she is now limited to one
+            teammate per Res, and its cooldown is over 30 seconds (the longest in the game). It is important as a Mercy to be good at toggling between
+            healing and damage-assist when appropriate, and "Valkyrie" is useful but among the weaker support ults in the game. It can used strategically,
+            however, to take advantage of her gained ability to fly to reach teammates in peril or requiring Res.`,
             iframe: 'https://www.youtube.com/embed/-l-ytDZWVFI',
             backgroundImage: 'https://pre09.deviantart.net/6238/th/pre/i/2016/124/0/9/overwatch_mercy_fanart_by_alexnegrea-da0y27s.jpg'
         }]
     },
     {
-        name: 'Moira',
+        name: ['Moira', `Moira O'Deorain`, 'moiraodeorain', 'moira odeorain'],
+        age: '48',
+        height: `unknown`,
+        nationality: 'Irish',
+        occupation: ['Geneticist'],
+        voice: `Genevieve O'Reilly`,
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/a/a2/Moira_portrait0.png/revision/latest?cb=20181108054744', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/a/a2/Moira_portrait0.png/revision/latest?cb=20181108054744', 'https://i.etsystatic.com/18999562/r/il/c52845/1699243618/il_794xN.1699243618_fass.jpg'],
         videos: '',
         modalData: [{
             quote: '"Science saves the day!... Again."',
@@ -869,15 +1391,24 @@ const data = [
             labelThree: 'Biotic Orb',
             labelFour: 'Fade',
             labelFive: 'Coalescence',
-            description: '',
+            description: `Moira stirred frustration when she was created because her kit was amateurish and too easy to succeed with. Often, just floating damage orbs into
+            battles could end up producing multiple elims in its own (Moira's orbs cannot be blocked or defended against except with a DVa matrix). Having an auto-lock primary
+            fire, as well as above-average mobility and an ability to just vanish with the click of a button ("Fade"), made it easy for Moira player to be productive and escape
+            unscathed. Moira is best-served for very tank-heavy compositions that can best appreciate her ability to group-heal, which is the best in the game. "Coalescence"
+            is often mistakenly viewed as an offensive ultimate, when it is most effectively for its healing potential.`,
             iframe: 'https://www.youtube.com/embed/sZrsi9x5uZk',
             backgroundImage: 'https://cdn.vox-cdn.com/thumbor/OZ_td7xfAiKmcdbgPiynIgBtvNI=/0x0:3840x2160/1200x800/filters:focal(793x353:1407x967)/cdn.vox-cdn.com/uploads/chorus_image/image/57635351/Overwatch_Moira_001_png_jpgcopy.0.jpg'
         }]
     },
     {
-        name: 'Zenyatta',
+        name: ['Zenyatta', 'Tekhartha Zenyatta', 'TekharthaZenyatta'],
+        age: '20',
+        height: `1.72m/5'8"`,
+        nationality: 'none',
+        occupation: ['Wandering Guru', 'Adventurer'],
+        voice: 'Feodor Chin',
         class: 'Support',
-        image: 'https://vignette.wikia.nocookie.net/overwatch/images/f/f5/Zenyatta_portrait.png/revision/latest?cb=20160429042336', 
+        image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f5/Zenyatta_portrait.png/revision/latest?cb=20160429042336', 'https://i.pinimg.com/originals/c7/43/07/c743077e45dc4a06070d6f72595434af.jpg'],
         videos: '',
         modalData: [{
             quote: '"I will not juggle."',
@@ -891,7 +1422,10 @@ const data = [
             labelThree: '',
             labelFour: 'Orb of Discord',
             labelFive: 'Transcendence',
-            description: '',
+            description: `Much like Lúcio, Zenyatta has been one of the staples in the Meta since day one, and he really has not been changed at all
+            either. Zenyatta has so much to offer teams because of two particular abilities: discord orbs and "Transcendence". When discord orbs are
+            placed correctly on key targets, it increases a team's success rate exponentially. Good Zens must learn to volley his primary fire orbs
+            timely and effectively, and of course, like Lúcio's "Sound Barrier", "Transcendence" will always be saved for a future crucial moment.`,
             iframe: 'https://www.youtube.com/embed/SBXpKdmJBLU',
             backgroundImage: 'https://1lal3e4eckus2d9p8g17wl8c-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/owl-960x540.jpg'
         }]

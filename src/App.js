@@ -6,6 +6,7 @@ import Videos from './Components/Videos';
 import Forum from './Components/Forum';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
+// import HomeAlert from './Components/HomeAlert'
 
 class App extends React.Component {
   constructor(props) {
@@ -17,13 +18,16 @@ class App extends React.Component {
 
   render() {
     return (
-        <Router>
-          <Route exact path='/' component={Home} />
-          <Route path='/' component={Nav} />
-          <Route path='/overview' component={Overview} />
-          <Route path='/videos' component={Videos} />
-          <Route path='/forum' component={Forum} />
-        </Router>
+      <Router>
+        {/* <Route exact path='/' render={(props) => {
+          return <HomeAlert title="New Title" history={props.history} />
+        }} /> */}
+        <Route exact path='/' component={Home} />
+        <Route path='/' component={Nav} />
+        <Route path='/overview' component={Overview} />
+        <Route path='/videos' component={Videos} />
+        <Route path='/forum' component={Forum} />
+      </Router>
     );
   }
 }

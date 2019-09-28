@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import data from '../data';
 import CardSet from './CardSet';
-import Modal from './Modal';
 
 class Overview extends Component {
     constructor() {
         super();
         this.state = {
             heroes: data,
-            modalData: ''
+            modalData: '',
+            search: ''
         }
         this.tanksOnly = this.tanksOnly.bind(this);
         this.damageOnly = this.damageOnly.bind(this);
@@ -20,10 +20,11 @@ class Overview extends Component {
         overviewButtons.forEach((button) => {
             button.style.background = 'lightgray';
         })
-        document.getElementById('overview-tanks').style.background = 'gold';
+        document.getElementById('overview-tank').style.background = 'gold';
         const tanks = data.filter(hero => hero.class.includes('Tank'));
         this.setState({
-            heroes: tanks
+            heroes: tanks,
+            search: ''
         })
     }
 
@@ -35,7 +36,8 @@ class Overview extends Component {
         document.getElementById('overview-damage').style.background = 'gold';
         const damage = data.filter(hero => hero.class.includes('Damage'));
         this.setState({
-            heroes: damage
+            heroes: damage,
+            search: ''
         })
     }
 
@@ -47,7 +49,8 @@ class Overview extends Component {
         document.getElementById('overview-support').style.background = 'gold';
         const support = data.filter(hero => hero.class.includes('Support'));
         this.setState({
-            heroes: support
+            heroes: support,
+            search: ''
         })
     }
 
@@ -58,17 +61,62 @@ class Overview extends Component {
         })
         document.getElementById('overview-all').style.background = 'gold';
         this.setState({
-            heroes: data
+            heroes: data,
+            search: ''
         })
     }
 
-    componentDidMount() {
-
-        const navs = document.querySelectorAll('.navs');
-        navs.forEach((nav) => {
-            nav.classList.remove('selected-target');
+    changeSearch = (e) => {
+        const allCards = document.querySelectorAll('.card');
+        allCards.forEach((card) => {
+            card.classList.remove('flip');
+        })
+        const overviewButtons = document.querySelectorAll('.btn-large');
+        overviewButtons.forEach((button) => {
+            button.style.background = 'lightgray';
+        })
+        if (e.target.value === '') {
+            document.getElementById('overview-all').style.background = 'gold';
+        }
+        const heroSearch = data.filter(function (data) {
+            const newHero = data.name.filter(name => name.toLowerCase().includes(e.target.value.toLowerCase()));
+            console.log(newHero.length);
+            if (newHero.length > 0) {
+                return true
+            } else {
+                return false
+            }
         });
-        document.getElementById('overview').classList.add('selected-target');
+        console.log(heroSearch);
+        this.setState({
+            heroes: heroSearch,
+            search: e.target.value
+        })
+    }
+
+    flipCards(type) {
+        let getCards;
+        if (type === 'All') {
+            getCards = [].slice.call(document.querySelectorAll('.card'));
+        } else {
+            getCards = [].slice.call(document.querySelectorAll(`#${type}`));
+        }
+        console.log(getCards);
+        if (getCards.length === 0) {
+            console.log('----++++---')
+            document.getElementById(`flip-${type.toLowerCase()}`).classList.add('body-shake');
+            setTimeout(() => {document.getElementById(`flip-${type.toLowerCase()}`).classList.remove('body-shake')}, 1000);
+        } else {
+            const newCards = getCards.filter(card => !card.classList.contains('flip'));
+            if (newCards.length > 0) {
+                newCards.forEach(card => card.classList.add('flip'));
+            } else {
+                getCards.forEach(card => card.classList.remove('flip'));
+            }
+        }
+    }
+
+    componentDidMount() {
         document.getElementById('overview-all').style.background = 'gold';
 
         const controlClick = (e) => {
@@ -77,86 +125,25 @@ class Overview extends Component {
 
             if (el.id === 'overview-all') {
                 this.all();
-            } else if (el.id === 'overview-tanks') {
+            } else if (el.id === 'overview-tank') {
                 this.tanksOnly();
             } else if (el.id === 'overview-damage') {
                 this.damageOnly();
             } else if (el.id === 'overview-support') {
                 this.supportOnly();
-            } else if (el.id === 'DV.a') {
-                this.selectHero('DV.a');
-            } else if (el.id === 'Orisa') {
-                this.selectHero('Orisa');
-            } else if (el.id === 'Reinhardt') {
-                this.selectHero('Reinhardt');
-            } else if (el.id === 'Roadhog') {
-                this.selectHero('Roadhog');
-            } else if (el.id === 'Sigma') {
-                this.selectHero('Sigma');
-            } else if (el.id === 'Winston') {
-                this.selectHero('Winston');
-            } else if (el.id === 'Wrecking-Ball') {
-                this.selectHero('Wrecking-Ball');
-            } else if (el.id === 'Zarya') {
-                this.selectHero('Zarya');
-            } else if (el.id === 'Ashe') {
-                this.selectHero('Ashe');
-            } else if (el.id === 'Bastion') {
-                this.selectHero('Bastion');
-            } else if (el.id === 'Doomfist') {
-                this.selectHero('Doomfist');
-            } else if (el.id === 'Genji') {
-                this.selectHero('Genji');
-            } else if (el.id === 'Hanzo') {
-                this.selectHero('Hanzo');
-            } else if (el.id === 'Junkrat') {
-                this.selectHero('Junkrat');
-            } else if (el.id === 'McCree') {
-                this.selectHero('McCree');
-            } else if (el.id === 'Mei') {
-                this.selectHero('Mei');
-            } else if (el.id === 'Pharah') {
-                this.selectHero('Pharah');
-            } else if (el.id === 'Reaper') {
-                this.selectHero('Reaper');
-            } else if (el.id === 'Soldier: 76') {
-                this.selectHero('Soldier: 76');
-            } else if (el.id === 'Sombra') {
-                this.selectHero('Sombra');
-            } else if (el.id === 'Symmetra') {
-                this.selectHero('Symmetra');
-            } else if (el.id === 'Torbjörn') {
-                this.selectHero('Torbjörn');
-            } else if (el.id === 'Tracer') {
-                this.selectHero('Tracer');
-            } else if (el.id === 'Widowmaker') {
-                this.selectHero('Widowmaker');
-            } else if (el.id === 'Ana') {
-                this.selectHero('Ana');
-            } else if (el.id === 'Baptiste') {
-                this.selectHero('Baptiste');
-            } else if (el.id === 'Brigitte') {
-                this.selectHero('Brigitte');
-            } else if (el.id === 'Lúcio') {
-                this.selectHero('Lúcio');
-            } else if (el.id === 'Mercy') {
-                this.selectHero('Mercy');
-            } else if (el.id === 'Moira') {
-                this.selectHero('Moira');
-            } else if (el.id === 'Zenyatta') {
-                this.selectHero('Zenyatta');
+            } else if (el.id === 'flip-all') {
+                this.flipCards('All');
+            } else if (el.id === 'flip-tank') {
+                this.flipCards('Tank');
+            } else if (el.id === 'flip-damage') {
+                this.flipCards('Damage');
+            } else if (el.id === 'flip-support') {
+                this.flipCards('Support');
             }
             
         }
 
         window.addEventListener('click', controlClick);
-    }
-
-    selectHero(hero) {
-
-        this.setState({
-            modalData: hero
-        })
     }
 
     render() {
@@ -165,16 +152,18 @@ class Overview extends Component {
                 <div className="background"></div>
                 <div className="toggle-heroes row">
                     <button className="btn-large" id="overview-all">All</button>
-                    <button className="btn-large" id="overview-tanks">Tank</button>
+                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-all"><i className="material-icons">undo</i></button>
+                    <button className="btn-large" id="overview-tank">Tank</button>
+                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-tank"><i className="material-icons">undo</i></button>
                     <button className="btn-large" id="overview-damage">Damage</button>
+                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-damage"><i className="material-icons">undo</i></button>
                     <button className="btn-large" id="overview-support">Support</button>
-                </div>
-                <div className="body-heroes row">
-                    <div className="col s6 overflow">
-                        <CardSet data={this.state.heroes}  />
-                        <Modal name={this.state.modalData} />
+                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-support"><i className="material-icons">undo</i></button>
+                    <div className="input-field absolute">
+                        <input onChange={this.changeSearch} value={this.state.search} type="text" id="overview-search" placeholder="search by name" />
                     </div>
                 </div>
+                <CardSet data={this.state.heroes} />
             </div>
         )
     }

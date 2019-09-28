@@ -86,15 +86,22 @@ iframe:hover {
   opacity: .5;
 }
 .body-heroes {
+  display: flex;
   position: absolute;
+  justify-content: center;
   top: 10%;
+  width: 100%;
   height: 82%;
   overflow: scroll;
   margin: 0;
   padding: 0;
+  padding-bottom: 15px;
 }
-.row {
+.body-heroes.row {
   margin: 0;
+}
+.center-card {
+  width: 100%;
 }
 .body-image {
   position: absolute;
@@ -158,13 +165,6 @@ div.navbar.row::after {
 .navs:hover {
   color: gray;
 }
-.selected-target {
-  color: gray;
-  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/520886a2-df00-49da-9960-62cde5154979/dc4h1yn-258c6467-e7e3-490a-b60d-fcbf0b3db774.png/v1/fill/w_909,h_879,strp/widowmaker_s_scope_by_hucklefred_dc4h1yn-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTkxIiwicGF0aCI6IlwvZlwvNTIwODg2YTItZGYwMC00OWRhLTk5NjAtNjJjZGU1MTU0OTc5XC9kYzRoMXluLTI1OGM2NDY3LWU3ZTMtNDkwYS1iNjBkLWZjYmYwYjNkYjc3NC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3uzGIwAh42ZSGJPf7TkEvDULCuQ_0Bt3nvGegB5wSZ4');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .material-icons {
   pointer-events: none;
 }
@@ -215,65 +215,160 @@ div.navbar.row::after {
   }
 }
 
-.zoom {
-  position: fixed;
+.card-holder {
+  min-height: 300px;
+  perspective: 2000px;
+}
+.card {
+  background: transparent;
+  width: 210px;
+  margin: 13px;
+  transform-style: preserve-3d;
+	transition: 1s all;
+}
+.card.small {
+  height: 290px;
+}
+
+.card-back, .card-front{
+  display: flex;
+  position: absolute;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 1s;
+  backface-visibility: hidden;
 }
-.card {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: stretch;
+.card-back {
   background: purple;
 }
-.card:hover {
+.card-back:hover {
   cursor: pointer;
   background: gold;
 }
-.card-content {
-  font-size: 15px;
+.card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+	transform: rotateY(180deg);
+}
+.card-front:hover {
+  cursor: pointer;
+}
+.card-front-image-div {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.card-front-background-image {
+  width: auto;
+  height: 100%;
+  opacity: 0.2;
+}
+.card-front-information {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  color: purple;
+  width: 95%;
+  height: 98%;
+  font-weight: bolder;
+}
+.card-front-title-name {
+  display: block;
+  font-size: 1.25em;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+.selected-font-toggle {
+  color: rgb(70, 69, 69);
+}
+.flip,.tempFlip {
+	transform: rotateY(-180deg);
+}
+.card-content>.larger-font {
+  font-size: 2em;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+.card-content>.smaller-font {
+  font-size: 1.5em;
   font-weight: bolder;
   color: whitesmoke;
 }
 .card-image {
-  flex-grow: 1;
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
+  height: auto;
+  padding: 10px;
 }
 .hero-image {
-  flex-grow: 1;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.card #Orisa, .card #Wrecking-Ball {
-  justify-content: flex-end;
-}
-.card-image #Orisa, .card-image #Wrecking-Ball {
-  flex-grow: 0;
-}
 .card #Junkrat {
   justify-content: center;
 }
-.card-image #Junkrat {
-  flex-grow: 0;
-}
-.card-image #Baptiste {
-  margin-top: -3vh;
-}
 .btn-large, .btn-large:after {
   background: lightgray;
+  font-weight: bolder;
   margin: 5px;
 }
 .btn-large:hover {
+  background: gold;
+}
+.btn-floating:focus {
   background: lightgray;
 }
-.btn-large:focus{
-  background-color: gold;
+.input-field.absolute {
+  width: 10%;
+  margin: 25px 5px 0 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+#overview-search {
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0;
+  padding: 4px;
+  border: 1px solid lightgray;
+  background: lightgray;
+}
+#overview-search::placeholder {
+  color: white;
+}
+.input-field.absolute input[type=text]:focus {
+  color: white;
+  border-bottom: none;
+  box-shadow: none;
+}
+.input-field.absolute input[type=text]:not(.browser-default){
+  color: black;
+}
+.btn.modal-trigger, .btn.modal-trigger:after {
+  background: purple;
+  font-weight: bolder;
+}
+.btn.modal-trigger:hover {
+  background: gold;
+  color: white;
+}
+.gray:hover {
+  background: gold !important;
 }
 
 .video-body {
@@ -289,7 +384,7 @@ div.navbar.row::after {
   width: 15%;
   height: 100%;
 }
-.video-iframe-container {
+.video-iframe {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -335,18 +430,21 @@ div.navbar.row::after {
   align-items: center;
   width: 100%;
   height: 12.5%;
+  color: whitesmoke;
+  -webkit-text-stroke: .3px black;
   border: 5px solid silver;
   border-bottom: none;
+  font-weight: bolder;
   overflow: hidden;
 }
 .video-lis:hover {
   cursor: pointer;
 }
 .toggle-size {
-  height: 13.5%;
+  height: 15.5%;
 }
 .video-lis-names {
-  padding: 10px;
+  padding: 0 5px 0 5px;
   width: 100%;
 }
 .video-lis-images {
@@ -365,13 +463,14 @@ ul {
 .sidebar-image {
   position: absolute;
   width: 15%;
-  height: 60%;
-  background-image: url('https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4c/Widowmaker-portrait.png');
+  height: 78%;
+  background-image: url('https://i.pinimg.com/originals/c0/7e/91/c07e91f9e49a67fa4648503813847c40.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.5;
   z-index: -2;
+  overflow: hidden;
 }
 .sidebar-image:hover {
   pointer-events: none;
@@ -384,7 +483,7 @@ ul {
   align-items: center;
   width: 100%;
   height: 15%;
-  background: whitesmoke;
+  background: rgb(128, 128, 128);
 }
 .video-hero {
   border: 5px solid silver;
@@ -394,8 +493,13 @@ ul {
 .video-hero:hover {
   cursor: pointer;
 }
+#kinda-funny {
+  padding: 15px;
+}
 
 .selected {
+  -webkit-text-stroke: 0;
+  color: black;
   background: gold;
 }
 .selected-font {
@@ -411,49 +515,54 @@ ul {
   height: 100%;
   background: whitesmoke;
 }
+.forum-header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
 .forum-title-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  font-size: 5em;
+  font-weight: bolder;
+  color: whitesmoke;
   width: 100%;
-  height: 15%;
+  height: 50%;
   background: #f0a830;
 }
-.forum-title-image {
-  width: 20%;
-  height: 100%;
-  background: url('./agora_logo.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
 .disclaimer-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 10%;
+  height: 50%;
+  padding: 5px;
   background: #f0a830;
   border-bottom: 1px solid gray;
+  overflow: scroll;
 }
 .disclaimer-image {
   width: 5%;
   height: 100%;
   margin-right: 15px;
-  margin-bottom: 10px;
   background: url('./emoji.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .disclaimer-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60%;
   height: 100%;
-  font-size: 2vh;
+  font-size: 1em;
 }
 .forum-messageboard-container {
   display: flex;
@@ -468,7 +577,7 @@ ul {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 34.5%;
+  width: 35%;
   height: 99.5%;
   border: 1px solid gray;
   border-radius: 10px 10px 0 0;
@@ -498,7 +607,7 @@ textarea:focus {
   border: 1px solid gray;
   border-radius: 10px 10px 0 0;
   background: #f0a830;
-  overflow-y: scroll;
+  overflow: auto;
   padding: 5px;
 }
 .forum-messageboard-row {
@@ -520,9 +629,8 @@ textarea:focus {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  width: 90%;
+  width: 85%;
   height: 100%;
-  overflow-y: scroll;
   text-align: left;
   font-size: 2vh;
 }
@@ -531,7 +639,7 @@ textarea:focus {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: 10%;
+  width: 15%;
   height: 100%;
   font-size: .75em;
   color: blue;
@@ -594,6 +702,9 @@ input[type=text]:not(.browser-default) {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.xlarge:focus {
+  background-color: lightgray;
 }
 
 .youtube-channel-link {
@@ -662,13 +773,13 @@ input[type=text]:not(.browser-default) {
   height: 100%;
 }
 .modal-title-text-background {
-  width: 80%;
-  padding: 10px;
+  width: 90%;
+  padding: 5px;
   background: rgb(255, 215, 0, 0.5);
   border-radius: 25px;
 }
 .modal-title {
-  font-size: 1.75em;
+  font-size: 1.35em;
 }
 .ability-icons {
   width: 4vw;
@@ -683,6 +794,7 @@ input[type=text]:not(.browser-default) {
   font-weight: bolder;
   width: 60%;
   height: 100%;
+  padding: 5px;
 }
 .modal-row-body {
   display: flex;
@@ -702,8 +814,13 @@ input[type=text]:not(.browser-default) {
   height: 100%;
 }
 .modal-description-background {
-  width: 80%;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 97%;
+  padding: 20px;
+  font-weight: bolder;
   background: rgb(255, 215, 0, 0.5);
   border-radius: 25px;
 }
@@ -712,6 +829,7 @@ input[type=text]:not(.browser-default) {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  padding: 10px 0 10px 0;
   width: 60%;
   height: 100%;
 }
@@ -738,4 +856,25 @@ input[type=text]:not(.browser-default) {
   padding-right: 8px;
   padding-bottom: 5px;
   margin: 0;
+}
+
+.body-shake {
+  animation: shake 1s ease-in-out;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-.3px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(.7px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1.5px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1.5px, 0, 0);
+  }
 }

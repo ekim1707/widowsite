@@ -23,19 +23,6 @@ class Modal extends Component {
         }
     }
 
-    componentWillUnmount() {
-        console.log('history');
-    }
-
-    componentDidMount() {
-        const controlClick = (e) => {
-            const el = e.target;
-
-        }
-
-        window.addEventListener('click', controlClick);
-    }
-
     componentDidUpdate(prevProps, prevState) {
         if(this.props.name !== prevProps.name) {
 
@@ -84,23 +71,23 @@ class Modal extends Component {
                         <div className="modal-row-right">
                             <div className="ability-col hoverable">
                                 {this.state.labelOne}
-                                <img className="ability-icons" src={this.state.primaryOne} id="primary-one"/>
+                                <img className="ability-icons" src={this.state.primaryOne} alt="primary-one" id="primary-one"/>
                             </div>
                             <div className="ability-col hoverable">
                                 {this.state.labelTwo}
-                                <img className="ability-icons" src={this.state.primaryTwo} id="primary-two"/>
+                                <img className="ability-icons" src={this.state.primaryTwo} alt="primary-two" id="primary-two"/>
                             </div>
                             <div className="ability-col hoverable" id="col-hide">
                                 {this.state.labelThree}
-                                <img className="ability-icons" src={this.state.abilityOne} id="ability-one"/>
+                                <img className="ability-icons" src={this.state.abilityOne} alt="ability-one" id="ability-one"/>
                             </div>
                             <div className="ability-col hoverable">
                                 {this.state.labelFour}
-                                <img className="ability-icons" src={this.state.abilityTwo} id="ability-two"/>
+                                <img className="ability-icons" src={this.state.abilityTwo} alt="ability-two" id="ability-two"/>
                             </div>
                             <div className="ability-col hoverable">
                                 {this.state.labelFive}
-                                <img className="ability-icons" src={this.state.ultimate} id="ability-three"/>
+                                <img className="ability-icons" src={this.state.ultimate} alt="ability-three" id="ability-three"/>
                             </div>
                         </div>
                     </div>
@@ -111,10 +98,10 @@ class Modal extends Component {
                             </div>
                         </div>
                         <div className="modal-iframe-right">
-                            <iframe width="100%" height="100%" src={this.state.iframe} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe title="modalFrame" width="100%" height="100%" src={this.state.iframe} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
-                <img className="modal-background-image" src={this.state.backgroundImage} />
+                <img className="modal-background-image" src={this.state.backgroundImage} alt="modal-background" />
                 </div>
                 <div className="modal-footer">
                 <a href="#!" className="modal-close waves-effect waves-green btn-flat">Done</a>

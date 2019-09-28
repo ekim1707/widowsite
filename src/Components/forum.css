@@ -9,5 +9,19 @@
 }
 #forum-textarea {
     font-size: 3em;
-    color: teal;
+    color: #f0a830;
+}
+.input-field.forum .prefix.active {
+    color: #f0a830;
+}
+.input-field.forum input[type=text]:not(.browser-default):focus:not([readonly])+label {
+    color: #f0a830;
+}
+.input-field.forum input[type=text]:not(.browser-default) {
+    color: #f0a830;
+}
+.input-field.forum input[type=text]:not(.browser-default):focus {
+    color: #f0a830;
+    border-bottom: 1px solid #f0a830;
+    box-shadow: 0 1px 0 0 #f0a830;
 }

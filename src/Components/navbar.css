@@ -1,0 +1,7 @@
+.navs.active {
+    color: gray;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/520886a2-df00-49da-9960-62cde5154979/dc4h1yn-258c6467-e7e3-490a-b60d-fcbf0b3db774.png/v1/fill/w_909,h_879,strp/widowmaker_s_scope_by_hucklefred_dc4h1yn-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTkxIiwicGF0aCI6IlwvZlwvNTIwODg2YTItZGYwMC00OWRhLTk5NjAtNjJjZGU1MTU0OTc5XC9kYzRoMXluLTI1OGM2NDY3LWU3ZTMtNDkwYS1iNjBkLWZjYmYwYjNkYjc3NC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3uzGIwAh42ZSGJPf7TkEvDULCuQ_0Bt3nvGegB5wSZ4');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

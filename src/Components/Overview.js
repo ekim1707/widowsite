@@ -87,7 +87,6 @@ class Overview extends Component {
                 return false
             }
         });
-        console.log(heroSearch);
         this.setState({
             heroes: heroSearch,
             search: e.target.value

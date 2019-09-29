@@ -152,6 +152,12 @@ class Videos extends Component {
               });
               document.getElementById('20').classList.add('selected');
               this.selectVideo(el.id);
+            } else if (el.id === '21') {
+              videoLis.forEach((li) => {
+                li.classList.remove('selected');
+              });
+              document.getElementById('21').classList.add('selected');
+              this.selectVideo(el.id);
             } else if (el.id === 'widow-portrait') {
               videoLis.forEach((li) => {
                 li.classList.remove('selected');

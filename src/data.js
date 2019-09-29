@@ -23,7 +23,7 @@ const data = [
         {name: '60% KP', 
         embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8", 
         comment: `I lost interest in playing DVa (and just tanks in general) a long time ago, but I still think whenever I reach
-        into the toolbag, I will always be able to at least play her competently.`, 
+        into the toolbag, I usually play her well.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/dva/icon-portrait.png'},
         {name: 'Yes I Actually Played Mercy. Once.', 
         embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb", 
@@ -102,11 +102,12 @@ const data = [
             labelThree: 'Boosters',
             labelFour: 'Micro Missiles',
             labelFive: 'Self-Destruct',
-            description: `DVa will never be intended to take over games, which is why her firepower is lacking overall in the heropool, but 
-            she is always one of the cornerstones a good team generates its plan of attack around. It is imperative, as a good DVa, to learn
-            good positioning, specifically in terms of using her Matrix to protect teammates (especially healers), as well as knowing
-            when to rush into the fray to try to finish off a weak opponent (and likewise, when to rush out). It is important to note that a DVa
-            that gets de-Meched too easily can often be the entire reason why teams lose games. Keeping all of these things in mind is far more important than pulling off huge DVa bombs.`,
+            description: `DVa will never be intended to take over games, which is why her firepower is lacking overall, but 
+            she is always one of the cornerstone heroes that a good team builds itself around. It is imperative, as a good DVa, to learn
+            positioning, especially to protect teammates (emphasis: healers) with her Matrix in key spots.
+            On the offensive, DVas must know when to rush into the fray to try to finish off weak opponents, while still being able
+            to escape without being de-meched. A DVa that cannot stay in mech consistently can be the sole cause of a team loss,
+            regardless of his/her ability to pull off huge DVa bombs.`,
             iframe: 'https://www.youtube.com/embed/jN3TISLTVyc',
             backgroundImage: 'https://i.ytimg.com/vi/thA-3guCaug/maxresdefault.jpg'
         }]
@@ -215,9 +216,9 @@ const data = [
             labelThree: 'Fortify',
             labelFour: 'Protective Barrier',
             labelFive: 'Supercharger',
-            description: `Orisa is pretty much the only hero in the game who has only one purpose: shield. Yes she has a pretty rapid, intense primary fire,
-            and her "Bongo" can be very effective in the right spots, but really the only reason she is ever going to be picked is because her shield ability is powerful, and she's also obnoxiously
-            difficult to kill. A higher-level Orisa will also maximize his worth to his team by learning how to "pull" enemies timely and effectively with her "Halt!" ability.`,
+            description: `Orisa may be the only hero in the game who is good for only one thing: shields. Yes she has a pretty rapid primary fire,
+            and her "Bongo" can be very effective in the right spots, but really the only reason she is ever going to be picked is because her shield ability is so powerful, and she's obnoxiously
+            difficult to kill. A higher-level Orisa, however, will also know how to "pull" enemies timely and effectively with the "Halt!" ability.`,
             iframe: 'https://www.youtube.com/embed/8jL7FU98Bcg',
             backgroundImage: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/8/80/Orisa_Traffic_Safety.png/1600px-Orisa_Traffic_Safety.png?version=f82a84ae40c7f0037070ffa10c88f799'
         }]
@@ -328,6 +329,12 @@ const data = [
         {name: 'Solo-Ult Much?', 
         embed: 'https://www.youtube.com/embed/QlPW4O4nn7U',
         comment: `If this doesn't qualify as a rage-solo-ult, then I don't even know anymore. I'll just quit the game.`, 
+        image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
+        {name: 'Solo-Ulted Part 2', 
+        embed: 'https://www.youtube.com/embed/8-iSnIY-0rU',
+        comment: `My goodness... that moment when this "SilverFox" dude paused right after solo-ulting me outta the sky was
+        so he could type "**** you" into public chat. I have no idea where it came from, all I did was play Pharah and say
+        nothing in public chat all game long lol.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}],
         modalData: [{
             quote: '"Precision German engineering."',
@@ -341,12 +348,12 @@ const data = [
             labelThree: 'Charge',
             labelFour: 'Fire Strike',
             labelFive: 'EarthShatter',
-            description: `Reinhardt will always be one of the more controversial heroes in the game, not only regarding his spot in the Meta, but 
-            also because of the enormous amount of bugs that the Blizzard developers left unfixed in the hero's gameplay. The largest two are his
-            "Charge" ability, which enemies often arbitrarily seem to get sucked-in or bounce-out of, and his infamous "Shatter", which again often
-            seems to work arbitrarily as well. Timing is essential to be good at Reinhardt, most notably in terms of when to use shield, and also
-            when to regenerate shield. Lastly, good Reinhardts should develop the ability to be spontaneous and unpredictable in the right moments,
-            such as flanking with "Shatter" or "Charge". This is an aspect of shield-tanking that mostly exclusive to Reinhardt only.`,
+            description: `Reinhardt will always be one of the more controversial heroes in the game, not only regarding his place in the Meta, but 
+            also because of the enormous amount of bugs he has that the Blizzard game developers still haven't managed to fix. The biggest two are his
+            "Charge" ability, which suck opponents in or repel them away in the most inconsistent fashion, and his infamous "Shatter" ultimate, which
+            only seems to do what it's supposed to when it feels like it. Timing is essential to be good at Reinhardt, most notably when using his shield (as well as
+            knowing when to hide and regenerate it). Lastly, Reinhardt is unique for a shield tank because of his ability to flank enemy teams effectively, and a good 
+            Reinhardt will know how to take advantage of that.`,
             iframe: 'https://www.youtube.com/embed/zLFbm6YckoU',
             backgroundImage: 'https://i.kym-cdn.com/photos/images/original/001/124/162/54f.jpg'
         }]
@@ -373,10 +380,10 @@ const data = [
             labelThree: 'Take a Breather',
             labelFour: 'Chain Hook',
             labelFive: 'Whole Hog',
-            description: `Since the infancy of the game, Roadhog quickly evolved into perhaps the most annoying opponent anyone could possibly face. His greatest asset is probably
-            his "Take a Breather" ability, which replenishes him with 300 HP almost instantly, making him excrutiatingly difficult to kill, especially one on one. His "Chain Hook" is
-            also an essential skill for any top-level player, as it has the power to generate insta-kills if used correctly. "Whole Hog" can be surprisingly one of the more effective
-            ultimates in the game as well, but only if used with the most optimum and clever timing, such as when booping an unprepared enemy opponent/team off the side of a map.`,
+            description: `From day one, Roadhog has always had a strong reputation for being one of the most annoying heroes to go up against. His greatest asset is probably
+            his sustainability, which can be maddening at times. The "Take a Breather" ability replenishes him with 300 HP almost instantly, basically giving him a free life.
+            The "Chain Hook" is often what separates elite 'Hogs from the rest, as it has the power to insta-kill if used well. "Whole Hog" can be surprisingly devastating
+            especially in clever spots, such as near wall corners or map edges.`,
             iframe: 'https://www.youtube.com/embed/5URzijwRPfk',
             backgroundImage: 'data:image/jpeg;base64,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'
         }]
@@ -403,11 +410,11 @@ const data = [
             labelThree: 'Kinetic Grasp',
             labelFour: 'Accretion',
             labelFive: 'Gravitic Flux',
-            description: `The newest hero in the heropool, Sigma has abilities with the power to change the way the game is played. He can release shields
-            without any cooldown, and he is the only hero who position them in the air. This is extremely vexing especially to opponents playing hitscan, since
-            they are no longer able to use positioning as effecitvely to generate open shots. Also the concept of "breaking shield" is basically nullified, as
-            can be imagined. Other abilities are mostly mediocre, other than at select, creative times when combo'd with teammate abilities. "Gravitic Flux"
-            functions more as a "Graviton" type ult to facilitate easy shots for teammates, rather than a damage-dealer of its own.`,
+            description: `Blizzard's latest creation, Sigma, has abilities that can change the way the entire game is played. He can release shields
+            at will (almost no cooldown), and he's the first hero who can even position them in the air. This is extremely debilitating to opposing damage heroes
+            in particular, who end up getting shield after shield thrown in their face regardless of their positioning. Also the concept of "breaking shield" is lost
+            with Sigma, given how strong the shields are and how easily a destroyed shield is replaced with another. Other abilities lack imagination and/or appeal,
+            which has been a common trend with pretty much all of Blizzard's newer heroes.`,
             iframe: 'https://www.youtube.com/embed/BHsfF9q1mVs',
             backgroundImage: 'https://static2.gamerantimages.com/wordpress/wp-content/uploads/2019/07/Overwatch-Sigma.jpg?q=50&fit=crop&w=738&h=369'
         }]
@@ -434,11 +441,11 @@ const data = [
             labelThree: '',
             labelFour: 'Barrier Projector',
             labelFive: 'Primal Rage',
-            description: `Winston was once probably one of the top key heroes of the Meta, but his popularity and effectiveness has waned significantly with time.
-            Despite being one of the handful of heroes that requires little to no mechanics, there is still a significant level of skill that is required to play
-            the hero effectively in a cerebral sense. Monkeys are relied on to be elite divers and maneuverers, and using a "Barrier" or disrupting a crucial team
-            fight with "Primal" at the right time can often be determining factor to wins and losses. Lately, due to more choices in the tank pool, Winston seems
-            to be more of a situational pick.`,
+            description: `Formerly a staple of the Meta, Winston's popularity and effectiveness has waned significantly as the game has changed.
+            Despite being one of Overwatch's non-mechanical heroes, highly skilled Winston's separate themselves greatly from the rest by being smarter.
+            Monkey-mains are very cerebral and must excel at diving opposing teams well, with exact precision and timing. "Barrier" is a crucial
+            ability that can protect teammates while also disrupting rhythm, and using "Primal" at the right time can be very decisive. That being said,
+            Winston is now mostly considered a situational pick at the competative level.`,
             iframe: 'https://www.youtube.com/embed/JNJ42WCOxV0',
             backgroundImage: 'http://3.bp.blogspot.com/-rUt38AeO36k/VOfr4aDTDoI/AAAAAAAACuA/71QopNHzzgc/s1600/2015-1_46_OverwatchFanArt_Watermarked2.png'
         }]
@@ -465,11 +472,11 @@ const data = [
             labelThree: 'Adaptive Shield',
             labelFour: 'Piledriver',
             labelFive: 'Minefield',
-            description: `Wrecking-Ball is one of Blizzard's newest creations who features one of the most diverse skill-sets out of any hero in the game
-            so far. What makes Wrecking-Ball so appealing is that he has top-rate survivability (300 HP and "Adaptive Shield" ability), while ALSO possessing
-            arguably the greatest mobility as well. This creates serious problems from enemy teams, who are suddenly more vulnerable from every angle of the map,
-            while also having to devote so much firepower and focus just to kill the hamster once. Wrecking-Ball is especially valuable for preying on isolated
-            enemies in the backline, and "Minefield" can be a vital ultimate to secure points or pivotal areas of maps for a relatively long period of time.`,
+            description: `Wrecking-Ball features one of the most diverse skill-sets out of any hero in the game, which has made his recent introduction
+            frustrating. To give a tank that already has 300hp the greatest mobility in the game is a little ridiculous, but on top of that, Hammond also has
+            the ability to generate his own shields. It is almost impossible to outlast him in a one-on-one situation, and even if you did, he would probably
+            just curl back into his ball and roll away at blinding speed back to safety pretty easily. Top Wrecking-Ball-mains have figured out when/how to use "Minefield"
+            aggressively (usually by forcing enemies into it), even though it was originally created to be more of a zoning-ult.`,
             iframe: 'https://www.youtube.com/embed/jOCNVe486C4',
             backgroundImage: 'https://i.redd.it/24md5oyoa7a11.png'
         }]
@@ -496,9 +503,9 @@ const data = [
             labelThree: 'Particle Barrier',
             labelFour: 'Projected Barrier',
             labelFive: 'Graviton Surge',
-            description: `Zarya always has been, and most likely always will be, one of the most necessary parts of the Meta in competitive play. She provides so much versatility
-            to her team. Some matches, when consistently at high charge, a Zarya can be the primary damage force for a team, while in other games, she can play more of a supportive
-            role, where she focuses on protecting teammates with key bubbles or providing game-winning Gravs. Regardless, a top-level Zarya is often a game-changer for any competitive team.`,
+            description: `Zarya always has been, and likely always will be, one of the most necessary members of the Meta. She provides so much to her team in so
+            many ways. Some matches, a Zarya at high charge can be a top damage dealer, while in other games, she can play a more supportive role
+            and protect teammates with key bubbles. Regardless, "Grav" will always, always, always be the ult most often relied upon to win team fights.`,
             iframe: 'https://www.youtube.com/embed/gTcKbsKDkWk',
             backgroundImage: 'https://wallup.net/wp-content/uploads/2017/11/23/509984-heroes_of_the_storm-Zarya_Overwatch-video_games-Overwatch-748x421.jpg'
         }]
@@ -525,11 +532,11 @@ const data = [
             labelThree: '',
             labelFour: 'Coach Gun',
             labelFive: 'B.O.B.',
-            description: `Ashe is Blizzard's lone attempt at a new hitscan hero in quite some time. She plays somewhat like a sniper-shotgun hybrid hero, with a scope gun
-            that is a little less precise and less powerful than Widowmaker's, and a regular, non-scope mode that plays kind of similary to McCree's pistol. In terms of abilities,
-            Ashe can be one of the more entertaining heroes in the game now, given her ability to make clutch plays with her powerful Dynamite, as well as having an elusiveness
-            factor with the "Coach Gun" that a McCree, for example, cannot really compete with. Many elementary-level Ashe players tend to rely heavily on Bob as a source of
-            production, and he is often too overwhelming for enemies teams to handle.`,
+            description: `Ashe is Blizzard's only new attempt at hitscan in quite some time. She plays somewhat like a Widow-McCree hybrid, with a scope mode
+            that is a little less precise and not as powerful compared to the former, and a shotgun mode that is much the same when compared to the latter. In terms of abilities,
+            Ashe has quite an entertaining kit, such as her projectile dynamite, which can do heavy mass damage, as well as her "Coach Gun", which provides
+            her with an elusiveness factor that McCree doesn't. Many novice Ashe players tend to rely heavily on Bob as a source of
+            production, as he is often overwhelming to enemy teams.`,
             iframe: 'https://www.youtube.com/embed/x5x-8weRI20',
             backgroundImage: 'https://cdn.vox-cdn.com/thumbor/JqWJLFZH8V_A7VdBKSySvnMor2Y=/0x0:3840x2160/1200x800/filters:focal(1046x111:1660x725)/cdn.vox-cdn.com/uploads/chorus_image/image/62176577/OVR_Ashe_002.0.png'
         }]
@@ -539,7 +546,7 @@ const data = [
         age: '30',
         height: `2.2m/7'3"`,
         nationality: 'none',
-        occupation: ['Battle Automaton (formerly)', 'None'],
+        occupation: ['Battle Automaton (formerly)', 'none'],
         voice: 'Chris Metzen',
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/6/6a/Bastion_portrait.png/revision/latest?cb=20160429042023', 'https://orig14.deviantart.net/afff/f/2016/167/a/2/bastion_by_the_marker-da6iig6.png'],
@@ -556,10 +563,8 @@ const data = [
             labelThree: 'Reconfigure',
             labelFour: 'Self-Repair',
             labelFive: 'Configuration: Tank',
-            description: `Bastion belongs to the small group of "troll-heroes" in the game, along with Torb, Symmetra, and Mei. His gameplay is relatively straight-forward, and any real
-            skill-level argument is probably centered around strategy and knowing good places to enter Sentry-mode. A popular move on certain maps is to play Bastion behind an Orisa shield
-            on the payload, which is known as "Pirate Ship". "Tank" mode is one of the most powerful ultimates in the game, in terms of damage-dealing, and is often saved for the most pivotal
-            moments of matches when everything is on the line.`,
+            description: `How to play Bastion: (1) get behind a shield or find a sneaky random corner (2) get in Sentry-mode (3) hold down primary fire at the opposing team
+            (4) laugh as they all get triggered (on a related note: excellent work, Blizzard.)`,
             iframe: 'https://www.youtube.com/embed/L4D1C7JU7ts',
             backgroundImage: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/09/17131545/OVR_BrickBastion_Eichenwalde_JPA_002b.png'
         }]
@@ -586,10 +591,10 @@ const data = [
             labelThree: 'Rising Uppercut',
             labelFour: 'Rocket Punch',
             labelFive: 'Meteor Strike',
-            description: `Although Doomfist is one of the newer heroes added to the heropool, he seems like he's been around since the inception. Equipped with a devastating
-            skill set that not many other heroes in the game can match one on one, Doomfist is a popular pick for gamers who want cheap elims and easy victories. Not only does
-            Doomfist fly around and deal damage as a blinding rate, but he also generates his own self-shields whenever he makes contact with enemies. "Meteor Strike" is an easy
-            "get out of a jail free card" whenever a Doomfist is near dying. When timed correctly, it is also an easy insta-kill on many helpless opposing heroes.`,
+            description: `Although Doomfist is one of the newer heroes in the heropool, it seems like he's been around since the beginning. Equipped with a devastating
+            skill set that is hard to match one-on-one, Doomfist is a popular pick for gamers who want cheap elims and easy victories. Not only does
+            he fly around and deal damage as a blinding rate, but he also generates his own self-shields whenever he makes contact with enemies. "Meteor Strike" is a
+            "get-out-of-jail-free" card, and when timed correctly, it can also be an easy insta-kill as it leaves many enemies helpless.`,
             iframe: 'https://www.youtube.com/embed/o79pqCH3QMQ',
             backgroundImage: 'https://cdn.images.express.co.uk/img/dynamic/143/590x/Overwatch-Doomfist-Terry-Crews-825829.jpg'
         }]
@@ -616,11 +621,10 @@ const data = [
             labelThree: '',
             labelFour: 'Deflect',
             labelFive: 'Dragonblade',
-            description: `Genji mains have a reputation for being the most egoistic in the game, and it's easy to see why. They tend to believe they are always the better player of
-            any one-on-one battle, and if they get "unlucky" and lose somehow, they immediately take it personally and rage after their nemesis. Ironically enough, most Genjis live
-            for "Dragonblade", which is arguably the most OP ("over-powered") ultimate in the game (next to Death Blossom), and beyond that just play arrogantly and selfishly and demand
-            the praise of everyone else. The highest-level Genjis are deadly accurate with their Shurikens, and have insta-kill combo-strikes in their muscle memory. "Deflect" is also
-            one of the most powerful abilities in the game, beyond being just conceptually ridiculous in its design.`,
+            description: `Genji mains have a reputation for being the most egoistic in the game, and it's easy to see why. They tend to believe they are always smarter and better
+            than anyone else, and they take things the most personally as well (aka they get butthurt all the time). Ironically, most Genjis rely completely on
+            "Dragonblade", which is arguably the most OP ultimate in the game (next to Death Blossom). The highest-level Genjis are deadly accurate with their Shurikens, and have 
+            combo-strikes completely in their muscle memory. "Deflect" is also one of the most powerful abilities in the game, beyond being just completely ridiculous.`,
             iframe: 'https://www.youtube.com/embed/lYOjIDhJIG0',
             backgroundImage: 'data:image/jpeg;base64,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'
         }]
@@ -647,12 +651,10 @@ const data = [
             labelThree: 'Storm Arrows',
             labelFour: 'Lunge',
             labelFive: 'Dragonstrike',
-            description: `Hanzos also have a reputation of being some of the most dishonorable and despicable players in the game, as well as quite possibly the hero
-            that novice players tend to "throw" the most with (along with McCree). Top-level Hanzos rely on sneaky tactics to takeover fights. They use Hanzo's climbing
-            ability to find odd corners of the map where they can peak around walls and comfortably rain down on opposing teams without often being detected. In general,
-            Hanzo is the ultimate "peak" hero in the game, due to his design which allows him to fully charge an arrow while sliding out from behind a wall and snap
-            back to safety after releasing. He also possesses quite possibly the worst hitbox of all time, which includes a bow that will protect his face from headshots
-            if struck by any bullet. "Storm Arrow" is also generally regarded as one of the cheapest, most OP abilities in the game.`,
+            description: `Hanzos are either sneaky/wussy, complete throwers, or a combination of both. Top-level Hanzos utilize his climbing ability
+            to achieve odd positioning where they can peak comfortably all game long, often without ever being detected. Hanzos specialize on being able to
+            "charge" their arrows while fully submerged, and then momentarily popping out to fire, before quickly hiding again. This is a technique all
+            Hanzo-mains master quickly.`,
             iframe: 'https://www.youtube.com/embed/oOVb9x0zd6M',
             backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJsVUgKX3xV4MT5jtUpqOL5JMiDNH47c4os368Z3izf55gBXc'
         }]
@@ -710,10 +712,10 @@ const data = [
             labelThree: '',
             labelFour: 'Steel Trap',
             labelFive: 'RIP-Tire',
-            description: `Junkrat is one of Overwatch's most lovable heroes, as he is silly, goofy, funny, and also very easy and entertaining to play. There is a wide
-            range in skill amongst JR players, however, and that mostly relates to good timing, calculation, and the ability to not rely on just spamming. The beloved
-            "RIP-Tire" ultimate also vastly differs in use between a high-level player and a mediocre one. Junkrat has been one of the least changed heroes in the game
-            since the game was released, and he continues to be a consistent fan-favorite who has actually never been a significant part of the Meta.`,
+            description: `Junkrat is a fan-favorite, as he is silly, funny, and simple/easy to play. There is a wide gap between a top500 Junkrat
+            and an average one, however, as the former knows how to get optimal return from his kit and/or Rip-Tires. Learning to bomb-pack
+            well can get a Junkrat out of hotspots consistently or help him find sneaky positioning to rain grenades from. Traps that consistently catch their prey can be among the most
+            frustrating things that any opposing team has to deal with.`,
             iframe: 'https://www.youtube.com/embed/mFGQG8I68h8',
             backgroundImage: 'https://heavyeditorial.files.wordpress.com/2017/08/junkertown-overwatch.jpg?quality=65&strip=all&w=780'
         }]
@@ -741,11 +743,9 @@ const data = [
             labelFour: 'Flashbang',
             labelFive: 'Deadeye',
             description: `There are very few McCree "mains" who actually play the hero correctly. Calvin, IDDQD, Pine, and Wanted may be among the few players who actually
-            use McCree as he was meant to. Instead, people who consider themselves McCree "mains" tend to rely on circling the map and letting their team play a man-down for
-            an entire 5 minutes or so, just so that they can flank High Noon and potentially make a big play. They also often do not have the aim worthy of their ego, and rely
-            on flashbangs for elims. A truly competent McCree, such as Calvin, can be scarily deadly given how much power potential McCree's skill-set actually gives him, especially
-            after the most recent (and controversial) super-buff he was given, which increased his rate of fire significantly. If McCree mains focused more on their mechanics
-            than trying to be sneaky, then they would realize an entire new level of play that the hero is capable of.`,
+            use McCree as he was meant to be used. Other McCree "mains", however, tend to leave their entire team shorthanded for minutes in order to circle the map and high-noon.
+            Without ultimate, they usually lack aim and tend to fire into nothing repeatedly. Anyone with truly good mechanics, however, will take ample advantage
+            of McCree's most recent super-buff, which now allows him to headshot an opponent twice in a row within a second or two.`,
             iframe: 'https://www.youtube.com/embed/kq4OlEDiCi8',
             backgroundImage: 'http://hdqwalls.com/wallpapers/mccree-overwatch-fan-art-xh.jpg'
         }]
@@ -772,10 +772,11 @@ const data = [
             labelThree: 'Cryo-Freeze',
             labelFour: 'Ice Wall',
             labelFive: 'Blizzard',
-            description: `While being one of the greatest troll characters of any video game in history, Mei actually can provide such significant
-            value in unconventional ways that she's recently become relevant in the pro-scene Meta. One of her greatest gifts is delaying point control
-            by using her "Cryo-Freeze" mode on point as long as possible, then emerging from it with an "Ice Wall", until her teammates can come help.
-            "Blizzard" can be sneaky-deadly, and can often create team-kills when used well. Mei should never be intended to be used as a damage-dealing hero.`,
+            description: `The typical gamer's most prominent memory of Mei might be one of being accidentally trapped into certain death by
+            the ice wall of a teammate. Still, Mei has especially recently, despite being largely obnoxious, managed
+            to find a significant place in the Meta, even at the professional level. Despite not being equipped to deal "consistent"
+            damage, she has one of the most versitile and effective kits in the game for someone who knows how to use it. "Blizzard" is definitely
+            near the top of the list of hero ultimates with the power to generate team-kills as well.`,
             iframe: 'https://www.youtube.com/embed/J4hB88uMY8k',
             backgroundImage: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ed5a6c5-a24d-4136-8f37-51436c86852f/dag6mm9-f471ccf1-994c-4c42-8c14-f3aa96911493.jpg/v1/fill/w_900,h_507,q_75,strp/mei_fanart_by_vafa10_dag6mm9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvNWVkNWE2YzUtYTI0ZC00MTM2LThmMzctNTE0MzZjODY4NTJmXC9kYWc2bW05LWY0NzFjY2YxLTk5NGMtNGM0Mi04YzE0LWYzYWE5NjkxMTQ5My5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.KDO1GfNR-JAUrmQj0oqSA7cTG8IgC11jU-zNzcgjuhA'
         }]
@@ -794,6 +795,14 @@ const data = [
         embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
         comment: `Note the public chat where the dude gets killed out of spawn, taunts me, switches
         himself to Pharah, gets owned, and never says another word.`},
+        {name: 'Over 22k Total DMG, Crazy Game', 
+        embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
+        comment: `Few things to note here: (1) Been queing recently with my buddy Charles (chabco), and it's been
+        a lot of fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE O.o (3) Wish I recorded while playing,
+        but this "TheSilverFox" dweeb for some reason started to make it personal against me (keep in mind I didn't say
+        anything in chat until the end of the game). Round 2, he solo-ulted me, and then said "**** you". At the end, he
+        goes "pharah mains are such losers" or something, to which I responded "bro, this is literally my first time playing
+        Pharah in 2 years... I'm a Widow main" and left lol.`},
         {name: 'Dude Was Not Cool', 
         embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
         comment: `Way to not take a video game (a QP game for that matter...) too seriously, bro`},
@@ -813,10 +822,6 @@ const data = [
         comment: `It was pretty funny this entire game because I stayed silent, but I was definitely
         paying attention to these to babyish enemy teammates blasting each other in public chat all
         game long. Finally lost it at the start of round 3 and just unloaded on them.`},
-        {name: 'Still Pretty Decent Considering Retired', 
-        embed: 'https://www.youtube.com/embed/MIRx6eg-Pkc?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
-        comment: `Felt like a retired pilot stepping back into a plane again. But felt like I still
-        has some moves in the end.`},
         {name: 'I Salivate For Pharah Vs Pharah Matchups', 
         embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
         comment: `When I was maining Pharah, I prided myself on my Pharah vs Pharah skills because
@@ -838,11 +843,11 @@ const data = [
             labelThree: '',
             labelFour: 'Concussive Blast',
             labelFive: 'Barrage',
-            description: `Pharah used to be a crucial hero until the game kept changing, and she became somewhat defunct. Mostly her greatest drawback is the increasing number of
-            strong sniper/hitscan players these days at the top competitive levels, which can basically turn her into a useless pick. In other situations though, a good Pharah can
-            still carry a team completely at times, especially when aided by a good Mercy in the classic "Pharmacy" teamup. One of the most underrated parts of good Pharah play is
-            using concussive blasts effectively, primarily for sharp, sudden movement, but also, when the opportunity presents itself, for timely, game-changing boops. "Barrage" is
-            one of the most "live-or-die" type ultimates because it has extreme power potential, while leaving Pharah completely vulnerable throughout the entire duration of the ult.`,
+            description: `Pharah used to be a crucial hero until the game kept evolving, and now she often just seems to be an after-thought more than anything else.
+            Much of the reason can be attributed to increasingly strong sniper/hitscan play, which can basically turn her into a sitting duck.
+            At times, however, a good Pharmacy can still turn the tides of a map/round. One of the most underrated parts of good Pharah play is
+            using concussive blasts effectively for sharp, sudden movements that can aid escapability, but also provide aggressive positioning for things like
+            "Barrage". Situationally, it can be used more offensively to boop enemies to their deaths as well.`,
             iframe: 'https://www.youtube.com/embed/ks-mLJS0pe8',
             backgroundImage: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8adefab8-9a4e-4fa7-8ad7-e2e4cf9cf1e9/daxp8sa-9ee43ed2-1ab9-4261-babd-ffad247497d1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhZGVmYWI4LTlhNGUtNGZhNy04YWQ3LWUyZTRjZjljZjFlOVwvZGF4cDhzYS05ZWU0M2VkMi0xYWI5LTQyNjEtYmFiZC1mZmFkMjQ3NDk3ZDEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-Wqh9ZgTDpbz9rBwU5K9--GdUHpldSAVQV9iyrQ_y5I'
         }]
@@ -869,10 +874,10 @@ const data = [
             labelThree: '',
             labelFour: 'Shadow Step',
             labelFive: 'Death Blossom',
-            description: `Reaper is a niche pick for skill-challenged players who still want to be arrogant. Widely considered the most OP hero in the game, especially after his most
-            recent super-buff, it is the easiest way for someone to pick a DPS hero and dominate a game without actually being good. Reaper does add an element to the game that no
-            other hero does, and he requires creativity to roam in the shadows and pick people off at close range. "Shadow Step" is incredibly useful in making long distance flanks,
-            especially when combined with "Death Blossom", which as the most powerful ult in the game, can generate team-kills with frequency.`,
+            description: `Reaper is a niche pick for novice players who still want to feel deserving of arrogance. Widely considered the most OP hero in the game since its inception,
+            Reaper is by far (especially after his most recent super-buff) the easiest DPS hero for anyone to succeed with. Reaper does adds an element to the game that no
+            other hero does, as he has an assassin-like ability to emerge out of shadows and silently eliminate opponents before vanishing again. "Shadow Step" is an incredibly useful way
+            to attain surprise positioning, and when combined with "Death Blossom", it can have devastatingly productive results.`,
             iframe: 'https://www.youtube.com/embed/uK4WSF0rCcM',
             backgroundImage: 'https://pbs.twimg.com/media/CxgxCqQUUAAKU7B.jpg'
         }]
@@ -899,11 +904,12 @@ const data = [
             labelThree: 'Sprint',
             labelFour: 'Biotic Field',
             labelFive: 'Tactical Visor',
-            description: `Whenever first learning the game, Soldier is always the most recommended hero to start with. He plays like the typical first-person-shooter character,
-            with a simple, basic kit that is easy to understand and use. In the Meta, however, Soldier is completely situational, as he often lacks the effectiveness to justify
-            being chosen in high-level competition. Good Soldiers take advantage of his mobility and make finding high-ground/positioning a priority. Also, Biotic Fields are just
-            as useful to help out teammates as much as they are for individual use. "Tactical Visor" can be extremely powerful, especially when combo'd with "Nano", but only in
-            the perfect spots. On the flip-side, if not used wisely, it is often one of the most easily negated ults in the game.`,
+            description: `When first learning the game, Soldier is always the easiest hero to start with. He plays like the typical first-person-shooter,
+            with a simple, basic kit that makes easy sense. In the Meta, however, Soldier appears very rarely, as he often lacks the effectiveness to justify
+            a pick. Good Soldiers take advantage of his mobility and find high-ground to setup on. Also, Biotic Fields are just
+            helpful in aid of teammates as they are used alone. "Tactical Visor" CAN be powerful, especially with nano, but
+            it is also one of the most easily negated ults in the game. For example, it should never be used if there is ever an opposing DVa nearby
+            that is still in her mech.`,
             iframe: 'https://www.youtube.com/embed/V_0eqEbG7yA',
             backgroundImage: 'http://img06.deviantart.net/8b04/i/2016/145/a/2/76__by_xwaxwingx-da3snim.jpg'
         }]
@@ -963,11 +969,12 @@ const data = [
             labelThree: 'Stealth',
             labelFour: 'Translocator',
             labelFive: 'EMP',
-            description: `Sombra was a more recent addition to the game, and she created an element that had never been seen before and started to change how teams won fights. "EMP" turned out to be
-            such a powerful ult that many team-fights solely centered around each team just hoping their Sombra would farm "EMP" faster than the other. As a result, being a good Sombra has turned into
-            a gamer's ability to farm "EMP" as quickly as possible, more than anything. Beyond that, Sombra players must be intelligent/patient and know which enemies are vulnerable, especially in the
-            backline, and when to try to take them down. Being a smart situational hacker can be almost as important as farming "EMP", if done at an elite level. For example, knowing exactly when/how
-            to hack an enemy's Reinhardt and nullifying his shield for teammates to take advantage of can sometimes win a team-fight completely on its own.`,
+            description: `Sombra was quite a game-changer when she was first introduced to the game. At one point, games were completely decided
+            by which team's Sombra could pharm EMP quicker and basically nullify the enemy team before the other did. These days, the game has diversified
+            more, but Sombra still remains extremely effective. Good Sombras know how to stay close to team fights at all times
+            in order not to leave their team too shorthanded regularly. Also Sombras must be good at staying patient, picking their spots,
+            identifying easy targets, and, most importantly, hacking the right enemy at the right time. Also, Sombra's machinegun is more
+            effective than people think, especially when consistently hitting enemy heads.`,
             iframe: 'https://www.youtube.com/embed/CzmWNIshnXE',
             backgroundImage: 'https://em.wattpad.com/5444a343b8654b7b07f8b04adff70c4bd97809c5/68747470733a2f2f696d6730302e64657669616e746172742e6e65742f353136302f692f323031362f3331372f652f332f736f6d6272615f5f5f6f76657277617463685f62795f6572656d61735f73752d64616f616d76622e6a7067?s=fit&h=360&w=360&q=80'
         }]
@@ -996,10 +1003,9 @@ const data = [
             labelFive: 'Photon Barrier',
             description: `Along with Mei, Symmetra is often the hero that gamers love to hate the most. The old Symmetra required absolutely zero mechanics, as her turrets
             and primary fire with both auto-locking. Blizzard has recently "nerfed" her to what she is now (although it hasn't felt like much of a nerf). Symmetras basically
-            need to be good at turret-placement, aggregating them in sneaky places, such as behind walls, such that when enemies are exposed they are left basically helpless
-            to defend themselves until they're already dead. Symmetra has two different styles of primary fire (one tracking and one projectile), and both are equally as effective
-            in the right situations. "Teleporter" has basically turned into a fad that has lost popularity, but the "Photon Barrier" ultimate has emerged as a force in the game,
-            especially due to its massive sustainability: it lasts 15(!!!) full seconds.`,
+            need good turret placement, aggregating them in sneaky places, such as behind walls, where they can leave opponents helpless. Symmetra has two different styles of 
+            primary fire (one tracking and one projectile), and both are equally as effective in the right situations. "Teleporter" has basically turned into a fad that died,
+            but the "Photon Barrier" ultimate has emerged as a force in its stead, especially since it lasts 15(!!!) full seconds.`,
             iframe: 'https://www.youtube.com/embed/-0TPg0rgmBo',
             backgroundImage: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/08/11094220/952e4fd6-2231-4194-b759-bcdfcfd1015d.jpg'
         }]
@@ -1058,12 +1064,12 @@ const data = [
             labelThree: 'Deploy Turret',
             labelFour: 'Overload',
             labelFive: 'Molten Core',
-            description: `While the new Torb is a definite nerf of the old one, he still remains one of the easiest heroes to succeed with in the game. Solid Torb play also
-            centers around being clever with turret positioning, much like Symmetra, but what a Torb does away from his turret with primary fire is almost as important these
-            days. One of Torb's new abilities, "Overload", gives him an adrenaline-like shot of energy, which increases his mobility, rate of primary-fire, and health point total
-            for its entire duration. This gives Torb more opportunities to jump into battles and take out vulnerable enemies at certain times. At high levels, his turret can
-            often be more valuable, in fact, as a distraction than a primary source of damage-dealing. Torb's new "Molten Core" can deal massive damage to multiple enemies at once,
-            and thus can be regarded as one of the more useful ults in competitive matches.`,
+            description: `While the new Torb is a definite nerf of the old one, he still remains one of the silliest heroes to play in the game. Solid Torb play
+            centers around being clever with turret positioning, much like Symmetra, but what a Torb does away from his turret is usually what separates
+            a good Torb from a bad one. One of his new abilities, "Overload", gives him an adrenaline-like shot of energy, which increases his mobility, rate of primary-fire, and sustainability
+            for its entire duration. This allows him to jump into battles and take out vulnerable enemies at certain times, and then jump right back out. At the pro level, his turret is
+            often used merely as a distraction. Torb's new "Molten Core" can deal massive damage to large groups, and if available, it is often regarded as
+            "game-changing" at any level.`,
             iframe: 'https://www.youtube.com/embed/Ev0ZgWhGVuo',
             backgroundImage: 'http://7wallpapers.net/wp-content/uploads/15_Overwatch-Torbjorn.jpg'
         }]
@@ -1090,12 +1096,12 @@ const data = [
             labelThree: '',
             labelFour: 'Recall',
             labelFive: 'Pulse Bomb',
-            description: `As evidenced by the cover of the game itself, Tracer was originally one of the core (if not the absolute core) heroes in the entire game.
-            Her presence in the Meta has drastically faded to date, however, and that is just basically because she lost most of her effectiveness with all the new
-            changes Blizzard made to the game. In the past, it used to be fairly realistic for a Tracer to blink around battles and take out targets on her own. These
-            days, it has almost become impossible, especially if the enemy team has good healing. Tracer's spray-attack style, coupled with the weakness of her spray
-            generally leads her to just wound opponents enough for them to get healed again over and over, to the point that she is basically doing nothing but feeding.
-            "Pulse Bomb" is an effective ult, but it is basically all-or-nothing and lacks the ability to be game-changing (usually).`,
+            description: `As evidenced by the game cover itself, Tracer was supposed to be the star hero of the game.
+            Her presence in the Meta has drastically faded to date, however, as her effectiveness disappeared with all of
+            the game's changes. These days, especially if the enemy team is healing well, it is either impossible, or takes a gargantuan
+            effort, for a Tracer to take out any opponent on her own considering how weak her primary fire is. Blizzard has just recently
+            (as of 9/29/19), announced what is allegedly an enormous future Tracer-buff in an effort to get her back into
+            the scene. Whether that will actually happen in the end or not remains to be seen.`,
             iframe: 'https://www.youtube.com/embed/_SvYmsNCWsw',
             backgroundImage: 'https://cdna.artstation.com/p/assets/images/images/001/773/960/large/will-murai-tracer.jpg?1452544187'
         }]
@@ -1166,11 +1172,11 @@ const data = [
             labelThree: '',
             labelFour: 'Venom Mine',
             labelFive: 'Infra-Sight',
-            description: `When Overwatch was first created, Widowmaker was the main sensation that fans loved to see. The most popular players in the game all had elite hitscan mechanics,
-            and highlights consisted of amazing headshots that a normal human would not even think was possible. Sadly, the game has changed with Blizzard's ambition to grow in popularity,
-            and as an indirect effect, Widowmaker's effectiveness has declined sharply. The best Widowmakers spend a lot of time practicing mechanics, namely through repeated training in
-            Widow 1v1 headshot deathmatch competition. Along with that, good Widows must be smart with positioning and disguising location to the enemy team, as due to her design, she can
-            often be helpless to an enemy team's coordinated dive attack. "Venom Mines" can often be more helpful than they seem, and "Infra-sight" can be crucial, but rarely game-changing.`,
+            description: `When Overwatch was first created, Widowmaker was the sensation that fans paid to see. The most popular players in the game were all elite hitscans,
+            and highlights consisted of amazing headshots that a normal human could not even conceive of. Sadly, the game has changed with Blizzard's ambition to make money,
+            and as an indirect result, Widowmaker has basically disappeared from the Meta. The best Widowmakers these days still focus largely on mechanics, namely through repeated
+            Widow 1v1 headshot deathmatch competition. Also important are positioning and disguising location, as she can
+            often be helpless against coordinated dive attacks. "Venom Mines" can often be more helpful than they seem, and "Infra-sight" can be useful, but usually not very spectacular.`,
             iframe: 'https://www.youtube.com/embed/fvPp6XbbTb0',
             backgroundImage: 'https://i.ytimg.com/vi/0ZQ7faeKYJg/maxresdefault.jpg'
         }]
@@ -1235,10 +1241,9 @@ const data = [
             labelFour: 'Biotic Grenade',
             labelFive: 'Nano Boost',
             description: `It seems like Ana has been around forever, but she is actually one of the newest support heroes in the game. Ana is often underrated in her ability and
-            how much she can do for her team, mostly because the average Ana tends not to know how to use her to her full potential. ML-17, Jjonak, and Ryujehong tend to showcase Ana
-            the best, with amazing accuracy, decision-making, dart-consistency, and maximized-use of grenades. Nano in competitive play can often feel scripted, as it usually has to
-            go to a Genji or Reinhardt at a designated time (however beware Nano's inability to go to the intended person). Grenades most notably can be pivotal in team-fights, as they
-            can save the lives of teammates, while at the same time damaging enemies and preventing them from receiving healing for a short period.`,
+            how much she can do for her team, mostly because she is usually not used to her full potential. ML-17, Jjonak, and Ryujehong tend to do it the best, and when they do,
+            their teams usually win. Nano in competitive play can often feel scripted, but it is still game-changing (and has the ability to save lives). Grenades are pivotal in team-fights, as they
+            both heal and do damage, while also preventing affected enemies from receiving healing for their duration.`,
             iframe: 'https://www.youtube.com/embed/wZW9uCFc7uk',
             backgroundImage: 'https://cdnb.artstation.com/p/assets/images/images/004/896/099/large/simon-newport-ana-uplox.jpg?1487055936'
         }]
@@ -1265,12 +1270,11 @@ const data = [
             labelThree: 'Regenerative Burst',
             labelFour: 'Immortality Field',
             labelFive: 'Amplification Matrix',
-            description: `Baptiste is Blizzard's latest attempt at a new support hero, and he has an interesting skillset that can make him useful at times, and also seem somewhat
-            of a ridiculous concept at others. It is of course important to be good mechanically with his primary fire, as it is his primary source of both healing and dealing damage,
-            but his true value is in his "Immortality Field", which has the power of keeping all teammates underneath it alive during its duration (or until it is destroyed). When
-            used in the right spot, it can completely turn a teammate's certain demise into an easy elim on the predator instead. "Exo Boots" primary have the most value in terms of
-            positioning and attaining high-ground, and "Amplification Matrix" can often seem silly more than anything, and rarely proves to be pivotal, unless in unique situations when
-            coupled with teammate ults.`,
+            description: `Baptiste is Blizzard's latest attempt at support, and he has a skillset that at times seems silly. He is a healer that requires good mechanics,
+            both for healing and damage, but it is most important to make good use of Immortality Fields, which makes everyone underneath it unkillable. When
+            used effectively, they can change the momentum or swing of fights as drastically as any ability in the game. "Exo Boots" are most useful
+            in attaining high-ground, and "Amplification Matrix" is widely considered one of Blizzard's greatest duds as an ultimate (there are very, very, very few instances
+            where it will actually be a significant asset of any kind against a competent team).`,
             iframe: 'https://www.youtube.com/embed/pg9xerZ5xog',
             backgroundImage: 'https://www.gamerbraves.com/wp-content/uploads/2019/03/Baptiste-Overwatch-feature-image.jpg'
         }]
@@ -1297,11 +1301,10 @@ const data = [
             labelThree: 'Whip Shot',
             labelFour: 'Shield Bash',
             labelFive: 'Rally',
-            description: `Blizzard single-handedly might have dug their own grave when they introduced Brigitte. In fact, Brigitte might have been the greatest reason that
-            Tracer eventually fell off the map, and even worse, Brigitte may have been the root cause of GOATS. Her introduction to the game started a mass outcry from longtime
-            players to Blizzard, as her amateurish and OP design began to make the game ridiculous. Since then, Blizzard developers have made multiple attempts to nerf her and
-            mitigate the damage, but at this point, her effect on the game cannot be reversed. She features her own self-shield, which she can also use as a bashing device that
-            has the power to momentarily stun any enemy in any situation, much like a McCree-flashbang that requires no aim.`,
+            description: `Blizzard basically dug their own grave the day they decided to create Brigitte. She might be the single reason the game began to die in popularity,
+            and she at least is the reason Tracer fell off the map and GOATS came into existence for sure. Her introduction induced a massive outcry from the fans and pros bashing
+            her creator, and since then, Blizzard has nerfed her repeatedly. She features her own self-shield, which also can bash and stun any
+            opponent in any situation, much like McCree's flashbang (except without requiring any aim). "Rally" is one of the most controversial and OP ultimates in game history.`,
             iframe: 'https://www.youtube.com/embed/npKO8YDCb1c',
             backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Ub2Ln1K19KV6yHzF2CWcA37kzoFIlRballK5oQvmH7Cprkjf'
         }]
@@ -1328,11 +1331,11 @@ const data = [
             labelThree: 'Crossfade',
             labelFour: 'Amp It Up',
             labelFive: 'Sound Barrier',
-            description: `Since inception, Lúcio has been and continues to be a staple healer in the Meta at every competitive level. He also
-            in general is one of the more entertaining heroes to play because the variety of his kit and the versatility of things he can accomplish.
-            Learning top-level wall-riding is crucial for any future Lúcio main, as well as providing speed-boost to teammates when needed. "Crossfade"
-            (where he basically pushes an enemy), is most useful on maps with edges that a Lúcio can boop enemies off of. "Sound Barrier", along with
-            "Transcendence" will always be a team's most crucial assest, and in top-level play, it is mostly likely going to be saved for a future moment.`,
+            description: `Lúcio has been and continues to be a force in the Meta. He also
+            happens to be very entertaining to play because the variety of his kit and the versatility of things he can do.
+            Wall-riding skills are crucial for all Lúcio-mains, as well as knowing when to speed-boost teammates effectively. "Crossfade"
+            (where he basically just pushes someone), is most productive on maps with edges to boop with. "Sound Barrier", along with
+            "Transcendence", will always be among the most crucial assets for any team going into a fight, and usually it is being saved for a specific moment.`,
             iframe: 'https://www.youtube.com/embed/ywTNgR3ldFc',
             backgroundImage: 'https://static.gamespot.com/uploads/screen_kubrick/1585/15855271/3562046-2917004-lucio_009.jpg'
         }]
@@ -1359,12 +1362,11 @@ const data = [
             labelThree: 'Guardian Angel',
             labelFour: 'Resurrect',
             labelFive: 'Valkyrie',
-            description: `Mercy was originally the healer that opponents hated the most, and then after a string of very significant nerfs, she suddenly
-            turned into the healer that opponents didn't fear. In the pro scene, she is often not ever seen unless a team decides to run a Pharmacy in a
-            certain situation. Her greatest asset is her "Resurrect" ability, which can turn the tides in team fights, however she is now limited to one
-            teammate per Res, and its cooldown is over 30 seconds (the longest in the game). It is important as a Mercy to be good at toggling between
-            healing and damage-assist when appropriate, and "Valkyrie" is useful but among the weaker support ults in the game. It can used strategically,
-            however, to take advantage of her gained ability to fly to reach teammates in peril or requiring Res.`,
+            description: `Mercy was originally the healer that opponents hated to see the most, and then after a string of very significant nerfs, she suddenly
+            turned into the opposite. In the pro scene these days, she is often only seen situationally with Pharmacies.
+            Her greatest asset is "Resurrect", which can turn tides but also has the longest cooldown (30 secs) of any ability in the game. It is important
+            as a Mercy to choose well between healing and damage-assist, and "Valkyrie" is useful, but weak amongst support ults. One benefit can be to use it strategically,
+            however, to fly to teammates in peril or requiring Res.`,
             iframe: 'https://www.youtube.com/embed/-l-ytDZWVFI',
             backgroundImage: 'https://pre09.deviantart.net/6238/th/pre/i/2016/124/0/9/overwatch_mercy_fanart_by_alexnegrea-da0y27s.jpg'
         }]
@@ -1391,11 +1393,11 @@ const data = [
             labelThree: 'Biotic Orb',
             labelFour: 'Fade',
             labelFive: 'Coalescence',
-            description: `Moira stirred frustration when she was created because her kit was amateurish and too easy to succeed with. Often, just floating damage orbs into
-            battles could end up producing multiple elims in its own (Moira's orbs cannot be blocked or defended against except with a DVa matrix). Having an auto-lock primary
-            fire, as well as above-average mobility and an ability to just vanish with the click of a button ("Fade"), made it easy for Moira player to be productive and escape
-            unscathed. Moira is best-served for very tank-heavy compositions that can best appreciate her ability to group-heal, which is the best in the game. "Coalescence"
-            is often mistakenly viewed as an offensive ultimate, when it is most effectively for its healing potential.`,
+            description: `Moira stirred frustration when she was created because her kit was amateurish and too easy to use. Often, just floating damage orbs into
+            battle could produce multiple elims on their own (Moira's orbs cannot be blocked or defended against except by DVa matrix). Having an auto-lock primary
+            fire on top of that, as well as above-average mobility and the choice to just vanish into thin air with "Fade", made it hard for Moiras to fail. Moira
+            is best-served in tank-heavy comps that can best appreciate her mass-heal abilities, which is tops in the game. "Coalescence"
+            is often mistakenly used offensively when it should be used for healing instead.`,
             iframe: 'https://www.youtube.com/embed/sZrsi9x5uZk',
             backgroundImage: 'https://cdn.vox-cdn.com/thumbor/OZ_td7xfAiKmcdbgPiynIgBtvNI=/0x0:3840x2160/1200x800/filters:focal(793x353:1407x967)/cdn.vox-cdn.com/uploads/chorus_image/image/57635351/Overwatch_Moira_001_png_jpgcopy.0.jpg'
         }]
@@ -1422,10 +1424,10 @@ const data = [
             labelThree: '',
             labelFour: 'Orb of Discord',
             labelFive: 'Transcendence',
-            description: `Much like Lúcio, Zenyatta has been one of the staples in the Meta since day one, and he really has not been changed at all
-            either. Zenyatta has so much to offer teams because of two particular abilities: discord orbs and "Transcendence". When discord orbs are
-            placed correctly on key targets, it increases a team's success rate exponentially. Good Zens must learn to volley his primary fire orbs
-            timely and effectively, and of course, like Lúcio's "Sound Barrier", "Transcendence" will always be saved for a future crucial moment.`,
+            description: `Much like Lúcio, Zenyatta has been a staple of the Meta since day one, and he has not been nerfed or buffed almost at all either.
+            He has so much to offer teams primarily due to just two abilities in particular: discord orbs and "Transcendence". When discord orbs are
+            placed used correctly, a team's margin for success increases exponentially. Good Zens must also projectile-volley his orb of destructions well,
+            and, just like Lúcio's "Sound Barrier", "Transcendence" is usually saved for specific moments.`,
             iframe: 'https://www.youtube.com/embed/SBXpKdmJBLU',
             backgroundImage: 'https://1lal3e4eckus2d9p8g17wl8c-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/owl-960x540.jpg'
         }]

@@ -290,6 +290,11 @@ class Videos extends Component {
                     return <li className="video-lis toggle-size selected" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
                 }
                 return <li className="video-lis toggle-size" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
+            } else if ((video.name[1] === 'Chabco')) {
+                if (this.state.selected === i) {
+                    return <li className="video-lis selected" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
+                }
+                return <li className="video-lis" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
             }
             if (this.state.selected === i) {
                 return <li className="video-lis selected" key={i} id={i}><span className="video-lis-names">{video.name}</span></li>

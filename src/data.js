@@ -1,3 +1,5 @@
+import Chabco from './chabco.png';
+
 const data = [
     {
         name: ['DV.a', 'Hana Song (송하나)', 'hanasong'],
@@ -806,7 +808,7 @@ const data = [
         embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
         comment: `Note the public chat where the dude gets owned out of spawn, taunts me, switches
         to Pharah, keeps getting owned, and never says another word before exiting the game.`},
-        {name: 'Over 22k Total DMG, Crazy Game', 
+        {name: ['22k Total DMG, Crazy Game', 'Chabco'],
         embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
         comment: `Few things to note here: (1) Been queing recently with Mr. Charles Cortez (chabco), and it's been
         fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE... (3) Wish I recorded while playing,
@@ -815,7 +817,8 @@ const data = [
         says "pharah mains are so pathetic" or something, which amused me since, as I noted to Cortez, I seriously
         had not touched Pharah in around two years before we queued for this game. I felt the need to laugh in his face 
         (mostly because he was taking himself so, so seriously over something so stupid), and quickly noted that I was
-        actually a Widow-main before exiting.`},
+        actually a Widow-main before exiting.`,
+        image: Chabco},
         {name: 'Dude Was Not Cool', 
         embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
         comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?`},
@@ -938,7 +941,14 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fc/Sombra_portrait.png/revision/latest?cb=20170105140023', 'https://i.pinimg.com/originals/1e/8f/cd/1e8fcdd80bc5b7602da332547642de26.jpg'],
         videos: 
-        [{name: 'Relatively Dominant', 
+        [{name: ['Gold, Silver, 45% KP, & POTG', 'Chabco'],
+        embed: 'https://www.youtube.com/embed/TGnb3zn2Hu4', 
+        comment: `Pretty laggy, but not a bad performance (major shout-out to Chabco as well).
+        Also, pay attention to the kill-feed and count how many times
+        our Genji actually killed someone. Me and Chabco have seriously been getting 
+        the worst run of teammates ever.`,
+        image: Chabco},
+        {name: 'Relatively Dominant', 
         embed: "https://www.youtube.com/embed/-oovWzSmQ8I", 
         comment: `Sombra was the hero I decided to try out most recently, and the results have been pretty positive thus far. I was afraid of her
         kit for a while because it looked intimidating, but now I feel pretty comfortable calling her one of my mains.`},
@@ -962,11 +972,6 @@ const data = [
         embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `I don't know what I'm supposed to do more than start battles with clean, crucial
         picks on enemy healers... such that I deserve to end up on the losing side somehow.`},
-        {name: 'Almost Never Sombra... It Should Show', 
-        embed: 'https://www.youtube.com/embed/klPr7JhUH8g?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I was a very awkward Sombra initially. The most frustrating thing to me was
-        when I would keep accidentally translocating out of an area because I was intending to
-        throw a new translocator instead. Sombra definitely takes some patience to stick with.`},
         {name: 'I Need To Stop Solo-Que', 
         embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
         comment: `Solid hack on enemy shield tank, empty clip into enemy, reload, empty clip again, reload, get enemy to 1, ponders to self: "self,

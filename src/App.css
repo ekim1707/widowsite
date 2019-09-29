@@ -856,6 +856,7 @@ input[type=text]:not(.browser-default) {
   padding-right: 8px;
   padding-bottom: 5px;
   margin: 0;
+  background: url('./chabco.png')
 }
 
 .body-shake {

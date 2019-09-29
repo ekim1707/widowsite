@@ -813,10 +813,10 @@ const data = [
         comment: `Few things to note here: (1) Been queuing with Mr. Charles Cortez (Chabco) recently, and it's been
         fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE... (3) Wish I recorded while playing,
         but this "TheSilverFox" dweeb started calling me out unprovoked. Round 2, after the solo-ult he blurted out 
-        "**** you" for some unknown reason. At the end of the game, he goes "pharah mains are so pathetic" or something
+        "**** you" for some reason. At the end of the game, he goes "pharah mains are so pathetic" or something
         like that, which amused me since, as I noted to Charles, I seriously had not played a single game of Pharah in
-        around two years. This guy was taking himself so seriously over the most idiotic of things, and we had a good
-        laugh over it in the end.`,
+        about two years. This guy was taking himself so seriously over the most idiotic of things, and Cortez and I had
+        a good laugh over it in the end.`,
         image: Chabco},
         {name: 'Dude Was Not Cool', 
         embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',

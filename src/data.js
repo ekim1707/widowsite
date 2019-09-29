@@ -16,59 +16,57 @@ const data = [
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Reaper Is Too Easy To Take Seriously', 
         embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I used to take Reaper seriously a long time ago when I first started playing, and at some point
-        people started thinking I was a Reaper main. I don't quite have the ability I used to anymore, but even now in those
-        rare instances I decide to fire up my old Reaper skills up again, I still hold my own alright.`, 
+        comment: `I used to take Reaper seriously when I first started playing, to the point where people kept
+        calling me a Reaper-main. I don't quite have the ability I used to anymore, but I can still hold my own
+        alright at least.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reaper/icon-portrait.png'},
         {name: '60% KP', 
         embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8", 
-        comment: `I lost interest in playing DVa (and just tanks in general) a long time ago, but I still think whenever I reach
-        into the toolbag, I usually play her well.`, 
+        comment: `I lost interest in playing DVa (and just tanks in general) a long, long time ago, but I still think whenever I reach
+        into the toolbag, I can play her well.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/dva/icon-portrait.png'},
         {name: 'Yes I Actually Played Mercy. Once.', 
         embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb", 
-        comment: `Mercy is the most boring hero ever lol. I think I could count the amount of times I've played her in my
-        entire life on two hands, but this one particular game was actually a little bit fun in the end.`,  
+        comment: `Mercy is the most boring hero ever. I think I could count the amount of times I've played her in my
+        entire life on two hands, but this one particular game actually ended up being a little bit fun.`,  
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mercy/icon-portrait.png'},
         {name: 'Im Actually A Pretty Sick Shield Tank', 
         embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM", 
-        comment: `Rein was probably the hero I was most scared to try when I first started playing, just because he seemed so
-        complicated and difficult. One day, I told my team in public chat that I was trying him for the first time to learn, and I apologized
-        in advance, but in the end we ended up winning, and everybody congradulated me. I stopped being scared to play him from there
-        and at for one brief period down the road, I was a pretty nasty Rein (and just shield tank in general). Then I lost interest, and since then,
-        I've played Rein maybe four times over the past two years. This is one of those rare times.`, 
+        comment: `Rein was probably the hero I was most scared to try when I first started playing. One day, 
+        I just decided to screw inhibition and learn how to play him, so I told my team before a game that I
+        was probably gonna suck, but I was gonna play him anyway. They were pretty supportive, and we actually
+        ended up crushing the other team. I stopped being scared of him from that point,
+        and at one brief period, I was a pretty nasty Rein in my own opinion. Then I lost interest, and stopped
+        playing him completely. This is one of the old videos from my Rein days that I managed to save.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'},
         {name: 'Mercy Needed A Cowboy', 
         embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `Other McCrees vex me so much because they never play him the right way, but as long as they get a huge flanking
-        High Noon, they seem to think they're McCree "mains" for some reason. Back in the day, I actually
-        reached what I considered to be a high level McCree. Then one day, all my settings got reset, I never recovered my original
-        sensitivity setting for McCree, and I never was the same. I pretty much stopped playing him completely after that, but
-        recently, I've had a few decent games, like this one.`, 
+        comment: `Most McCrees never actually play him the right way. If I cared enough to take him seriously,
+        I think I could be an exception.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
         {name: "It's High Noon", 
         embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `I'm definitely not a good McCree myself (at least not anymore), but I'd say in games like
-        this one, I at least didn't throw for my team like 80% of McCrees do and don't even realize.`, 
+        this one, I at least hold my own unlike 80% of McCrees out there.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/mccree/icon-portrait.png'},
         {name: 'Swear This Hanzo Hero Is So Stupid', 
         embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `There really is no hero I hate more than Hanzo. As I tell many people, I prefered him more
-        when he had scatter. I probably play him as rarely as I do Mercy, but this one time I think
-        I did alright.`, 
+        when he had scatter, even as an enemy. I probably play him nowadays as rarely as I do Mercy, but this
+        one time I think I did alright.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/hanzo/icon-portrait.png'},
         {name: 'Yeah Sym But Still Pretty Epic', 
         embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `I've actually had a handful of epic Sym games (considering I play her so rarely), but this is the
-        only video of one I was able to find. In particular, I'm proud of this VOD because of the play I made at the end,
-        which was completely improvised and not scripted to any extent.`, 
+        only video of one I was able to dig up. In particular, I'm proud of the play I made at the end,
+        which was completely in the moment and unscripted.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'}, 
         {name: 'Can I At Least Get a Card', 
         embed: "https://www.youtube.com/embed/x84xe5GdNfo", 
-        comment: `When I first started playing, I exclusively played Soldier for about a year. And I say "exclusively"
-        in the strictest sense. These days aren't nearly the same, but when I do play him, I feel pretty comfortable
-        regardless of how long it's been until then. This game made me chuckle because I don't think I could have possibly
-        been more productive or helped my team win more, but for some reason Blizzard didn't even think I deserved a card.`, 
+        comment: `When I first started playing, I exclusively played Soldier for about a year. Like seriously, seriously
+        exclusively. These days I never do except rare occasions, but I always feel pretty comfortable
+        regardless of how long it's been. This game made me chuckle because I don't think I could have possibly
+        been more productive or helpful to my team, but for some reason Blizzard didn't even think I deserved a card.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
         {name: 'Dominant Soldier IMO', 
         embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
@@ -76,19 +74,19 @@ const data = [
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
         {name: 'Tracer Begins', 
         embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD", 
-        comment: `This game is special because I seriously did not play Tracer a single time in over two years
-        before this one. I thought on a whim that it might be nice to train hard and add Tracer to my bag of mains,
-        and these were the first two games into my quest. Considering the inexperience and awkwardness, especially with the type
-        of hero Tracer is, I was pretty happy with my performance (esp the last pulse felt good).`, 
+        comment: `This my first serious attempt at adding Tracer to my bag of "mains" after over two years of
+        not playing her at all. Ended up having a pretty memorable experience over the course of these two games.
+        (Note to Blizzard: I fully believe I deserved both POTGs... can a crappy Sym play possibly be more
+        deserving than a 3-kill Pulse that wins the game?)`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
         {name: 'Tracer Vs Clan owo', 
         embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I just enjoyed this game because the entire owo clan I was playing against was so goofy and chill.
-        Had prior experience with them, and we always keep it light and fun and have a good time in the end.`, 
+        comment: `I just enjoyed this game because the entire owo clan I was playing against is so goofy and chill.
+        Had prior experience with them, and they always keep it light and fun in the end, which I appreciate.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
         {name: '49% KP Rialto', 
         embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I was pretty frustrated with my team in this game. Hopefully you can understand why yourself.`, 
+        comment: `I was pretty frustrated with my team. Hopefully you can understand why.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'}],
         modalData: [{
             quote: '"오오오~? 좀 멋진데! (Ooooo, not bad!)"',
@@ -124,81 +122,82 @@ const data = [
         videos: 
         [{name: 'Jumpshot A Pharah In Mid-Air', 
         embed: 'https://www.youtube.com/embed/5Z2vqL1XLyE?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `Probably my personal favorite all-time play just because of the level of difficulty of it all.`, 
+        comment: `Probably my personal favorite all-time play just because of the difficulty level.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'Genji Blade Jumpshot-Headshot', 
         embed: 'https://www.youtube.com/embed/1yKVJmDID8w?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `This will always stay prominent in my highlight vault forever just because it was probably my first really epic-feeling play I ever made with Widowmaker. I was at the very beginning stage of becoming a widow main at the time, and this particular game as a whole I was just
-        connecting shot after shot (I ended the round on fire as the clip shows). So of course the enemy team starts to target me, and that Genji in particular went full rage mode. In the clip, I had just killed him moments before the clip start, and right away I knew he was going to come back at me
-        at least once more time with blade. That entire sequence I was firing into the crowd (and missing a lot), I was really just looking for him in my peripheral and waiting, and what you saw from the second he took that hop and dash-bladed right into me until I headshotted him was all premeditated
-        on my end. It literally all just came down to whether I would land the shot or not.`, 
+        comment: `This will probably my first really "epic-feeling" moment on my road to becoming a Widow-main.
+        I knew this Genji was coming right back at me again out of spawn with Blade, and I was just waiting for him
+        to dash before making my move. The last step was just making sure I landed the headshot, which luckily enough,
+        I managed to do.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'I Have My Reasons', 
         embed: 'https://www.youtube.com/embed/kDXcaT_z0rk?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `You might think this is a weird clip to include here. Duly noted. But one of the greatest things I take pride in as a Widow main is destroying enemy Tires (and sometimes even just having the prescence of mind to do it). This clip may not look like much as a viewer, but in game, with the
-        circumstances surrounding me, I was very proud of myself for being able to land a shot and help destroy that Tire, when I really had such a small window of opportunity to hit it to begin with.`, 
+        comment: `You might think this is a weird clip to include here. Duly-noted. But one of the greatest things I take pride in as a Widow
+        is destroying enemy Tires (and sometimes just having the prescence of mind to do it). This clip may not look like much, but to me personally,
+        considering my circumstances, I was very proud of being able to land a shot on that speedy Tire at a such a weird angle.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'Ice In The Veins', 
         embed: 'https://www.youtube.com/embed/S3YfOnv5XRU?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `This play wasn't even really a matter of skill as much as just not flinching in the face of a Genji-blade coming right at me.`, 
+        comment: `This play wasn't even really a matter of skill as much as just not flinching in the face of a Genji-blade coming right for me.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: '"Tracer Begins", The Highlights', 
         embed: 'https://www.youtube.com/embed/q9Qq-g3Z4yg?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `This was literally my first attempt to play Tracer seriously in the past 2 years at least. It's far more powerful watching the entire VOD, which is in the MISC VOD list, but for certain the climatic ending of it all was the last bomb I stuck on their Monkey, after exuding some very strong
-        patience, which wiped out the rest of their team in one play and won us the game. There was a lot of chatter generated in that game because of me as wellx, which can all be seen in the full VOD.`, 
+        comment: `This was literally my first attempt to play Tracer seriously in over two years. The best
+        feeling moment was the last pulse that won the game for us.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
         {name: 'Group Boop', 
         embed: 'https://www.youtube.com/embed/STlrev4wI1E?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `Not much to say here except I really like to boop lol.`, 
+        comment: `Not much to say here except I really like to boop, lol.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
         {name: 'Mother-Daughter Drama', 
         embed: 'https://www.youtube.com/embed/dqDL_0CVeNI?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
-        comment: `Anyone who plays Ana seriously would understand that felt really really really good.`, 
+        comment: `Anyone who plays Ana seriously would understand how good that boop felt.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: 'Pharah Mass Boop', 
         embed: 'https://www.youtube.com/embed/beuRqY9EJLk?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Distinctly remember the enemy Mercy calling me "mean" after that one. It was a feelsgoodman moment for sure.`, 
+        comment: `Distinctly remember the enemy Mercy calling me "mean" after that one. It was a feelsgood moment for sure.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
         {name: 'Girl Power', 
         embed: "https://www.youtube.com/embed/QpRLxnzwKEA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Usually don't team up with Mei's and like it, but for this one time I made an exception.`, 
+        comment: `Usually don't team up with Mei's and like it, but for this one time I was ok with it.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: 'Cat-like Reflexes', 
         embed: "https://www.youtube.com/embed/DAISDT2SKi4?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Split-second concust blast at probably the only moment that boop could have successfully been made. Felt pretty good.`,  
+        comment: `Split-second boop at probably the only moment it could have been made. Felt pretty good.`,  
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
         {name: 'Old Lady Goes Beserk', 
         embed: "https://www.youtube.com/embed/yD-LX-PeEBY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Definitely don't think that highlight did justice to the amount of ass-kicking I was giving all the opponents that were diving me at once while I was isolated.`, 
+        comment: `Definitely don't think that highlight did justice to the amount of ass-kicking I was doing against all these dudes diving me at once.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: "Flight Artist", 
         embed: 'https://www.youtube.com/embed/9p3I1Qqg7hE?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Might ask, "Hey pd, why even take the time to shoot a Hanzo who's already falling to his death anyway?". All I'm going to say is, I have reasons, and they are threefold. If you really want to know, then ask me.`, 
+        comment: `Might ask, "Hey pd, why even take the time to shoot a Hanzo who's already falling to his death anyway?". I actually do have some good reasons, if you really want to know.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
         {name: "What's An Emoji-Tire?", 
         embed: 'https://www.youtube.com/embed/nELak42ycBA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Have to admit I saw that play done already before I did it myself. Still didn't make me enjoy it any less.`, 
+        comment: `Have to admit I saw that play done by somebody else before, and it inspired me to just try it out myself. Still didn't make me enjoy it any less.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: "Bravado Goes a Long Way", 
         embed: 'https://www.youtube.com/embed/H8sCVaBeA9E?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Definitely started to get the hang of the timing behind truly effective Junk Tires after maining him for a bit.
-        This Tire required me to be a little brash considering how vulnerable I was, but I had faith in myself.`, 
+        comment: `Definitely started to get the hang of timing really effective Tires after maining him for a bit.
+        This particular Tire required me to have some bravado since I had to leave myself so vulnerable.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'What Are The Percentages?', 
         embed: 'https://www.youtube.com/embed/FAtLjpXhUaY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `Really feel like I had almost 0 margin of error for getting out of that Soldier's visor alive.`, 
+        comment: `Really feel like I had zero margin of error for emerging out of that Soldier's visor alive.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}, 
         {name: "Infra-red, Good As Dead", 
         embed: "https://www.youtube.com/embed/W6IOEieXQg0?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Just some sniping through trees with that lovely infra-red sight.`, 
+        comment: `Just some sniping through trees with good 'ole infra-red.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: "Air Darts, Baby", 
         embed: 'https://www.youtube.com/embed/mXN1jKwxrTo?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
-        comment: `I think most serious Ana players would agree, there's not many better feelings than darting a Mercy, especially while she's in mid-flight.`,
+        comment: `I think most serious Ana players would agree, there's not many better feelings than darting a Mercy in mid-air.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: 'Pulse From Above', 
         embed: "https://www.youtube.com/embed/RtW2Nz6UF-k?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
-        comment: `Freaking wack game with literally the most unhelpful team ever. I dropped that pulse bomb from above with rage at the cruelty of this stupid game's everlasting imbalanced matchmaking.`, 
+        comment: `Freaking wack game with literally the most unhelpful team ever. I dropped that pulse bomb from above with some serious rage.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
         {name: 'Widow Highlight Reel', 
         embed: "https://www.youtube.com/embed/Kd72ZTDWEes",
@@ -235,24 +234,26 @@ const data = [
         videos: 
         [{name: 'Reaper Darted During Bomb', 
         embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
-        comment: 'Pretty glad I had the presence of mind to let him sleep through that bomb.', 
+        comment: 'Pretty glad I had the presence of mind to let him sleep through that bomb instead of mistakenly waking him up instead.', 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: 'Suicide Note: "Screw Blizzard..."', 
         embed: 'https://www.youtube.com/embed/gElqgCdR3Hw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Ana: "I'm too freaking old to be trying to Nano a gigantic Reaper directly in front of me and have the Nano still somehow magically fly to a tiny baby DVa in some random corner of my FOV. You've had years and years and years to fix this stupid crap,
-        Blizzard, screw you, I'm out."`, 
+        comment: `Ana: "I'm too freaking old to be trying to nano a Reaper directly in front of me and 
+        somehow have the nano still somehow magically fly to a tiny baby DVa that just momentarily flashed
+        across my FOV instead. You've had years and years and years to fix this stupid ability,
+        Blizzard, so screw you, I'm out."`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'}, 
         {name: 'I Didnt Die? Seriously?', 
         embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
-        comment: `This was probably a thousand times funnier to me while it happened than on the replay,
-        but I, for the life of me, could not figure out how I didn't die in the end.`, 
+        comment: `This was probably a thousand times funnier in the moment than on the replay,
+        but I, for the life of me, could not figure out how I didn't die at the end of this.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Ana Goes Rock-climbing', 
         embed: "https://www.youtube.com/embed/CpDBiSESn4M?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
-        comment: `The first part of the clip is there to demonstrate how triggered I was getting bc of stupid crap
-        (like the lag in the video), but after that sequence I had with their monkey in primal, and then somehow
-        desperately hopping myself up the cliff onto safety and surviving, I was laughing to myself and feeling better
-        about things.`,  
+        comment: `The first part of the clip demonstrates how triggered I was due to stupid game issues
+        (like that crazy lag), but after being rage-chased me off the side of the map with primal, and
+        somehow being able to hop myself back to safety after initially thinking I was dead for sure,
+        I broke out in laughter.`,  
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png'},
         {name: 'Old And Sneaky', 
         embed: "https://www.youtube.com/embed/jTRJjtarr-4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
@@ -260,46 +261,53 @@ const data = [
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/soldier76/icon-portrait.png'},
         {name: "...You're Coming With Me!", 
         embed: 'https://www.youtube.com/embed/2BCVFzUMzns?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
-        comment: `I still literally laugh out loud every time I see this, no matter how many times I've seen it. The play
-        was complete luck, but the fact I somehow threw that pulse right on top of Reaper as I was getting owned is hilarious
-        to me, especially when I picture how the guy playing Reaper must have reacted.`, 
+        comment: `I still literally laugh out loud every time I see this, no matter how many times it's been. The play
+        was complete luck, but got that Reaper in the midst of getting solo-nano-blossomed was hilarious to me, especially
+        when picturing the guy playing Reaper face-palming himself afterwards.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/tracer/icon-portrait.png'},
         {name: "Step 1: Press Q. Step 2: Celebrate.", 
         embed: 'https://www.youtube.com/embed/q3s547VmRuw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `After round, said to enemy team, "I thought you guys were having an English tea party up there or something". They enjoyed that lol.`, 
+        comment: `After round, said to enemy team, "I thought you guys were having an English tea party up there or something".
+        We all enjoyed a good laugh.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png'},
         {name: 'The Art Of Deception', 
         embed: 'https://www.youtube.com/embed/uK2_xGv0Q6w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Made the enemy widow LOL in public chat after that one at least. I thought it was worth a good laugh.`, 
+        comment: `Made the enemy widow LOL in public chat after that one. I thought it was worth a good laugh.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'Now Thats What I Call A Trap', 
         embed: "https://www.youtube.com/embed/kALfdCpYtSg?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
-        comment: `Wish I was smart enough to record the entire scene. This Hamster must have had some secret ninja plan that I didn't understand bc I joined the game late as backfill, came out of 1st Defending Team spawn all lackadaisically up the stairs, and for some reason,
-        even though EVERYONE else was still fighting over control of the first point, he blew right by me (without seeing me) into the entrace towards the last point at the end of the map. I literally had to stand still at the top of the spawn stairs for like 30 seconds and
-        think to myself, "what the f?". That's when I set up the trap you see in this video, just praying he would come back out at some point and not just stay there forever, and though the video doesn't show it, I must have waited patiently a good 2 or 3 minutes before I was
-        finally rewarded. But it was completely 100% worth it.`, 
+        comment: `Wish I was smart enough to record the entire scene, but long story short, this Hamster was
+        just setting up some master plan to camp in our spawn for a bit and then attack us from behind I guess?
+        I back-filled the game late, and emerging out of spawn for the first time, I saw him roll straight
+        past me in the opposite direction, thinking to myself "seriously... wtf...?". So I decided to lay this
+        master trap for him, and the fact I managed to trap him after minutes of patiently waiting (and the 
+        thought of probably surprising the hell out of him), made me die with laughter.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: "Honestly Didn't See It Coming", 
         embed: 'https://www.youtube.com/embed/evMNtrRKgv4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `I don't know why, but I legit thought when I charged towards those doors that they would stay closed the entire time until after I hit them and came to a halt first. Looking back, I'm not really sure why I thought that, but for some reason, I did.`,
+        comment: `I don't know why, but I legit thought when I charged towards those doors that they would stay closed
+        until I hit them, and they halted me. Looking back, I'm not really sure why I thought that, but for some reason,
+        I did at the time.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'},
         {name: 'Peripheral Vision Issues?', 
         embed: "https://www.youtube.com/embed/0EExq-yEEsQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
-        comment: `LOL that visual of that clueless, nerdy Mei walking directly into the pithole is just priceless.`, 
+        comment: `LOL the visual of that clueless, nerdy Mei walking directly into the pit is simply priceless.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'Do Not Quit Day Job For Ninja Training', 
         embed: 'https://www.youtube.com/embed/stKhHuCtOvA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Like how much of a noob do you have to be... If you're gonna lay a secret covert-op ninja plan to hide and flank the enemy team at the very start of the game, how are you gonna crouch patiently for so long, and then as soon as they open the gates, just bob
-        your head up like a goddam gopher to take a quick peak around. Lol I don't even want to be mean, but it's just so laughable with these noobs who play this game sometimes.`, 
+        comment: `If you're gonna lay a secret covert-op ninja plan to hide and flank the enemy team out of spawn,
+        how are you gonna crouch patiently for so long, and then as soon as they spill out, just bob
+        your head up like a goddam gopher to take a quick peak around. Lol I don't even want to be mean,
+        but it's just so laughable sometimes.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: '"Slight" Calculation Error?', 
         embed: 'https://www.youtube.com/embed/4ZVgMu2Z2_Y?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `"if (goldMedals === 2) {return goldMedals = 3;}" Rofl freaking Blizzard noobs.`, 
+        comment: `"if (goldMedals === 2) {return goldMedals = 3}". Rofl, freaking Blizzard.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/zenyatta/icon-portrait.png'},
         {name: 'Once A Rein, Always A Rein', 
         embed: 'https://www.youtube.com/embed/YJIRKHWmz8Q?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
         comment: `Proud of myself for the high IQ. Not sure many other Reins would have even noticed the DVa camping
-        in that corner.`, 
+        in that corner to begin with.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/reinhardt/icon-portrait.png'}, 
         {name: 'Simple Joys Of Stupid Heroes', 
         embed: 'https://www.youtube.com/embed/LwtCH95hGyU?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
@@ -307,34 +315,37 @@ const data = [
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/symmetra/icon-portrait.png'},
         {name: 'Peek-A-Boo', 
         embed: 'https://www.youtube.com/embed/ofjoCakxsnc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `It's only funny because the Sym and Moira were both trying hide behind the wall under me, and I thought someone was there, but I wasn't sure until after I kind of blindly Tired the area and ending up getting a 3-kill out of it.`,
+        comment: `It's only funny because Sym and Moira were both trying hide behind the wall under me, and
+        I kind of just blind-Tired the general area knowing this. The results ending up being a pleasant surprise.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Rude Revival?', 
         embed: 'https://www.youtube.com/embed/egK_CBnxIeQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Dude gets Res'd, must not have taken a single look around the entire time he was dead or in the middle of the Res, literally runs straight into a trap and insta-death as soon as he's reborn. That Mercy must have wanted to slap someone.`,
+        comment: `Dude gets Res'd and blindly runs straight into a trap/insta-death seconds later. That Mercy must have wanted to slap someone.`,
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Chronicles of Liam', 
         embed: 'https://www.youtube.com/embed/0vPWd5PAqPM?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Horribly edited video, but seriously this guy on the other team, Liam, did nothing but run out of spawn and die over and over again the entire game.`, 
+        comment: `Horribly edited video, but this guy on the other team, Liam, did nothing but run out of spawn and die over and over again the entire game.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Silly Ninja, Tricks Are For Kids', 
         embed: 'https://www.youtube.com/embed/wlr2v9P8mTE?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Pretty sure the only reason I think this clip is so funny is because it's Genji. If it was anyone else, I probably would've just been like "whatevs"`, 
+        comment: `Pretty sure the only reason I think this clip is so funny is because it was regarding a Genji. If it was anyone else,
+        I really wouldn't have thought twice about it.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Luck Or Skill?', 
         embed: 'https://www.youtube.com/embed/06zq5WsFT4w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
-        comment: `Nothing hilarious, but seriously it's a pretty crazy sequence. After I misaimed my bombpack-jump, I had to go wall-riding for a bit, and then somehow I had the presence of mind at the last second to bombpack-hop myself barely back onto the ledge again
-        and avoid falling to my death. I think that was the most impressive part of the clip, even over the Tire itself, lol.`, 
+        comment: `Nothing hilarious, but a pretty crazy sequence for sure. After I messed-up my bombpack-jump, I had to go wall-riding for a bit,
+        and then somehow I had the presence of mind at the last second to blast myself barely back onto the ledge to safety. I think that was the
+        most impressive part of the clip, even over the Tire itself.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png'},
         {name: 'Solo-Ult Much?', 
         embed: 'https://www.youtube.com/embed/QlPW4O4nn7U',
-        comment: `If this doesn't qualify as a rage-solo-ult, then I don't even know anymore. I'll just quit the game.`, 
+        comment: `If this doesn't qualify as a rage-solo-ult, then I don't even know, lol.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'},
         {name: 'Solo-Ulted Part 2', 
         embed: 'https://www.youtube.com/embed/8-iSnIY-0rU',
-        comment: `My goodness... that moment when this "SilverFox" dude paused right after solo-ulting me outta the sky was
-        so he could type "**** you" into public chat. I have no idea where it came from, all I did was play Pharah and say
-        nothing in public chat all game long lol.`, 
+        comment: `My goodness... at the end of the clip when Reaper paused after solo-ulting me out of the sky,
+        he was taking the time to say "**** you" in public chat. I hadn't said a word to him all game long, and 
+        I still have no idea what his problem was.`, 
         image: 'https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png'}],
         modalData: [{
             quote: '"Precision German engineering."',
@@ -671,35 +682,35 @@ const data = [
         videos: 
         [{name: 'Swear I Could Be A Top500 JR', 
         embed: "https://www.youtube.com/embed/RAfgzbDCU1E", 
-        comment: `Junkrat's kit just feel like a natural fit to me.`},
+        comment: `Junkrat's kit just always feels like a natural fit to me.`},
         {name: 'Called A "God" Again', 
         embed: "https://www.youtube.com/embed/MzI4jCXsOuY", 
-        comment: `This was actually a hilarious video more than anything. Booped their Rein not once, but TWICE to his death while
-        he was charging right at me. Bonus points was him calling me a "God" a little while through the match.`},
+        comment: `This was actually a hilarious video more than anything. Booped their Rein not once, but twice to his death while
+        he was charging right at me. At some point in the match he called me a "God", and I was quite flattered, lol.`},
         {name: '"Nuts" Is A Compliment Right?', 
         embed: "https://www.youtube.com/embed/4TmC-uRY3WA", 
-        comment: `Honestly I don't think the teammate that called me "Nuts" that match could have said it better. Especially towards
-        then end of that first round, I seriously just went into Super-Saiyan mode to try to win the point for our team, and I did
-        some pretty crazy stuff to get the job done.`},
+        comment: `Honestly I don't think the teammate that called me "nuts" could have said it much better. Especially towards
+        then end of that first round, I seriously just went into Super-Saiyan mode to win that point for our team, and it required
+        some pretty extreme, crafty tactics to get it done.`},
         {name: 'Feel Like Now I Need To Re-Tire. Get It?', 
         embed: 'https://www.youtube.com/embed/m0ZbLvoiva4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
-        comment: `Another decent JR game.`},
+        comment: `Solid game with a pretty satisfying Tire.`},
         {name: 'IQ > Mechanics', 
         embed: 'https://www.youtube.com/embed/6LcR9-NVmS4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
-        comment: `This, along with a handful of other games, are among my most priceless because of a few
-        seriously high IQ plays I made that I don't think many other gamers could/would have themselves.`},
+        comment: `This, along with a handful of other games, is among my most priceless because of a few
+        high IQ plays that I don't think many other gamers could/would have been able to pull off themselves.`},
         {name: 'Just Bc Of Tracer Alone, This Is Priceless', 
         embed: 'https://www.youtube.com/embed/P087uNtv8tw?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
-        comment: `Never seen a Tracer in any context get owned so many repeated times by a Junkrat like in
-        this video. Those traps I left in the backline were intentional and not arbitrary/completely lucky.`},
-        {name: 'Another Rager Story', 
+        comment: `Never seen a Tracer in any context get owned so repeatedly by a Junkrat in
+        my life. Those traps I left in the backline were 100% IQ and not arbitrary luck whatsoever.`},
+        {name: '"Can You Just Die"', 
         embed: 'https://www.youtube.com/embed/4Wsq5Pg3M0o?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
-        comment: `This was the funniest Junkrat game I ever played just because this guy raged so hard after.
-        He started out as Hog, and I presume as the result of getting triggered, he switched to the classic
-        rager-hero, Doomfist, and just repeatedly came after me time after time after time... kept failing.`},
+        comment: `This was the funniest Junkrat games I ever played just because this guy kept raging after me
+        so hard. He started out as Hog, and after getting triggered, he made the classic rage-swap to
+        Doomfist, and... I think the video tells the rest of the story best.`},
         {name: '13k DMG Junk', 
         embed: 'https://www.youtube.com/embed/njMbEHGNvdo?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
-        comment: `One of my higher damage-output Junkrat performances.`}],
+        comment: `High damage-output game.`}],
         modalData: [{
             quote: '"I really blew that one."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/a/ab/Ability-Junkrat1.png/200px-Ability-Junkrat1.png?version=bd1228de6cd38e2c5cfdeccfc06fb309',
@@ -793,41 +804,44 @@ const data = [
         videos: 
         [{name: 'Almost Perfect?', 
         embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
-        comment: `Note the public chat where the dude gets killed out of spawn, taunts me, switches
-        himself to Pharah, gets owned, and never says another word.`},
+        comment: `Note the public chat where the dude gets owned out of spawn, taunts me, switches
+        to Pharah, keeps getting owned, and never says another word before exiting the game.`},
         {name: 'Over 22k Total DMG, Crazy Game', 
         embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
-        comment: `Few things to note here: (1) Been queing recently with my buddy Charles (chabco), and it's been
-        a lot of fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE O.o (3) Wish I recorded while playing,
-        but this "TheSilverFox" dweeb for some reason started to make it personal against me (keep in mind I didn't say
-        anything in chat until the end of the game). Round 2, he solo-ulted me, and then said "**** you". At the end, he
-        goes "pharah mains are such losers" or something, to which I responded "bro, this is literally my first time playing
-        Pharah in 2 years... I'm a Widow main" and left lol.`},
+        comment: `Few things to note here: (1) Been queing recently with Mr. Charles Cortez (chabco), and it's been
+        fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE... (3) Wish I recorded while playing,
+        but this "TheSilverFox" dweeb started calling me out (I literally didn't say a word to him until the game
+        was completely over). Round 2, after the solo-ult he blurted out "**** you" for some reason? At the end, he
+        says "pharah mains are so pathetic" or something, which amused me since, as I noted to Cortez, I seriously
+        had not touched Pharah in around two years before we queued for this game. I felt the need to laugh in his face 
+        (mostly because he was taking himself so, so seriously over something so stupid), and quickly noted that I was
+        actually a Widow-main before exiting.`},
         {name: 'Dude Was Not Cool', 
         embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
-        comment: `Way to not take a video game (a QP game for that matter...) too seriously, bro`},
+        comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?`},
         {name: 'Really? What More Could I Have Done?', 
         embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
-        comment: `I've always had occasional Pharah games where I'm raining down direct hit rockets
-        and thinking to myself, "I could not possibly be dealing any more damage right now... how are
-        we losing?`},
+        comment: `I've always had occasional Pharah games where I'm raining direct hits down on opposing teams
+        and thinking to myself, "I could not possibly be dealing any more damage right now... how are we actually losing?"`},
         {name: 'Leave This To A Professional', 
         embed: "https://www.youtube.com/embed/feN6hK3MRD4", 
-        comment: `This was during the days when I was a serious Pharah main. Got so angry after my
-        selfish, incompetent team after round 1 and started spamming the voiceline "leave this to a
-        professional" over and over again. Might have been obnoxious of me, but at least in the end
-        I did deliver on my promise as well.`},
+        comment: `This was back in the day when I actually was a pretty scary (in the words of my
+        opponents, not my own) Pharah-main. Unfortunately, I wasn't really recording myself at all back then, but
+        this is still a pretty decent performance that I was able to preserve. Got so angry at my selfish, incompetent
+        team after Round 1 and started spamming the voiceline "leave this to a professional" over and over again at them
+        in response. Might have been obnoxious of me, but to my credit, at least in the end I delivered.`},
         {name: 'Gamers Are Babies', 
         embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo", 
         comment: `It was pretty funny this entire game because I stayed silent, but I was definitely
-        paying attention to these to babyish enemy teammates blasting each other in public chat all
-        game long. Finally lost it at the start of round 3 and just unloaded on them.`},
+        paying attention to these to idiot teammates on the other team blasting each other all
+        game long. Finally lost it at the start of round 3 and just tried to humiliate them.`},
         {name: 'I Salivate For Pharah Vs Pharah Matchups', 
         embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
         comment: `When I was maining Pharah, I prided myself on my Pharah vs Pharah skills because
-        it really didn't seem like there was anyone else who was close to my equal. Most of these
-        battles will be forever lost in history, but this is one I managed to preserve, where it
-        wasn't just a Pharah, but an entire Pharmacy that I basically handled on my own without aid.`},
+        it really didn't seem like there was anyone else who was my equal. Most of these
+        battles will be forever lost in history, but this is one of the few I managed to preserve.
+        This one felt especially good because it wasn't just a Pharah, but an entire Pharmacy, that
+        I basically took on alone and defeated.`},
         {name: `Can't Touch This`, 
         embed: 'https://www.youtube.com/embed/ebArZqyg-QA?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
         comment: 'yup'}],
@@ -926,37 +940,39 @@ const data = [
         videos: 
         [{name: 'Relatively Dominant', 
         embed: "https://www.youtube.com/embed/-oovWzSmQ8I", 
-        comment: `Sombra was the hero I decided to take seriously most recently, with pretty positive results. I was afraid of her
-        kit because it looked intimidating at first, but now I feel pretty comfortable and play at least competently I feel.`},
+        comment: `Sombra was the hero I decided to try out most recently, and the results have been pretty positive thus far. I was afraid of her
+        kit for a while because it looked intimidating, but now I feel pretty comfortable calling her one of my mains.`},
         {name: 'Need More Familiarity', 
         embed: "https://www.youtube.com/embed/NS-6tdlQcXA", 
-        comment: `My intro into Sombra (my kit fails should tell the entire story).`},
+        comment: `My intro into Sombra (the repeated kit fails should tell the whole story).`},
         {name: 'Still Shaky But Not Bad', 
         embed: "https://www.youtube.com/embed/uSm9RlrYZ2g", 
-        comment: `Baby steps are required to learn Sombra well.`},
+        comment: `Baby steps are definitely required to learn Sombra, lol.`},
         {name: 'All Im Asking You To Do Is SOMETHING', 
         embed: 'https://www.youtube.com/embed/Kx4YJM6aZHc?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
-        comment: `No exaggeration, if EITHER of our proud, skilled-hero-only-mains were competent to even a fraction of a degree, I would have
-        basically obliterated the entire enemy team, possibly without even dying once. It was only bc I was so surprised after I took out half the team
-        and assumed with two snipers on our side I wouldnt see Pharah still alive that I ended up dying. From there I tilted bc I was trying to take
-        out Pharah for them by myself. Unbelievably frustrating.`},
+        comment: `No exaggeration, if EITHER of our proud, skilled-hero-only teammates were competent to even a fraction of a degree, I would have
+        owned this game entirely, possibly without even dying once. I was so surprised after I took out half the team
+        and saw Pharah still alive with two snipers in our comp, that I basically just tilted from there. I think in the end I accounted
+        for Pharah more times than either of our snipers did? These things can get so frustrating in Overwatch...`},
         {name: 'Felt Awkward But 33 Hacked, Silver Silver', 
         embed: 'https://www.youtube.com/embed/Du3b_Auwr6M?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `Didn't even feel like I played well, but I still got silver, silver somehow...`},
+        comment: `Didn't even feel like I played well, but I still ended with silver, silver. I'll
+        take it, I guess?`},
         {name: `How... Just How... That's All...`, 
         embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I don't know what I'm supposed to do more to start a game than get clean, crucial
-        picks on enemy healers... such that I deserve to be on the losing team in the end somehow.`},
+        comment: `I don't know what I'm supposed to do more than start battles with clean, crucial
+        picks on enemy healers... such that I deserve to end up on the losing side somehow.`},
         {name: 'Almost Never Sombra... It Should Show', 
         embed: 'https://www.youtube.com/embed/klPr7JhUH8g?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
-        comment: `I was a very awkward Sombra at the beginning. The most frustrating thing to me was
-        when I intended to throw a translocator, and instead translocated out of the area because I
-        didn't realize there was already another active translocator out there I threw earlier.`},
+        comment: `I was a very awkward Sombra initially. The most frustrating thing to me was
+        when I would keep accidentally translocating out of an area because I was intending to
+        throw a new translocator instead. Sombra definitely takes some patience to stick with.`},
         {name: 'I Need To Stop Solo-Que', 
         embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
-        comment: `Me playing Sombra with my typical awful team of randos: solid hack on enemy shield tank, empty clip into enemy, reload, empty clip again, reload, get enemy to 1, asks self "self,
-        why hasnt anyone died yet?", asks self "should I give up before I get destroyed?", (all the while still emptying clips like a madman), starts to panic, gives up, teleports away, slowly unravels
-        mentally and somewhat loses the will to continue living in this cruel world, gets hunted down and owned by random Reaper just prancing around... Awesome times, thanks for the wonderful matchmaking, Blizzard!`}],
+        comment: `Solid hack on enemy shield tank, empty clip into enemy, reload, empty clip again, reload, get enemy to 1, ponders to self: "self,
+        why isn't anyone dead yet?", contemplates giving up, (all the while still emptying full clips like a madman), finally gives up and escapes,
+        begins fuming at Hanzo and other teammates who just lackadaisically walk around the map all game and accomplish nothing, 
+        starts tilting, gets blind-sided by free enemy Reaper with nothing better to do... Truly awesome times.`}],
         modalData: [{
             quote: '"Everything can be hacked."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/a/a4/Ability_Sombra_Machine_Pistol.png/200px-Ability_Sombra_Machine_Pistol.png?version=e1423379dd602b8148408b64aaf2b0fb',
@@ -1022,36 +1038,37 @@ const data = [
         videos: 
         [{name: 'Frustration Dominance', 
         embed: "https://www.youtube.com/embed/xJmczeAocck", 
-        comment: `Was trying to play a real game out of spawn, until I saw our team run out with some kind of goofball, garbage comp.
-        So naturally, like the mature man I am, I decided to handle obnoxiousness by adding fuel to the fire, and I chose Torb (without
-        the intention of playing seriously). The rest of the video speaks for itself.`},
+        comment: `Was trying to play a real game out of spawn, until I saw our team run out with some idiot comp and not care.
+        So naturally, like the mature person I always claim to be, I decided to fight fire by instigating it and rolled out with Torb
+        myself (without the sole intention of trolling my teammates, and nothing else). The game actually ended up going much better
+        than I expected, as the replay itself shows.`},
         {name: 'Give Cred to a Good Mercy', 
         embed: "https://www.youtube.com/embed/N_NqxS4uudc", 
-        comment: `I will always dominate with Torb no matter when I pick him, but for this game in particular, I have to give all the
-        credit to a legit Mercy.`},
+        comment: `I will always dominate with Torb no matter when I pick him, but just in this particular instance, I have to give all the
+        credit to our Mercy.`},
         {name: 'Didnt Even Play Well...', 
         embed: "https://www.youtube.com/embed/HRxKvJ1ny9k", 
-        comment: `Even when I don't play well with Torb I still always carry.`},
+        comment: `Even when I don't play well with Torb I still play well.`},
         {name: `Honestly Too Easy Is No Fun`, 
         embed: 'https://www.youtube.com/embed/KKdQkMrwSgQ?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
-        comment: `What does it say about Blizzard's game design when there are so many heroes that are
-        so easy to master that they end up becoming too boring to ever play.`},
+        comment: `What does it say about Blizzard's "brilliant" game design when there are such a huge
+        percentage of heroes out of the overall heropool that at some point get too easy to keep playing seriously.`},
         {name: 'Gotta Love All Gold On 5 DPS Team', 
         embed: 'https://www.youtube.com/embed/7-jlU-9qIak?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
-        comment: `Five DPS players and the Torb gets all the golds. Blizzard developers really have
-        to look into this thing called "game-balance"...`},
+        comment: `Five DPS teammates and in the end the Torb gets all golds. Blizzard developers really have
+        to look into this concept known as "game-balance" that is usually considered to be pretty important...`},
         {name: 'Stupid Games With Stupid Gamers...', 
         embed: 'https://www.youtube.com/embed/qaHXoenJnJk?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
         comment: `See title.`},
         {name: 'At Least I Try...', 
         embed: 'https://www.youtube.com/embed/pTcdMUC2T5Q?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
-        comment: `Everybody in the game is selfish. I tried for quite a long time to think team-first
-        in every possible way, until I realized that it's pointless with this demographic of prinkly-faced,
-        adolescent gamer punks. These days when someone complains about selfish teammates, I just shrug
-        it off. I probably tried harder than anyone for years, don't know what else more I could do.`},
+        comment: `Everybody in the game is selfish. I tried for quite a long time to always be team-first,
+        until I realized that it's pointless with this demographic of prinkly-faced, puberty-challenged, gamer-punks.
+        These days when someone complains about selfishness, I just shrug my shoulders. I probably tried harder than
+        anyone for years, and I'm completely through letting myself be the martyr anymore for no good purpose.`},
         {name: '52% KP Torb', 
         embed: 'https://www.youtube.com/embed/djKFBbI3NSo?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
-        comment: 'sure'}],
+        comment: 'Pretty good game statistically at least?'}],
         modalData: [{
             quote: `"You're making a chicken out of a feather!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b2/Ability-torbjorn1.png/200px-Ability-torbjorn1.png?version=416a016cdc58c4c400cf860e3f08f111',
@@ -1118,48 +1135,46 @@ const data = [
         videos: 
         [{name: 'Frustrating Bastion', 
         embed: "https://www.youtube.com/embed/OoRNDbx1ygs", 
-        comment: `My goodness I really wish the original teammate we had didn't leave after the 1st round and let this awful,
-        obnoxious-for-no-reason Bastion main onto our team for the last two rounds. I will always be proud of myself for basically
-        winning the game for our team at the very end of the game with what I considered an epic, high-IQ stall until the rest of
-        my team could return from spawn.`},
+        comment: `My goodness I really wish our Sym didn't leave after the 1st round (although she wasn't so hot herself). At least
+        she wasn't completely obnoxious for no reason all game long like this back-filling Bastion turned out to be. I will always
+        be proud of myself for basically keeping us alive by myself at the very end of the game with what I considered a pretty epic stall
+        until the rest of our team finally returned from spawn (and our Bastion, go figure, took credit for the entire win).`},
         {name: 'Nobody Cares About Team', 
         embed: "https://www.youtube.com/embed/g3nhCGfdA-8", 
-        comment: `Let's look at the summary of this clip. Round 1, I unselfishly go healer because my team's comp needs it.
-        Round 2, I'm pissed off about getting destroyed in Round 1 because of incompetent DPS teammates, so I switch to Widow.
-        I think I did a pretty decent job of it too. Round 3, I look at my comp, and I want to keep Widowing, but I know our team
-        has a glaring hole at shield tank, so I sacrifice myself again. Another round of incompetent DPS teammates, and we get
-        throttled. Another wonderful experience playing this Blizzard masterpiece.`},
+        comment: `Let's summarize things. Round 1, I decide to go support in lieu of our team comp.
+        Round 2, I'm pissed off I got gold damage and had to carry as Zen in Round 1, so I switch to Widow.
+        Round 2 goes pretty well. Round 3, I look at our comp, and I want to stay Widow, but I know our team
+        has a glaring hole at shield tank, so I sacrifice again. The replay of Round 3 speaks for itself. Yet
+        another wonderful magic carpet ride playing this Blizzard video game masterpiece.`},
         {name: 'Windows Sucks', 
         embed: "https://www.youtube.com/embed/vpgViDuVEq0", 
-        comment: `Wasn't my sharpest Widow, but still produced for my team relatively well all game. Then, right at the most crucial
-        moment, with second left on the game clock, my computer gave me a worthless Windows Update notification, and despite the fact
-        I made sure long ago in my settings to "not be disturbed in game mode", it still minimized my screen anyway, and by the time
-        I was able to calm my computer down enough to recover my game screen, I was already crushed by a Reinhardt charge, and the game
-        was lost. Awesome.`}, 
+        comment: `Wasn't my sharpest, but still played ok most of the game. Then, right at crunch time, my computer decided to send me
+        another one of those stupid Windows Update notifications, and despite clearly applying the "do not disturb in game mode" setting a
+        long long time ago, my entire screen still minimized, and I couldn't regain control of it again until I was already a pile of Reinhardt-rubble, 
+        and the game was lost. Yay. Watching the replay, I was especially sympathetic to our Ana because I'm pretty sure she hard-carried
+        (despite being called out by our Genji for "nanoing him while he wasn't ready"... in a QP game... without any comms... *rolls eyes*)`}, 
         {name: 'A Few High-Skill Shots', 
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
-        I wasn't really consistently productive, I guess.`},
-        {name: "Literally... Idek", 
+        the stats didn't show anything in the end.`},
+        {name: "Literally... Idek...", 
         embed: "https://www.youtube.com/embed/B9NEI8zwUT4", 
-        comment: `Keep in mind I almost never call out anyone publicly for performance-level in this game (I only call people out
-        when they're acting like clowns), but this game was just unreal in how epicly bad the rest of my team must have been to have
-        been losing these battles. Sure enough, after the game I spec-ed our Junkrat/Doomfist(?) on replay, and it was like watching
-        a monkey play.`},
+        comment: `This is one of those times where I'm pretty sure that even if I used an aimbot, we still would've lost (*glares at
+        Junkrat/Reaper... and yes I did watch the entire replay from his POV just to make sure...).`},
         {name: `"Doom, Get Widow" Lol`, 
         embed: "https://www.youtube.com/embed/LSZYGfABz-k", 
         comment: `Unfortunately no screenshot, but this is the same "GreenAlien" dude who just one game ago was bragging to the public
-        chat because he apparently reached top500 (um... really...? *insert thinking_face emoji here*), and just kept saying obnoxious
-        jibberish over and over until I finally had to block him. Ah the stupidity of youth... this kid was probably 12 years old at best.`}, 
+        chat because he apparently just reached top500 (hmm.... ok if you say so?), and just kept blabbering like an obnoxious child over
+        and over again (in public chat to himself?) until I finally gave up and blocked him. Silly noob, top500 is for actually good players.`}, 
         {name: `Wait... It's Wrong To "Main" In QP?`, 
         embed: "https://www.youtube.com/embed/7sugwBQFT6k?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD",
         comment: `Since when did they make the "unwritten rule" that you shouldnt play your "main" in QP? Am I just crazy or isnt QP supposed to be where nobody really gives
         a crap or takes it too seriously, such that everyone can feel free to play whatever hero they want to at any given moment? This Sombra raged at me for "trying hard" with
         my "main" (as if she even knew Widow was my main...?), but isn't it somewhat ironic that she's the one taking a QP game seriously enough to rage at me in public chat to
         begin with...? Just sayin lol.`},
-        {name: 'The DVa Thank You', 
-        embed: "https://www.youtube.com/embed/dW29-2adXmI?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", 
-        comment: `Finally felt redeemed after a kind teammate thanked me publicly for my work.`}],
+        {name: 'Playing Angry', 
+        embed: "https://www.youtube.com/embed/qkajFWxX-0k", 
+        comment: `Not particularly sure what it was that triggered me so much from the start, but I was left-clicking this entire game with some serious anger.`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',
@@ -1193,41 +1208,42 @@ const data = [
         videos: 
         [{name: '87% Of Match On Fire', 
         embed: "https://www.youtube.com/embed/T23iBK5O--U", 
-        comment: `Even I didn't realize until the end of the game that I was anywhere close to 87% on fire. Overall made good
-        decision and had some key plays though.`},
+        comment: `Even I didn't realize until after the game that I was anywhere close to 87% on fire. Overall made good
+        decisions and made some key plays though.`},
         {name: 'Dude Called Me a God', 
         embed: "https://www.youtube.com/embed/gaYul7AXnqY", 
-        comment: `Unfortunately, the sad thing is after the enemy Rein called me a "God", I kind of lost focus on the game itself
-        and started throwing. Ended up feeling like I had to switch to Moira, but I didn't play well there either. Still, everything
-        up to the moment he called me out in public chat was pretty solid Ana play.`},
+        comment: `Unfortunately, after the enemy Rein called me a "God" publicly, I suddenly lost the ability to focus and/or do
+        anything competently anymore. Switched to Moira as a result but was basically never able to regain my senses again for
+        the rest of the game (I guess flattery affects me quite a lot, idrk). Still, everything before the "God" comment was some
+        pretty solid Ana play overall.`},
         {name: 'Justified Meanness', 
         embed: 'https://www.youtube.com/embed/cDQWPIjW0wk?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `I only troll others publicly in game when I feel like they deserve to be trolled. If someone seems like a good,
-        decent person (with or without having any decent skill level), then I wouldn't ever even think about trolling them. But if
-        someone is acting like an obnoxious, self-serving child, which happens to be the grand majority of the Overwatch demographic,
-        then I have no motivation but to troll, regardless of moral ethic. On a side note, not really sure if anyone else could have
-        predicted and darted that Doomfist right out of spawn like I did to start the game.`},
+        comment: `I only troll others in this game when I feel like they deserve to be trolled. If someone seems like a good
+        person (regardless of skill level), then I will always pull punches rather than deal them. But if
+        someone is clearly being an obnoxious, self-serving adolescent (which is like 90% of this Overwatch demographic unfortunately),
+        then I don't hold anything back, regardless of what anyone else may think. On a side note related to this video, not really 
+        sure anyone else could have hit that dart on their Doomfist right of spawn, just by being aware of enemy voice lines, like I managed to.`},
         {name: 'Sick Ana in Crappy Game', 
         embed: "https://www.youtube.com/embed/e6e-LVdC30Q", 
-        comment: `Probably one of my favorite high-IQ plays was when I had the presence of mind to jump onto the gondola during that
-        DVa bomb to stay alive and jump right back into the battle.`},
+        comment: `Probably one of my favorite plays of all-time was during this game when I had the presence of mind to use the gondola to survive
+        the enemy DVa bomb, whereas any other decision I made would have almost certainly resulted in me dying. Then icing on the cake was when the
+        DVa re-meched and rushed right back at me, but I landed a sleep-dart on her that booped her completely off the side and into the canal instead.`},
         {name: 'Pretty Good Ana But Thanks To Better Team', 
         embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `Made some good plays and enjoyed an entertaining game, but at the end of the game, I had to admit that it was mostly
-        just because our team was so much better than theirs.`},
+        comment: `Made some good plays and enjoyed a fun game, but at the end, I had to admit that it was completely
+        due to having such a superior overall team (feelsbad for their Mercy).`},
         {name: 'One Of Best Ana Games', 
         embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `Right after this game was over, I remember telling myself that it felt like the best Ana game I ever played. After
-        some time passed, and I watched the replay, it didn't really seem so special anymore. If you could leave your own feedback in
-        the forum, I would love to hear it.`},
+        comment: `Right after this game was over, I remember thinking it felt like the best Ana game I ever played. Later on,
+        after watching the replay, it didn't seem so special anymore. I'd love it if you could leave your own opinion in the
+        forum so I can gain some perspective.`},
         {name: 'Top Ana-play With Good Widow Cap', 
         embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `Felt like a strong Ana game, made better with a solid Widow switch at the end to finish the enemy team off.`},
+        comment: `Decent Ana game augmented by a solid switch to Widow to cap the game strongly.`},
         {name: 'Healer Montage (2nd Round Ana)', 
         embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `One of my favorite videos. Decided from the start of the game I was going to try this montage-type thing to showcase my
-        versatility and skill-level as a support (god-willing the game went 3 full rounds to begin with), and in the end I felt like I played
-        solid every round that I played.`}],
+        comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
+        it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`}],
         modalData: [{
             quote: `"It's just a scratch, you'll be fine!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/fc/Ability-ana1.png/200px-Ability-ana1.png?version=1101920478ed5840a6a4d4698ee87951',

@@ -810,7 +810,7 @@ const data = [
         to Pharah, keeps getting owned, and never says another word before exiting the game.`},
         {name: ['22k Total DMG, Crazy Game', 'Chabco'],
         embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
-        comment: `Few things to note here: (1) Been queing recently with Mr. Charles Cortez (chabco), and it's been
+        comment: `Few things to note here: (1) Been queuing with Mr. Charles Cortez (Chabco) recently, and it's been
         fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE... (3) Wish I recorded while playing,
         but this "TheSilverFox" dweeb started calling me out (I literally didn't say a word to him until the game
         was completely over). Round 2, after the solo-ult he blurted out "**** you" for some reason? At the end, he

@@ -1002,7 +1002,7 @@ const data = [
             labelFour: 'Teleporter',
             labelFive: 'Photon Barrier',
             description: `Along with Mei, Symmetra is often the hero that gamers love to hate the most. The old Symmetra required absolutely zero mechanics, as her turrets
-            and primary fire with both auto-locking. Blizzard has recently "nerfed" her to what she is now (although it hasn't felt like much of a nerf). Symmetras basically
+            and primary fire were both auto-locking. Blizzard has recently "nerfed" her to what she is now (although it hasn't felt like much of a nerf). Symmetras basically
             need good turret placement, aggregating them in sneaky places, such as behind walls, where they can leave opponents helpless. Symmetra has two different styles of 
             primary fire (one tracking and one projectile), and both are equally as effective in the right situations. "Teleporter" has basically turned into a fad that died,
             but the "Photon Barrier" ultimate has emerged as a force in its stead, especially since it lasts 15(!!!) full seconds.`,

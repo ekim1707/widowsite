@@ -1302,7 +1302,7 @@ const data = [
             labelFour: 'Shield Bash',
             labelFive: 'Rally',
             description: `Blizzard basically dug their own grave the day they decided to create Brigitte. She might be the single reason the game began to die in popularity,
-            and she at least is the reason Tracer fell off the map and GOATS came into existence for sure. Her introduction induced a massive outcry from the fans and pros bashing
+            and she certainly can be blamed for Tracer falling off the map and GOATS coming into existence, at the very least. Her introduction induced a massive outcry from the fans and pros bashing
             her creator, and since then, Blizzard has nerfed her repeatedly. She features her own self-shield, which also can bash and stun any
             opponent in any situation, much like McCree's flashbang (except without requiring any aim). "Rally" is one of the most controversial and OP ultimates in game history.`,
             iframe: 'https://www.youtube.com/embed/npKO8YDCb1c',

@@ -100,9 +100,7 @@ class Overview extends Component {
         } else {
             getCards = [].slice.call(document.querySelectorAll(`#${type}`));
         }
-        console.log(getCards);
         if (getCards.length === 0) {
-            console.log('----++++---')
             document.getElementById(`flip-${type.toLowerCase()}`).classList.add('body-shake');
             setTimeout(() => {document.getElementById(`flip-${type.toLowerCase()}`).classList.remove('body-shake')}, 1000);
         } else {
@@ -130,14 +128,6 @@ class Overview extends Component {
                 this.damageOnly();
             } else if (el.id === 'overview-support') {
                 this.supportOnly();
-            } else if (el.id === 'flip-all') {
-                this.flipCards('All');
-            } else if (el.id === 'flip-tank') {
-                this.flipCards('Tank');
-            } else if (el.id === 'flip-damage') {
-                this.flipCards('Damage');
-            } else if (el.id === 'flip-support') {
-                this.flipCards('Support');
             }
             
         }
@@ -151,13 +141,13 @@ class Overview extends Component {
                 <div className="background"></div>
                 <div className="toggle-heroes row">
                     <button className="btn-large" id="overview-all">All</button>
-                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-all"><i className="material-icons">undo</i></button>
+                    <button onClick={() => this.flipCards('All')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-all"><i className="material-icons">undo</i></button>
                     <button className="btn-large" id="overview-tank">Tank</button>
-                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-tank"><i className="material-icons">undo</i></button>
+                    <button onClick={() => this.flipCards('Tank')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-tank"><i className="material-icons">undo</i></button>
                     <button className="btn-large" id="overview-damage">Damage</button>
-                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-damage"><i className="material-icons">undo</i></button>
+                    <button onClick={() => this.flipCards('Damage')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-damage"><i className="material-icons">undo</i></button>
                     <button className="btn-large" id="overview-support">Support</button>
-                    <button className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-support"><i className="material-icons">undo</i></button>
+                    <button onClick={() => this.flipCards('Support')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-support"><i className="material-icons">undo</i></button>
                     <div className="input-field absolute">
                         <input onChange={this.changeSearch} value={this.state.search} type="text" id="overview-search" placeholder="search by name" />
                     </div>

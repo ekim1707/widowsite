@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import data from '../data';
+import widowmaker from '../widowmaker.png';
+import sombra from '../sombra.png';
+import ana from '../ana.png';
+import junkrat from '../junkrat.png';
+import pharah from '../pharah.png';
+import torbjorn from '../torbjorn.png';
 
 class Videos extends Component {
     constructor() {
@@ -305,12 +311,12 @@ class Videos extends Component {
         return(
             <div className="App">
                 <div className="video-header">
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/widowmaker/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero selected" id="widow-portrait" />
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/sombra/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="sombra-portrait" />
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/ana/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="ana-portrait" />
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/junkrat/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="junkrat-portrait" />
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/pharah/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="pharah-portrait" />
-                    <img src="https://www.jinx.com/content/responsive_themes/overwatch/ultimates/torbjorn/icon-portrait.png" width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
+                    <img src={widowmaker} width="10%" height="100%" alt="video-header" className="video-hero selected" id="widow-portrait" />
+                    <img src={sombra} width="10%" height="100%" alt="video-header" className="video-hero" id="sombra-portrait" />
+                    <img src={ana} width="10%" height="100%" alt="video-header" className="video-hero" id="ana-portrait" />
+                    <img src={junkrat} width="10%" height="100%" alt="video-header" className="video-hero" id="junkrat-portrait" />
+                    <img src={pharah} width="10%" height="100%" alt="video-header" className="video-hero" id="pharah-portrait" />
+                    <img src={torbjorn} width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
                     <img src="http://icons.iconarchive.com/icons/tribalmarkings/colorflow/256/miscellaneous-icon.png" width="10%" height="100%" alt="video-header" className="video-hero" id="all-portrait" />
                     <img src="https://www.fortnitehut.com/fortnite-font-generator-images/dD1Hb2xmIENsYXAmcz0xNzBweCZjPUExRDU0RCY.png" width="10%" height="100%" alt="video-header" className="video-hero" id="golf-clap" />
                     <img src="https://www.pngkey.com/png/full/809-8095773_website-web-product-kinda-funny-joomla-design-clipart.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />

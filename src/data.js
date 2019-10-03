@@ -820,8 +820,8 @@ const data = [
         videos: 
         [{name: 'Almost Perfect?', 
         embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
-        comment: `Note the public chat where the dude gets owned out of spawn, taunts me, switches
-        to Pharah, keeps getting owned, and never says another word before exiting the game.`},
+        comment: `Note the public chat where the dude gets owned out of spawn, taunts me,
+        keeps getting owned, and never says another word before exiting the game.`},
         {name: ['22k Total DMG, Crazy Game', 'Chabco'],
         embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
         comment: `Few things to note here: (1) Been queuing with Mr. Charles Cortez (Chabco) recently, and it's been
@@ -834,7 +834,10 @@ const data = [
         image: Chabco},
         {name: 'Dude Was Not Cool', 
         embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
-        comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?`},
+        comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?
+        After getting owned the previous game (also playing Ashe... I guess this dude was the next star pro-Ashe in training),
+        this trash-talking, pretentious Kenpachi noob said something like "Imagine if I actually had a goddam tank once in a while".
+        Well, he definitely had a tank this game for sure, not really sure what else he could've wanted. An aimbot?`},
         {name: 'Really? What More Could I Have Done?', 
         embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
         comment: `I've always had occasional Pharah games where I'm raining direct hits down on opposing teams

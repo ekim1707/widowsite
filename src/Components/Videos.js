@@ -331,7 +331,7 @@ class Videos extends Component {
                         </div>
                         <div className="sidebar-image" id="sidebar-image"></div>
                     </div>
-                    <iframe title="mainFrame" className="video-iframe" width="100%" height="100%" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe title="mainFrame" className="video-iframe" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div className="video-comment-right selected">
                         Commentary
                         <div className="video-menu commentary selected">

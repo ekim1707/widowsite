@@ -30,7 +30,7 @@ There weren't too many challenges in this project, given how simple it was to ma
 ## Screenshots
   * Intro page:
 ![alt text](https://github.com/ekim1707/widowsite/blob/master/intropage.png 'intropage.png')
-  * A look at the modals on the cards page:
+  * A look at a modal on the cards page:
 ![alt text](https://github.com/ekim1707/widowsite/blob/master/modalpage.png 'modalpage.png')
 
 ## Github Link

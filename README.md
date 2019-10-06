@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Widowsite
 
-## Available Scripts
+This is a project I completed on the side of learning React.js as a practice tool. It was completely done on my own with the help of Udemy lectures.
 
-In the project directory, you can run:
+## Video Link
+[Widowsite Video](https://youtu.be/fxX90aPSra8)
 
-### `npm start`
+## Contents
+  * What It Is
+  * What We Used
+  * Challenges
+  * Screenshots
+  * Github Link
+  * Code Examples
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What It Is
+I merely needed a subject-matter to build a practice site with, and I decided on this theme because I already had been planning to make a website of this content for quite some time anyway. As my focus was almost entirely on mastering React basics (and not necessarily on creating a fully functioning product), however, this project does not include a back-end portion (yet), and thus as of now, the Forum section cannot communicate with any actual database.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What I Used
+  * HTML
+  * CSS (Materialize)
+  * JavaScript
+  * Node
+  * React
+  * React-Router
 
-### `npm test`
+## Challenges
+There weren't too many challenges in this project, given how simple it was to make in an overall sense. At times, Materialize defaults could be frustrating to try to manage, such as for input-fields/boxes. There were some other styling issues, a couple of which I still haven't managed to debug completely. Other than that things went relatively smoothly for a project that I considered to be a major one.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss1.png 'owrpgss1.png')
+![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss2.png 'owrpgss2.png')
 
-### `npm run build`
+## Github Link
+[Github](https://github.com/ekim1707/widowsite)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Code Examples
+---
+  Filter method used for Hero card page search bar:
+```
+const heroSearch = data.filter(function (data) {
+    const newHero = data.name.filter(name => name.toLowerCase().includes(e.target.value.toLowerCase()));
+    if (newHero.length > 0) {
+        return true
+    } else {
+        return false
+    }
+});
+this.setState({
+    heroes: heroSearch,
+    search: e.target.value
+})
+```
+  flipCards method for the flip buttons in the Hero card page:
+```
+flipCards(type) {
+    let getCards;
+    if (type === 'All') {
+        getCards = [].slice.call(document.querySelectorAll('.card'));
+    } else {
+        getCards = [].slice.call(document.querySelectorAll(`#${type}`));
+    }
+    if (getCards.length === 0) {
+        document.getElementById(`flip-${type.toLowerCase()}`).classList.add('body-shake');
+        setTimeout(() => {document.getElementById(`flip-${type.toLowerCase()}`).classList.remove('body-shake')}, 1000);
+    } else {
+        const newCards = getCards.filter(card => !card.classList.contains('flip'));
+        if (newCards.length > 0) {
+            newCards.forEach(card => card.classList.add('flip'));
+        } else {
+            getCards.forEach(card => card.classList.remove('flip'));
+        }
+    }
+}
+```

@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# OWRPG
 
-## Available Scripts
+Hello. This was my first solo-project in coding that I worked on separately from class during our first couple weeks learning Python.
 
-In the project directory, you can run:
+## Contents
+  * What It Is
+  * What We Used
+  * Challenges
+  * Screenshots
+  * Github Link
+  * Code Examples
 
-### `npm start`
+## What It Is
+This is a derivative of the RPG game exercise that we did in class as a class exercise. I thought the template that the bootcamp gave for the RPG game exercise would be a good fit with the video game Overwatch, so I thought it would be interesting and challenging to try to combine the two.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What I Used
+  * Python3
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Challenges
+The greatest challenge was managing massive lines of codes. At this point in our learning, I wasn't advanced enough to be conscious of keeping code clean and efficient (i.e. by using functions rather than repetitive code blocks over and over). Thus the code is as inefficient and long as it possibly could be, and that also made for quite a challenge when trying to debug later on. I decided to leave it as it is rather than "fixing" it for the sake of preserving the integrity of my learning history and also because "fixing" it would potentially take more time than just completing it the way it already is.
 
-### `npm test`
+## Screenshots
+![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss1.png 'owrpgss1.png')
+![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss2.png 'owrpgss2.png')
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Github Link
+[Github](https://github.com/ekim1707/owrpg)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Code Examples
+---
+  Use of classes and class constructors:
+```
+class Attack:
+    def __init__(self, health, power, accuracy, dodge, ultimate, ultcount):
+        self.health = health
+        self.power = power
+        self.accuracy = accuracy
+        self.dodge = dodge
+        self.ultimate = ultimate
+        self.ultcount = ultcount
+    
+    def alive(self):
+        if self.health <= 0:
+            return False
+        else:
+            return True
+```
+  An example of how managing ultimates works:
+```
+while heroa.alive() and enemya.alive():
+print(choice3.capitalize() + " will now attack. Ults will be used when possible, and sec abilities will be used as appropriate.")
+user_input2 = input("Press ENTER to continue.")
+if choice3 == 'reaper':
+    if 1 == 2:
+        pass
+    else:
+        enemya.attack(heroa)
+        ulth += 4
+        healult += (4 + hhealer.ultimate)
+        ulte += (4 + enemya.ultimate)
+        thealult += (4 + thealer.ultimate)
+        cooldowne += 1
+        break
+```

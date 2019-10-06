@@ -28,8 +28,8 @@ I merely needed a subject-matter to build a practice site with, and I decided on
 There weren't too many challenges in this project, given how simple it was to make in an overall sense. At times, Materialize defaults could be frustrating to try to manage, such as for input-fields/boxes. There were some other styling issues, a couple of which I still haven't managed to debug completely. Other than that things went relatively smoothly for a project that I considered to be a major one.
 
 ## Screenshots
-![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss1.png 'owrpgss1.png')
-![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss2.png 'owrpgss2.png')
+![alt text](https://github.com/ekim1707/widowsite/blob/master/intropage.png 'intropage.png')
+![alt text](https://github.com/ekim1707/widowsite/blob/master/modalpage.png 'modalpage.png')
 
 ## Github Link
 [Github](https://github.com/ekim1707/widowsite)

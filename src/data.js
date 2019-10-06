@@ -1158,7 +1158,7 @@ const data = [
         embed: "https://www.youtube.com/embed/OoRNDbx1ygs", 
         comment: `My goodness I really wish our Sym didn't leave after the 1st round (although she wasn't so hot herself). At least
         she wasn't completely obnoxious for no reason all game long like this back-filling Bastion turned out to be. I will always
-        be proud of myself for basically keeping us alive by myself at the very end of the game with what I considered a pretty epic stall
+        be proud of myself for basically keeping us alive at the very end of the game with what I considered a pretty epic stall
         until the rest of our team finally returned from spawn (and our Bastion, go figure, took credit for the entire win).`},
         {name: 'Nobody Cares About Team', 
         embed: "https://www.youtube.com/embed/g3nhCGfdA-8", 

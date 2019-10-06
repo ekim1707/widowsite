@@ -80,7 +80,6 @@ class Overview extends Component {
         }
         const heroSearch = data.filter(function (data) {
             const newHero = data.name.filter(name => name.toLowerCase().includes(e.target.value.toLowerCase()));
-            console.log(newHero.length);
             if (newHero.length > 0) {
                 return true
             } else {

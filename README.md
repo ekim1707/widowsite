@@ -1,6 +1,9 @@
-# OWRPG
+# Widowsite
 
-Hello. This was my first solo-project in coding that I worked on separately from class during our first couple weeks learning Python.
+This is a project I completed on the side of learning React.js as a practice tool. It was completely done on my own with the help of Udemy lectures.
+
+## Video Link
+[YouTube](https://youtu.be/fxX90aPSra8)
 
 ## Contents
   * What It Is
@@ -11,13 +14,18 @@ Hello. This was my first solo-project in coding that I worked on separately from
   * Code Examples
 
 ## What It Is
-This is a derivative of the RPG game exercise that we did in class as a class exercise. I thought the template that the bootcamp gave for the RPG game exercise would be a good fit with the video game Overwatch, so I thought it would be interesting and challenging to try to combine the two.
+I merely needed a subject-matter to build a practice site with, and I decided on this theme because I already had been planning to make a website of this content for quite some time anyway. As my focus was almost entirely on mastering React basics (and not necessarily on creating a fully functioning product), however, this project does not include a back-end portion (yet), and thus as of now, the Forum section cannot communicate with any actual database.
 
 ## What I Used
-  * Python3
+  * HTML
+  * CSS (Materialize)
+  * JavaScript
+  * Node
+  * React
+  * React-Router
 
 ## Challenges
-The greatest challenge was managing massive lines of codes. At this point in our learning, I wasn't advanced enough to be conscious of keeping code clean and efficient (i.e. by using functions rather than repetitive code blocks over and over). Thus the code is as inefficient and long as it possibly could be, and that also made for quite a challenge when trying to debug later on. I decided to leave it as it is rather than "fixing" it for the sake of preserving the integrity of my learning history and also because "fixing" it would potentially take more time than just completing it the way it already is.
+There weren't too many challenges in this project, given how simple it was to make in an overall sense. At times, Materialize defaults could be frustrating to try to manage, such as for input-fields/boxes. There were some other styling issues, a couple of which I still haven't managed to debug completely. Other than that things went relatively smoothly for a project that I considered to be a major one.
 
 ## Screenshots
 ![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss1.png 'owrpgss1.png')

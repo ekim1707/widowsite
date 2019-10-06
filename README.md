@@ -3,7 +3,7 @@
 This is a project I completed on the side of learning React.js as a practice tool. It was completely done on my own with the help of Udemy lectures.
 
 ## Video Link
-[YouTube](https://youtu.be/fxX90aPSra8)
+[Widowsite Video](https://youtu.be/fxX90aPSra8)
 
 ## Contents
   * What It Is
@@ -32,41 +32,44 @@ There weren't too many challenges in this project, given how simple it was to ma
 ![alt text](https://github.com/ekim1707/owrpg/blob/master/owrpgss2.png 'owrpgss2.png')
 
 ## Github Link
-[Github](https://github.com/ekim1707/owrpg)
+[Github](https://github.com/ekim1707/widowsite)
 
 ## Code Examples
 ---
-  Use of classes and class constructors:
+  Filter method used for Hero card page search bar:
 ```
-class Attack:
-    def __init__(self, health, power, accuracy, dodge, ultimate, ultcount):
-        self.health = health
-        self.power = power
-        self.accuracy = accuracy
-        self.dodge = dodge
-        self.ultimate = ultimate
-        self.ultcount = ultcount
-    
-    def alive(self):
-        if self.health <= 0:
-            return False
-        else:
-            return True
+const heroSearch = data.filter(function (data) {
+    const newHero = data.name.filter(name => name.toLowerCase().includes(e.target.value.toLowerCase()));
+    if (newHero.length > 0) {
+        return true
+    } else {
+        return false
+    }
+});
+this.setState({
+    heroes: heroSearch,
+    search: e.target.value
+})
 ```
-  An example of how managing ultimates works:
+  flipCards method for the flip buttons in the Hero card page:
 ```
-while heroa.alive() and enemya.alive():
-print(choice3.capitalize() + " will now attack. Ults will be used when possible, and sec abilities will be used as appropriate.")
-user_input2 = input("Press ENTER to continue.")
-if choice3 == 'reaper':
-    if 1 == 2:
-        pass
-    else:
-        enemya.attack(heroa)
-        ulth += 4
-        healult += (4 + hhealer.ultimate)
-        ulte += (4 + enemya.ultimate)
-        thealult += (4 + thealer.ultimate)
-        cooldowne += 1
-        break
+flipCards(type) {
+    let getCards;
+    if (type === 'All') {
+        getCards = [].slice.call(document.querySelectorAll('.card'));
+    } else {
+        getCards = [].slice.call(document.querySelectorAll(`#${type}`));
+    }
+    if (getCards.length === 0) {
+        document.getElementById(`flip-${type.toLowerCase()}`).classList.add('body-shake');
+        setTimeout(() => {document.getElementById(`flip-${type.toLowerCase()}`).classList.remove('body-shake')}, 1000);
+    } else {
+        const newCards = getCards.filter(card => !card.classList.contains('flip'));
+        if (newCards.length > 0) {
+            newCards.forEach(card => card.classList.add('flip'));
+        } else {
+            getCards.forEach(card => card.classList.remove('flip'));
+        }
+    }
+}
 ```

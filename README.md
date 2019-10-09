@@ -1,6 +1,6 @@
 # Widowsite
 
-This is a project I completed on the side of learning React.js as a practice tool. It was completely done on my own with the help of Udemy lectures.
+This is a project I completed as a practice tool on the side of learning React. It was completely done on my own with the help of Udemy lectures.
 
 ## Video Link
 [Widowsite Video](https://youtu.be/fxX90aPSra8)

@@ -30,6 +30,11 @@ const data = [
         comment: `Three of my favorite DPS mains/former-mains featured in one game. Pretty happy with how I played
         overall for each hero.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
+        {name: 'Healer Trio', 
+        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
+        it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`,
+        image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Reaper Is Too Easy To Take Seriously', 
         embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `I used to take Reaper seriously when I first started playing, to the point where people kept
@@ -968,9 +973,12 @@ const data = [
         embed: "https://www.youtube.com/embed/-oovWzSmQ8I", 
         comment: `Sombra was the hero I decided to try out most recently, and the results have been pretty positive thus far. I was afraid of her
         kit for a while because it looked intimidating, but now I feel pretty comfortable calling her one of my mains.`},
-        {name: 'Need More Familiarity', 
-        embed: "https://www.youtube.com/embed/NS-6tdlQcXA", 
-        comment: `My intro into Sombra (the repeated kit fails should tell the whole story).`},
+        {name: 'Methinks "BegForMercy" Was A Mercy-Main?', 
+        embed: "https://www.youtube.com/embed/HRX2Bj4-kj4", 
+        comment: `32 hacked, 15 offensive assists, silver elims. All credit goes to our Mercy though, who saved
+        my ass numerous times despite (I assume) also participating in Pharmacy? Pretty sure despite her tag, she's
+        a Mercy-main though bc of the obvious reasons, and also the fact that she was quite honestly the best Mercy
+        I've ever played with in QP (that I can remember).`},
         {name: 'Still Shaky But Not Bad', 
         embed: "https://www.youtube.com/embed/uSm9RlrYZ2g", 
         comment: `Baby steps are definitely required to learn Sombra, lol.`},
@@ -1249,6 +1257,11 @@ const data = [
         comment: `Probably one of my favorite plays of all-time was during this game when I had the presence of mind to use the gondola to survive
         the enemy DVa bomb, whereas any other decision I made would have almost certainly resulted in me dying. Then icing on the cake was when the
         DVa re-meched and rushed right back at me, but I landed a sleep-dart on her that booped her completely off the side and into the canal instead.`},
+        {name: 'Good Ana Considering Circumstances', 
+        embed: 'https://www.youtube.com/embed/tWlbstFA_Q4', 
+        comment: `Some games I just look at our comp before game-start in spawn, and I can just tell by looking
+        that our DPS duo is going to be inept. Mix in lag issues, and I felt like we were up against a mountain
+        the entire game. Considering all that, I thought I played ok.`},
         {name: 'Pretty Good Ana But Thanks To Better Team', 
         embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
         comment: `Made some good plays and enjoyed a fun game, but at the end, I had to admit that it was completely
@@ -1260,11 +1273,7 @@ const data = [
         forum so I can gain some perspective.`},
         {name: 'Top Ana-play With Good Widow Cap', 
         embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `Decent Ana game augmented by a solid switch to Widow to cap the game strongly.`},
-        {name: 'Healer Montage (2nd Round Ana)', 
-        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
-        comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
-        it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`}],
+        comment: `Decent Ana game augmented by a solid switch to Widow to cap the game strongly.`}],
         modalData: [{
             quote: `"It's just a scratch, you'll be fine!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/fc/Ability-ana1.png/200px-Ability-ana1.png?version=1101920478ed5840a6a4d4698ee87951',

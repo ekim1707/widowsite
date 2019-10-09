@@ -8,11 +8,6 @@ class Card extends Component {
         }
     }
 
-    componentDidMount() {
-        var elems = document.querySelectorAll('.modal');
-        var instances = window.M.Modal.init(elems);
-    }
-
     flip = (e) => {
         let newFlip = this.state.flipClass === '' ? 'flip' : '';
         this.setState({

@@ -56,6 +56,11 @@ class Modal extends Component {
         }
     }
 
+    componentDidMount() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = window.M.Modal.init(elems);
+    }
+
     render() {
         return(
             <div id="modal1" className="modal modal-fixed-footer">

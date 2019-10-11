@@ -595,17 +595,13 @@ textarea:focus {
   border-radius: 10px;
 }
 .forum-messageboard {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
   width: 64.5%;
   height: 99.5%;
   border: 1px solid gray;
   border-radius: 10px 10px 0 0;
   background: #f0a830;
   overflow: auto;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
 }
 .forum-messageboard-row {
   display: flex;
@@ -619,7 +615,7 @@ textarea:focus {
   border-radius: 10px;
   border: 1px solid gray;
   background: whitesmoke;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 .forum-messageboard-message {
   display: flex;
@@ -630,6 +626,7 @@ textarea:focus {
   height: 100%;
   text-align: left;
   font-size: 2vh;
+  overflow: scroll;
 }
 .forum-messageboard-tag {
   display: flex;

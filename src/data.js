@@ -35,6 +35,12 @@ const data = [
         comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
         it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
+        {name: 'Brig Upvotes Self?', 
+        embed: 'https://www.youtube.com/embed/67lT5mhyzvI', 
+        comment: `65% KP split between Pharah and Sombra. Gotta love a Brig who talks so brashly... as if
+        whipping hacked, helpless enemies to death without having to aim at all is really that difficult. If I was a betting man, and I'm
+        not, I'm 100% all-in that that immediate lone upvote of her came from herself lol...`,
+        image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Reaper Is Too Easy To Take Seriously', 
         embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
         comment: `I used to take Reaper seriously when I first started playing, to the point where people kept

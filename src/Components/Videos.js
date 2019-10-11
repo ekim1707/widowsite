@@ -288,7 +288,6 @@ class Videos extends Component {
     }
 
     render() {
-
         const featured = this.state.heroes;
         const featuredTitles = featured.map((video, i) => {
             if ((this.state.name === 'DV.a') || (this.state.name === 'Orisa') || (this.state.name === 'Reinhardt')) {

@@ -75,7 +75,7 @@ flipCards(type) {
     }
 }
 ```
- Ran into trouble with the datestamp for posts in the Forum. Despite data being entered in as "Date" into SQL (yyyy-MM-dd format), whenever I pulled it out, it would come out as a timestamp. Looked for a easy solution initially, but after finding none, decided to fix the problem manually:
+ Ran into trouble with the datestamp for posts in the Forum. Despite data being entered in as "Date" into SQL (yyyy-MM-dd format), whenever I pulled it out, it would come out as a timestamp instead (e.g. "2019-10-11T04:00:00.000Z"). Looked for a easy solution initially, but after finding none, decided to fix the problem manually:
 ```
 const yyyy = this.props.data.date_posted.slice(0, 4);
 const MM = this.props.data.date_posted.slice(5, 7);

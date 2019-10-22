@@ -23,254 +23,35 @@ class Videos extends Component {
     }
 
     componentDidMount() {
-
-        document.getElementById('0').classList.add('selected');
-
-        const controlClick = (e) => {
-
-            const el = e.target;
-            const videoLis = document.querySelectorAll('.video-lis');
-            const videoPortraits = document.querySelectorAll('.video-hero');
-      
-            if (el.id === '0') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '1') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('1').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '2') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('2').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '3') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('3').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '4') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('4').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '5') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('5').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '6') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('6').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '7') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('7').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '8') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('8').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '9') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('9').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '10') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('10').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '11') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('11').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '12') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('12').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '13') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('13').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '14') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('14').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '15') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('15').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '16') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('16').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '17') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('17').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '18') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('18').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '19') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('19').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '20') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('20').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === '21') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('21').classList.add('selected');
-              this.selectVideo(el.id);
-            } else if (el.id === 'widow-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('widow-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/c0/7e/91/c07e91f9e49a67fa4648503813847c40.jpg')";
-              this.clickHero('Widowmaker');
-            } else if (el.id === 'sombra-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('sombra-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/564x/9b/35/0c/9b350c02262c028b3269bc17551942c8.jpg')";
-              this.clickHero('Sombra');
-            } else if (el.id === 'ana-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('ana-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/70l4CM4.jpg')";
-              this.clickHero('Ana');
-            } else if (el.id === 'junkrat-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('junkrat-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/84/51/90/84519048b449d09ef1bdfcefd1179d8a.jpg')";
-              this.clickHero('Junkrat');
-            } else if (el.id === 'pharah-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('pharah-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/a1/84/5e/a1845e76c0b76977eae1b1d74ce08011.jpg')";
-              this.clickHero('Pharah');
-            } else if (el.id === 'golf-clap') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('golf-clap').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
-              this.clickHero('Orisa');
-            } else if (el.id === 'torbjorn-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('torbjorn-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/bb/73/ee/bb73ee2cf588b33b9e303bcbe0ed95d3.jpg')";
-              this.clickHero('Torbjörn');
-            } else if (el.id === 'kinda-funny') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('kinda-funny').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
-              this.clickHero('Reinhardt');
-            } else if (el.id === 'all-portrait') {
-              videoLis.forEach((li) => {
-                li.classList.remove('selected');
-              });
-              document.getElementById('0').classList.add('selected');
-              videoPortraits.forEach((portrait) => {
-                portrait.classList.remove('selected');
-              });
-              document.getElementById('all-portrait').classList.add('selected');
-              document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
-              this.clickHero('DV.a');
-            }
-        }
-      
-        window.addEventListener('click', controlClick);
-
+      document.querySelector('.video-menu-ul').firstElementChild.classList.add('selected');
     }
 
-    clickHero = (hero) => {
+    clickHero = (e, hero) => {
+        const videoLis = document.querySelectorAll('.video-lis');
+        const videoPortraits = document.querySelectorAll('.video-hero');
+        videoLis.forEach((li) => {
+          li.classList.remove('selected');
+        });
+        document.querySelector('.video-menu-ul').firstElementChild.classList.add('selected');
+        videoPortraits.forEach((portrait) => {
+          portrait.classList.remove('selected');
+        });
+        e.target.classList.add('selected');
+        if (hero === 'Widowmaker') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/c0/7e/91/c07e91f9e49a67fa4648503813847c40.jpg')";
+        } else if (hero === 'Sombra') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/564x/9b/35/0c/9b350c02262c028b3269bc17551942c8.jpg')";
+        } else if (hero === 'Ana') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/70l4CM4.jpg')";
+        } else if (hero === 'Junkrat') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/84/51/90/84519048b449d09ef1bdfcefd1179d8a.jpg')";
+        } else if (hero === 'Pharah') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/a1/84/5e/a1845e76c0b76977eae1b1d74ce08011.jpg')";
+        } else if (hero === 'Torbjörn') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/bb/73/ee/bb73ee2cf588b33b9e303bcbe0ed95d3.jpg')";
+        } else if ((hero === 'Orisa') || (hero === 'Reinhardt') || (hero === 'DV.a')) {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
+        }
         const newData = data.filter(newhero => newhero.name.includes(hero));
         this.setState({
             heroes: newData[0].videos,
@@ -280,7 +61,12 @@ class Videos extends Component {
         })
     }
 
-    selectVideo = (index) => {
+    selectVideo = (e, index) => {
+      const videoLis = document.querySelectorAll('.video-lis');
+      videoLis.forEach((li) => {
+        li.classList.remove('selected');
+      });
+      e.target.classList.add('selected');
         this.setState({
             selectedVideo: this.state.heroes[index].embed,
             selectedComment: this.state.heroes[index].comment
@@ -292,45 +78,45 @@ class Videos extends Component {
         const featuredTitles = featured.map((video, i) => {
             if ((this.state.name === 'DV.a') || (this.state.name === 'Orisa') || (this.state.name === 'Reinhardt')) {
                 if (this.state.selected === i) {
-                    return <li className="video-lis toggle-size selected" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
+                    return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis toggle-size selected" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
                 }
-                return <li className="video-lis toggle-size" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
+                return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis toggle-size" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
             } else if ((video.name[1] === 'Chabco')) {
                 if (this.state.selected === i) {
-                    return <li className="video-lis selected" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
+                    return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis selected" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
                 }
-                return <li className="video-lis" key={i} id={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
+                return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
             }
             if (this.state.selected === i) {
-                return <li className="video-lis selected" key={i} id={i}><span className="video-lis-names">{video.name}</span></li>
+                return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis selected" key={i}><span className="video-lis-names">{video.name}</span></li>
             }
-            return <li className="video-lis" key={i} id={i}><span className="video-lis-names">{video.name}</span></li>
+            return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis" key={i}><span className="video-lis-names">{video.name}</span></li>
         });
         
         return(
             <div className="App">
                 <div className="video-header">
-                    <img src={widowmaker} width="10%" height="100%" alt="video-header" className="video-hero selected" id="widow-portrait" />
-                    <img src={sombra} width="10%" height="100%" alt="video-header" className="video-hero" id="sombra-portrait" />
-                    <img src={ana} width="10%" height="100%" alt="video-header" className="video-hero" id="ana-portrait" />
-                    <img src={junkrat} width="10%" height="100%" alt="video-header" className="video-hero" id="junkrat-portrait" />
-                    <img src={pharah} width="10%" height="100%" alt="video-header" className="video-hero" id="pharah-portrait" />
-                    <img src={torbjorn} width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
-                    <img src="http://icons.iconarchive.com/icons/tribalmarkings/colorflow/256/miscellaneous-icon.png" width="10%" height="100%" alt="video-header" className="video-hero" id="all-portrait" />
-                    <img src="https://www.fortnitehut.com/fortnite-font-generator-images/dD1Hb2xmIENsYXAmcz0xNzBweCZjPUExRDU0RCY.png" width="10%" height="100%" alt="video-header" className="video-hero" id="golf-clap" />
-                    <img src="https://www.pngkey.com/png/full/809-8095773_website-web-product-kinda-funny-joomla-design-clipart.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />
+                    <img onClick={(e) => this.clickHero(e, 'Widowmaker')} src={widowmaker} width="10%" height="100%" alt="video-header" className="video-hero selected" id="widow-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Sombra')} src={sombra} width="10%" height="100%" alt="video-header" className="video-hero" id="sombra-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Ana')} src={ana} width="10%" height="100%" alt="video-header" className="video-hero" id="ana-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Junkrat')} src={junkrat} width="10%" height="100%" alt="video-header" className="video-hero" id="junkrat-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Pharah')} src={pharah} width="10%" height="100%" alt="video-header" className="video-hero" id="pharah-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Torbjörn')} src={torbjorn} width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'DV.a')} src="http://icons.iconarchive.com/icons/tribalmarkings/colorflow/256/miscellaneous-icon.png" width="10%" height="100%" alt="video-header" className="video-hero" id="all-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'Orisa')} src="https://www.fortnitehut.com/fortnite-font-generator-images/dD1Hb2xmIENsYXAmcz0xNzBweCZjPUExRDU0RCY.png" width="10%" height="100%" alt="video-header" className="video-hero" id="golf-clap" />
+                    <img onClick={(e) => this.clickHero(e, 'Reinhardt')} src="https://www.pngkey.com/png/full/809-8095773_website-web-product-kinda-funny-joomla-design-clipart.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />
                     <a className="youtube-channel-link" href="https://www.youtube.com/channel/UCdijCKSJ9gNdCEQKlIO8lRA/playlists?view_as=subscriber" target="_blank" rel="noopener noreferrer" id="youtube-link"><span></span></a>
                 </div>
                 <div className="video-body">
                     <div className="video-menu-container">
                         <div className="video-menu">
-                            <ul>
+                            <ul className="video-menu-ul">
                                 {featuredTitles}
                             </ul>
                         </div>
                         <div className="sidebar-image" id="sidebar-image"></div>
                     </div>
-                    <iframe title="mainFrame" className="video-iframe" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe title="mainFrame" className="video-iframe" src={this.state.selectedVideo} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
                     <div className="video-comment-right selected">
                         Commentary
                         <div className="video-menu commentary selected">

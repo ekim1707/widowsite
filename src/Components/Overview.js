@@ -112,40 +112,18 @@ class Overview extends Component {
         }
     }
 
-    componentDidMount() {
-        document.getElementById('overview-all').style.background = 'gold';
-
-        const controlClick = (e) => {
-
-            const el = e.target;
-
-            if (el.id === 'overview-all') {
-                this.all();
-            } else if (el.id === 'overview-tank') {
-                this.tanksOnly();
-            } else if (el.id === 'overview-damage') {
-                this.damageOnly();
-            } else if (el.id === 'overview-support') {
-                this.supportOnly();
-            }
-            
-        }
-
-        window.addEventListener('click', controlClick);
-    }
-
     render() {
         return(
             <div className="App">
                 <div className="background"></div>
                 <div className="toggle-heroes row">
-                    <button className="btn-large" id="overview-all">All</button>
+                    <button onClick={() => this.all()} className="btn-large" id="overview-all">All</button>
                     <button onClick={() => this.flipCards('All')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-all"><i className="material-icons">undo</i></button>
-                    <button className="btn-large" id="overview-tank">Tank</button>
+                    <button onClick={() => this.tanksOnly()} className="btn-large" id="overview-tank">Tank</button>
                     <button onClick={() => this.flipCards('Tank')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-tank"><i className="material-icons">undo</i></button>
-                    <button className="btn-large" id="overview-damage">Damage</button>
+                    <button onClick={() => this.damageOnly()} className="btn-large" id="overview-damage">Damage</button>
                     <button onClick={() => this.flipCards('Damage')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-damage"><i className="material-icons">undo</i></button>
-                    <button className="btn-large" id="overview-support">Support</button>
+                    <button onClick={() => this.supportOnly()} className="btn-large" id="overview-support">Support</button>
                     <button onClick={() => this.flipCards('Support')} className="btn-floating btn-large waves-effect waves-light hoverable gray" id="flip-support"><i className="material-icons">undo</i></button>
                     <div className="input-field absolute">
                         <input onChange={this.changeSearch} value={this.state.search} type="text" id="overview-search" placeholder="search by name" />

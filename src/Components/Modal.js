@@ -58,6 +58,7 @@ class Modal extends Component {
 
     componentDidMount() {
         var elems = document.querySelectorAll('.modal');
+        // eslint-disable-next-line
         var instances = window.M.Modal.init(elems);
     }
 

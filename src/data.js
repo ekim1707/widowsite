@@ -26,39 +26,39 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/d/dc/Dva_portrait.png/revision/latest?cb=20160429040128', 'https://images5.alphacoders.com/659/thumb-350-659055.jpg'], 
         videos: 
         [{name: '28% Team DMG',
-        embed: 'https://www.youtube.com/embed/rxO1t2uRFy4',
+        embed: 'https://www.youtube.com/embed/rxO1t2uRFy4?autoplay=0?autoplay=0',
         comment: `Three of my favorite DPS mains/former-mains featured in one game. Pretty happy with how I played
         overall for each hero.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Healer Trio', 
-        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0?autoplay=0', 
         comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
         it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Brig Upvotes Self?', 
-        embed: 'https://www.youtube.com/embed/67lT5mhyzvI', 
+        embed: 'https://www.youtube.com/embed/67lT5mhyzvI?autoplay=0?autoplay=0', 
         comment: `65% KP split between Pharah and Sombra. Gotta love a Brig who talks so brashly... as if
         whipping hacked, helpless enemies to death without having to aim at all is really that difficult. If I was a betting man, and I'm
         not, I'm 100% all-in that that immediate lone upvote of her came from herself lol...`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Reaper Is Too Easy To Take Seriously', 
-        embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `I used to take Reaper seriously when I first started playing, to the point where people kept
         calling me a Reaper-main. I don't quite have the ability I used to anymore, but I can still hold my own
         alright at least.`, 
         image: reaper},
         {name: '60% KP', 
-        embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8", 
+        embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8?autoplay=0?autoplay=0", 
         comment: `I lost interest in playing DVa (and just tanks in general) a long, long time ago, but I still think whenever I reach
         into the toolbag, I can play her well.`, 
         image: dva},
         {name: 'Yes I Actually Played Mercy. Once.', 
-        embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb", 
+        embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb?autoplay=0?autoplay=0", 
         comment: `Mercy is the most boring hero ever. I think I could count the amount of times I've played her in my
         entire life on two hands, but this one particular game actually ended up being a little bit fun.`,  
         image: mercy},
         {name: 'Im Actually A Pretty Sick Shield Tank', 
-        embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM", 
+        embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM?autoplay=0?autoplay=0", 
         comment: `Rein was probably the hero I was most scared to try when I first started playing. One day, 
         I just decided to screw inhibition and learn how to play him, so I told my team before a game that I
         was probably gonna suck, but I was gonna play him anyway. They were pretty supportive, and we actually
@@ -67,52 +67,52 @@ const data = [
         playing him completely. This is one of the old videos from my Rein days that I managed to save.`, 
         image: reinhardt},
         {name: 'Mercy Needed A Cowboy', 
-        embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `Most McCrees never actually play him the right way. If I cared enough to take him seriously,
         I think I could be an exception.`, 
         image: mccree},
         {name: "It's High Noon", 
-        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `I'm definitely not a good McCree myself (at least not anymore), but I'd say in games like
         this one, I at least hold my own unlike 80% of McCrees out there.`, 
         image: mccree},
         {name: 'Swear This Hanzo Hero Is So Stupid', 
-        embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `There really is no hero I hate more than Hanzo. As I tell many people, I prefered him more
         when he had scatter, even as an enemy. I probably play him nowadays as rarely as I do Mercy, but this
         one time I think I did alright.`, 
         image: hanzo},
         {name: 'Yeah Sym But Still Pretty Epic', 
-        embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `I've actually had a handful of epic Sym games (considering I play her so rarely), but this is the
         only video of one I was able to dig up. In particular, I'm proud of the play I made at the end,
         which was completely in the moment and unscripted.`, 
         image: symmetra}, 
         {name: 'Can I At Least Get a Card', 
-        embed: "https://www.youtube.com/embed/x84xe5GdNfo", 
+        embed: "https://www.youtube.com/embed/x84xe5GdNfo?autoplay=0?autoplay=0", 
         comment: `When I first started playing, I exclusively played Soldier for about a year. Like seriously, seriously
         exclusively. These days I never do except rare occasions, but I always feel pretty comfortable
         regardless of how long it's been. This game made me chuckle because I don't think I could have possibly
         been more productive or helpful to my team, but for some reason Blizzard didn't even think I deserved a card.`, 
         image: soldier},
         {name: 'Dominant Soldier IMO', 
-        embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `Dusted off Soldier again and had a pretty decent game.`, 
         image: soldier},
         {name: 'Tracer Begins', 
-        embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD", 
+        embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0", 
         comment: `This my first serious attempt at adding Tracer to my bag of "mains" after over two years of
         not playing her at all. Ended up having a pretty memorable experience over the course of these two games.
         (Note to Blizzard: I fully believe I deserved both POTGs... can a crappy Sym play possibly be more
         deserving than a 3-kill Pulse that wins the game?)`, 
         image: tracer},
         {name: 'Tracer Vs Clan owo', 
-        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `I just enjoyed this game because the entire owo clan I was playing against is so goofy and chill.
         Had prior experience with them, and they always keep it light and fun in the end, which I appreciate.`, 
         image: tracer},
         {name: '49% KP Rialto', 
-        embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
         comment: `I was pretty frustrated with my team. Hopefully you can understand why.`, 
         image: tracer}],
         modalData: [{
@@ -133,7 +133,7 @@ const data = [
             On the offensive, DVas must know when to rush into the fray to try to finish off weak opponents, while still being able
             to escape without being de-meched. A DVa that cannot stay in mech consistently can be the sole cause of a team loss,
             regardless of his/her ability to pull off huge DVa bombs.`,
-            iframe: 'https://www.youtube.com/embed/jN3TISLTVyc',
+            iframe: 'https://www.youtube.com/embed/jN3TISLTVyc?autoplay=0',
             backgroundImage: 'https://i.ytimg.com/vi/thA-3guCaug/maxresdefault.jpg'
         }]
     },
@@ -148,86 +148,86 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f9/Orisa_portrait.png/revision/latest?cb=20170323183330', 'https://i.pinimg.com/originals/e6/66/8f/e6668fdc94ebf28ed87ad4a76e5b49ad.png'], 
         videos: 
         [{name: 'Jumpshot A Pharah In Mid-Air', 
-        embed: 'https://www.youtube.com/embed/5Z2vqL1XLyE?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/5Z2vqL1XLyE?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `Probably my personal favorite all-time play just because of the difficulty level.`, 
         image: widowmaker},
         {name: 'Genji Blade Jumpshot-Headshot', 
-        embed: 'https://www.youtube.com/embed/1yKVJmDID8w?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/1yKVJmDID8w?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `This will probably my first really "epic-feeling" moment on my road to becoming a Widow-main.
         I knew this Genji was coming right back at me again out of spawn with Blade, and I was just waiting for him
         to dash before making my move. The last step was just making sure I landed the headshot, which luckily enough,
         I managed to do.`, 
         image: widowmaker},
         {name: 'I Have My Reasons', 
-        embed: 'https://www.youtube.com/embed/kDXcaT_z0rk?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/kDXcaT_z0rk?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `You might think this is a weird clip to include here. Duly-noted. But one of the greatest things I take pride in as a Widow
         is destroying enemy Tires (and sometimes just having the prescence of mind to do it). This clip may not look like much, but to me personally,
         considering my circumstances, I was very proud of being able to land a shot on that speedy Tire at a such a weird angle.`, 
         image: widowmaker},
         {name: 'Ice In The Veins', 
-        embed: 'https://www.youtube.com/embed/S3YfOnv5XRU?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/S3YfOnv5XRU?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `This play wasn't even really a matter of skill as much as just not flinching in the face of a Genji-blade coming right for me.`, 
         image: widowmaker},
         {name: '"Tracer Begins", The Highlights', 
-        embed: 'https://www.youtube.com/embed/q9Qq-g3Z4yg?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/q9Qq-g3Z4yg?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `This was literally my first attempt to play Tracer seriously in over two years. The best
         feeling moment was the last pulse that won the game for us.`, 
         image: tracer},
         {name: 'Group Boop', 
-        embed: 'https://www.youtube.com/embed/STlrev4wI1E?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/STlrev4wI1E?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `Not much to say here except I really like to boop, lol.`, 
         image: pharah},
         {name: 'Mother-Daughter Drama', 
-        embed: 'https://www.youtube.com/embed/dqDL_0CVeNI?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp',
+        embed: 'https://www.youtube.com/embed/dqDL_0CVeNI?list=PLks73uWy20avvTfbopdIyHMqRwMM2q5gp?autoplay=0',
         comment: `Anyone who plays Ana seriously would understand how good that boop felt.`, 
         image: ana},
         {name: 'Pharah Mass Boop', 
-        embed: 'https://www.youtube.com/embed/beuRqY9EJLk?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/beuRqY9EJLk?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `Distinctly remember the enemy Mercy calling me "mean" after that one. It was a feelsgood moment for sure.`, 
         image: pharah},
         {name: 'Girl Power', 
-        embed: "https://www.youtube.com/embed/QpRLxnzwKEA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        embed: "https://www.youtube.com/embed/QpRLxnzwKEA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0",
         comment: `Usually don't team up with Mei's and like it, but for this one time I was ok with it.`, 
         image: ana},
         {name: 'Cat-like Reflexes', 
-        embed: "https://www.youtube.com/embed/DAISDT2SKi4?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        embed: "https://www.youtube.com/embed/DAISDT2SKi4?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0",
         comment: `Split-second boop at probably the only moment it could have been made. Felt pretty good.`,  
         image: pharah},
         {name: 'Old Lady Goes Beserk', 
-        embed: "https://www.youtube.com/embed/yD-LX-PeEBY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        embed: "https://www.youtube.com/embed/yD-LX-PeEBY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0",
         comment: `Definitely don't think that highlight did justice to the amount of ass-kicking I was doing against all these dudes diving me at once.`, 
         image: ana},
         {name: "Flight Artist", 
-        embed: 'https://www.youtube.com/embed/9p3I1Qqg7hE?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/9p3I1Qqg7hE?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `Might ask, "Hey pd, why even take the time to shoot a Hanzo who's already falling to his death anyway?". I actually do have some good reasons, if you really want to know.`, 
         image: pharah},
         {name: "What's An Emoji-Tire?", 
-        embed: 'https://www.youtube.com/embed/nELak42ycBA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/nELak42ycBA?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `Have to admit I saw that play done by somebody else before, and it inspired me to just try it out myself. Still didn't make me enjoy it any less.`, 
         image: junkrat},
         {name: "Bravado Goes a Long Way", 
-        embed: 'https://www.youtube.com/embed/H8sCVaBeA9E?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/H8sCVaBeA9E?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `Definitely started to get the hang of timing really effective Tires after maining him for a bit.
         This particular Tire required me to have some bravado since I had to leave myself so vulnerable.`, 
         image: junkrat},
         {name: 'What Are The Percentages?', 
-        embed: 'https://www.youtube.com/embed/FAtLjpXhUaY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/FAtLjpXhUaY?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `Really feel like I had zero margin of error for emerging out of that Soldier's visor alive.`, 
         image: widowmaker}, 
         {name: "Infra-red, Good As Dead", 
-        embed: "https://www.youtube.com/embed/W6IOEieXQg0?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        embed: "https://www.youtube.com/embed/W6IOEieXQg0?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0",
         comment: `Just some sniping through trees with good 'ole infra-red.`, 
         image: widowmaker},
         {name: "Air Darts, Baby", 
-        embed: 'https://www.youtube.com/embed/mXN1jKwxrTo?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4',
+        embed: 'https://www.youtube.com/embed/mXN1jKwxrTo?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0',
         comment: `I think most serious Ana players would agree, there's not many better feelings than darting a Mercy in mid-air.`,
         image: ana},
         {name: 'Pulse From Above', 
-        embed: "https://www.youtube.com/embed/RtW2Nz6UF-k?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4",
+        embed: "https://www.youtube.com/embed/RtW2Nz6UF-k?list=PLks73uWy20atYCKb8fqei3dEIzjxz2v-4?autoplay=0",
         comment: `Freaking wack game with literally the most unhelpful team ever. I dropped that pulse bomb from above with some serious rage.`, 
         image: tracer},
         {name: 'Widow Highlight Reel', 
-        embed: "https://www.youtube.com/embed/Kd72ZTDWEes",
+        embed: "https://www.youtube.com/embed/Kd72ZTDWEes?autoplay=0",
         comment: `Three recent Widow highlights I saved.`, 
         image: widowmaker}],
         modalData: [{
@@ -245,7 +245,7 @@ const data = [
             description: `Orisa may be the only hero in the game who is good for only one thing: shields. Yes she has a pretty rapid primary fire,
             and her "Bongo" can be very effective in the right spots, but really the only reason she is ever going to be picked is because her shield ability is so powerful, and she's obnoxiously
             difficult to kill. A higher-level Orisa, however, will also know how to "pull" enemies timely and effectively with the "Halt!" ability.`,
-            iframe: 'https://www.youtube.com/embed/8jL7FU98Bcg',
+            iframe: 'https://www.youtube.com/embed/8jL7FU98Bcg?autoplay=0',
             backgroundImage: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/8/80/Orisa_Traffic_Safety.png/1600px-Orisa_Traffic_Safety.png?version=f82a84ae40c7f0037070ffa10c88f799'
         }]
     },
@@ -260,49 +260,49 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c7/Reinhardt_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041744', 'https://pbs.twimg.com/media/CmSpDzLXYAAByLi.jpg'], 
         videos: 
         [{name: 'Reaper Darted During Bomb', 
-        embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0', 
         comment: 'Pretty glad I had the presence of mind to let him sleep through that bomb instead of mistakenly waking him up instead.', 
         image: ana},
         {name: 'Suicide Note: "Screw Blizzard..."', 
-        embed: 'https://www.youtube.com/embed/gElqgCdR3Hw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/gElqgCdR3Hw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Ana: "I'm too freaking old to be trying to nano a Reaper directly in front of me and 
         somehow have the nano still somehow magically fly to a tiny baby DVa that just momentarily flashed
         across my FOV instead. You've had years and years and years to fix this stupid ability,
         Blizzard, so screw you, I'm out."`, 
         image: ana}, 
         {name: 'I Didnt Die? Seriously?', 
-        embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0", 
         comment: `This was probably a thousand times funnier in the moment than on the replay,
         but I, for the life of me, could not figure out how I didn't die at the end of this.`, 
         image: junkrat},
         {name: 'Ana Goes Rock-climbing', 
-        embed: "https://www.youtube.com/embed/CpDBiSESn4M?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        embed: "https://www.youtube.com/embed/CpDBiSESn4M?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0", 
         comment: `The first part of the clip demonstrates how triggered I was due to stupid game issues
         (like that crazy lag), but after being rage-chased me off the side of the map with primal, and
         somehow being able to hop myself back to safety after initially thinking I was dead for sure,
         I broke out in laughter.`,  
         image: ana},
         {name: 'Old And Sneaky', 
-        embed: "https://www.youtube.com/embed/jTRJjtarr-4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
+        embed: "https://www.youtube.com/embed/jTRJjtarr-4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0",
         comment: `"I've mastered the art of standing so incredibly still that I become invisible to the naked eye."`, 
         image: soldier},
         {name: "...You're Coming With Me!", 
-        embed: 'https://www.youtube.com/embed/2BCVFzUMzns?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        embed: 'https://www.youtube.com/embed/2BCVFzUMzns?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0', 
         comment: `I still literally laugh out loud every time I see this, no matter how many times it's been. The play
         was complete luck, but got that Reaper in the midst of getting solo-nano-blossomed was hilarious to me, especially
         when picturing the guy playing Reaper face-palming himself afterwards.`, 
         image: tracer},
         {name: "Step 1: Press Q. Step 2: Celebrate.", 
-        embed: 'https://www.youtube.com/embed/q3s547VmRuw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/q3s547VmRuw?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `After round, said to enemy team, "I thought you guys were having an English tea party up there or something".
         We all enjoyed a good laugh.`, 
         image: pharah},
         {name: 'The Art Of Deception', 
-        embed: 'https://www.youtube.com/embed/uK2_xGv0Q6w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/uK2_xGv0Q6w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Made the enemy widow LOL in public chat after that one. I thought it was worth a good laugh.`, 
         image: widowmaker},
         {name: 'Now Thats What I Call A Trap', 
-        embed: "https://www.youtube.com/embed/kALfdCpYtSg?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5",
+        embed: "https://www.youtube.com/embed/kALfdCpYtSg?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0",
         comment: `Wish I was smart enough to record the entire scene, but long story short, this Hamster was
         just setting up some master plan to camp in our spawn for a bit and then attack us from behind I guess?
         I back-filled the game late, and emerging out of spawn for the first time, I saw him roll straight
@@ -311,69 +311,75 @@ const data = [
         thought of probably surprising the hell out of him), made me die with laughter.`, 
         image: junkrat},
         {name: "Honestly Didn't See It Coming", 
-        embed: 'https://www.youtube.com/embed/evMNtrRKgv4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/evMNtrRKgv4?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `I don't know why, but I legit thought when I charged towards those doors that they would stay closed
         until I hit them, and they halted me. Looking back, I'm not really sure why I thought that, but for some reason,
         I did at the time.`,
         image: reinhardt},
         {name: 'Peripheral Vision Issues?', 
-        embed: "https://www.youtube.com/embed/0EExq-yEEsQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5", 
+        embed: "https://www.youtube.com/embed/0EExq-yEEsQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0", 
         comment: `LOL the visual of that clueless, nerdy Mei walking directly into the pit is simply priceless.`, 
         image: widowmaker},
         {name: 'Do Not Quit Day Job For Ninja Training', 
-        embed: 'https://www.youtube.com/embed/stKhHuCtOvA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/stKhHuCtOvA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `If you're gonna lay a secret covert-op ninja plan to hide and flank the enemy team out of spawn,
         how are you gonna crouch patiently for so long, and then as soon as they spill out, just bob
         your head up like a goddam gopher to take a quick peak around. Lol I don't even want to be mean,
         but it's just so laughable sometimes.`, 
         image: widowmaker},
         {name: '"Slight" Calculation Error?', 
-        embed: 'https://www.youtube.com/embed/4ZVgMu2Z2_Y?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/4ZVgMu2Z2_Y?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `"if (goldMedals === 2) {return goldMedals = 3}". Rofl, freaking Blizzard.`, 
         image: zenyatta},
         {name: 'Once A Rein, Always A Rein', 
-        embed: 'https://www.youtube.com/embed/YJIRKHWmz8Q?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5', 
+        embed: 'https://www.youtube.com/embed/YJIRKHWmz8Q?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0', 
         comment: `Proud of myself for the high IQ. Not sure many other Reins would have even noticed the DVa camping
         in that corner to begin with.`, 
         image: reinhardt}, 
         {name: 'Simple Joys Of Stupid Heroes', 
-        embed: 'https://www.youtube.com/embed/LwtCH95hGyU?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/LwtCH95hGyU?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `I don't Sym much, but when I do, I think it's the most retarded thing in the world.`, 
         image: symmetra},
         {name: 'Peek-A-Boo', 
-        embed: 'https://www.youtube.com/embed/ofjoCakxsnc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/ofjoCakxsnc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `It's only funny because Sym and Moira were both trying hide behind the wall under me, and
         I kind of just blind-Tired the general area knowing this. The results ending up being a pleasant surprise.`,
         image: junkrat},
         {name: 'Rude Revival?', 
-        embed: 'https://www.youtube.com/embed/egK_CBnxIeQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/egK_CBnxIeQ?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Dude gets Res'd and blindly runs straight into a trap/insta-death seconds later. That Mercy must have wanted to slap someone.`,
         image: junkrat},
         {name: 'Chronicles of Liam', 
-        embed: 'https://www.youtube.com/embed/0vPWd5PAqPM?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/0vPWd5PAqPM?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Horribly edited video, but this guy on the other team, Liam, did nothing but run out of spawn and die over and over again the entire game.`, 
         image: junkrat},
         {name: 'Silly Ninja, Tricks Are For Kids', 
-        embed: 'https://www.youtube.com/embed/wlr2v9P8mTE?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/wlr2v9P8mTE?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Pretty sure the only reason I think this clip is so funny is because it was regarding a Genji. If it was anyone else,
         I really wouldn't have thought twice about it.`, 
         image: junkrat},
         {name: 'Luck Or Skill?', 
-        embed: 'https://www.youtube.com/embed/06zq5WsFT4w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5',
+        embed: 'https://www.youtube.com/embed/06zq5WsFT4w?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0',
         comment: `Nothing hilarious, but a pretty crazy sequence for sure. After I messed-up my bombpack-jump, I had to go wall-riding for a bit,
         and then somehow I had the presence of mind at the last second to blast myself barely back onto the ledge to safety. I think that was the
         most impressive part of the clip, even over the Tire itself.`, 
         image: junkrat},
         {name: 'Solo-Ult Much?', 
-        embed: 'https://www.youtube.com/embed/QlPW4O4nn7U',
+        embed: 'https://www.youtube.com/embed/QlPW4O4nn7U?autoplay=0',
         comment: `If this doesn't qualify as a rage-solo-ult, then I don't even know, lol.`, 
         image: widowmaker},
         {name: 'Solo-Ulted Part 2', 
-        embed: 'https://www.youtube.com/embed/8-iSnIY-0rU',
+        embed: 'https://www.youtube.com/embed/8-iSnIY-0rU?autoplay=0',
         comment: `My goodness... at the end of the clip when Reaper paused after solo-ulting me out of the sky,
         he was taking the time to say "**** you" in public chat. I hadn't said a word to him all game long, and 
         I still have no idea what his problem was.`, 
-        image: pharah}],
+        image: pharah},
+        {name: '<3? </3', 
+        embed: 'https://www.youtube.com/embed/4fSOlJsA-84?autoplay=0',
+        comment: `Just a goofy clip from a while ago. After I said sorry, and the clip ended, the Mercy said
+        "Don't be. You put me out of my misery" (to paraphrase) lolol... It's not fun trying to heal on all these
+        teams full of clowns sometimes.`, 
+        image: ana}],
         modalData: [{
             quote: '"Precision German engineering."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c4/Ability-reinhardt1.png/200px-Ability-reinhardt1.png?version=c6df80775dc74395a9709280fc2f88b5',
@@ -392,7 +398,7 @@ const data = [
             only seems to do what it's supposed to when it feels like it. Timing is essential to be good at Reinhardt, most notably when using his shield (as well as
             knowing when to hide and regenerate it). Lastly, Reinhardt is unique for a shield tank because of his ability to flank enemy teams effectively, and a good 
             Reinhardt will know how to take advantage of that.`,
-            iframe: 'https://www.youtube.com/embed/zLFbm6YckoU',
+            iframe: 'https://www.youtube.com/embed/zLFbm6YckoU?autoplay=0',
             backgroundImage: 'https://i.kym-cdn.com/photos/images/original/001/124/162/54f.jpg'
         }]
     },
@@ -422,7 +428,7 @@ const data = [
             his sustainability, which can be maddening at times. The "Take a Breather" ability replenishes him with 300 HP almost instantly, basically giving him a free life.
             The "Chain Hook" is often what separates elite 'Hogs from the rest, as it has the power to insta-kill if used well. "Whole Hog" can be surprisingly devastating
             especially in clever spots, such as near wall corners or map edges.`,
-            iframe: 'https://www.youtube.com/embed/5URzijwRPfk',
+            iframe: 'https://www.youtube.com/embed/5URzijwRPfk?autoplay=0',
             backgroundImage: 'data:image/jpeg;base64,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'
         }]
     },
@@ -453,7 +459,7 @@ const data = [
             in particular, who end up getting shield after shield thrown in their face regardless of their positioning. Also the concept of "breaking shield" is lost
             with Sigma, given how strong the shields are and how easily a destroyed shield is replaced with another. Other abilities lack imagination and/or appeal,
             which has been a common trend with pretty much all of Blizzard's newer heroes.`,
-            iframe: 'https://www.youtube.com/embed/BHsfF9q1mVs',
+            iframe: 'https://www.youtube.com/embed/BHsfF9q1mVs?autoplay=0',
             backgroundImage: 'https://static2.gamerantimages.com/wordpress/wp-content/uploads/2019/07/Overwatch-Sigma.jpg?q=50&fit=crop&w=738&h=369'
         }]
     },
@@ -484,7 +490,7 @@ const data = [
             Monkey-mains are very cerebral and must excel at diving opposing teams well, with exact precision and timing. "Barrier" is a crucial
             ability that can protect teammates while also disrupting rhythm, and using "Primal" at the right time can be very decisive. That being said,
             Winston is now mostly considered a situational pick at the competative level.`,
-            iframe: 'https://www.youtube.com/embed/JNJ42WCOxV0',
+            iframe: 'https://www.youtube.com/embed/JNJ42WCOxV0?autoplay=0',
             backgroundImage: 'http://3.bp.blogspot.com/-rUt38AeO36k/VOfr4aDTDoI/AAAAAAAACuA/71QopNHzzgc/s1600/2015-1_46_OverwatchFanArt_Watermarked2.png'
         }]
     },
@@ -515,7 +521,7 @@ const data = [
             the ability to generate his own shields. It is almost impossible to outlast him in a one-on-one situation, and even if you did, he would probably
             just curl back into his ball and roll away at blinding speed back to safety pretty easily. Top Wrecking-Ball-mains have figured out when/how to use "Minefield"
             aggressively (usually by forcing enemies into it), even though it was originally created to be more of a zoning-ult.`,
-            iframe: 'https://www.youtube.com/embed/jOCNVe486C4',
+            iframe: 'https://www.youtube.com/embed/jOCNVe486C4?autoplay=0',
             backgroundImage: 'https://i.redd.it/24md5oyoa7a11.png'
         }]
     },
@@ -544,7 +550,7 @@ const data = [
             description: `Zarya always has been, and likely always will be, one of the most necessary members of the Meta. She provides so much to her team in so
             many ways. Some matches, a Zarya at high charge can be a top damage dealer, while in other games, she can play a more supportive role
             and protect teammates with key bubbles. Regardless, "Grav" will always, always, always be the ult most often relied upon to win team fights.`,
-            iframe: 'https://www.youtube.com/embed/gTcKbsKDkWk',
+            iframe: 'https://www.youtube.com/embed/gTcKbsKDkWk?autoplay=0',
             backgroundImage: 'https://wallup.net/wp-content/uploads/2017/11/23/509984-heroes_of_the_storm-Zarya_Overwatch-video_games-Overwatch-748x421.jpg'
         }]
     },
@@ -575,7 +581,7 @@ const data = [
             Ashe has quite an entertaining kit, such as her projectile dynamite, which can do heavy mass damage, as well as her "Coach Gun", which provides
             her with an elusiveness factor that McCree doesn't. Many novice Ashe players tend to rely heavily on Bob as a source of
             production, as he is often overwhelming to enemy teams.`,
-            iframe: 'https://www.youtube.com/embed/x5x-8weRI20',
+            iframe: 'https://www.youtube.com/embed/x5x-8weRI20?autoplay=0',
             backgroundImage: 'https://cdn.vox-cdn.com/thumbor/JqWJLFZH8V_A7VdBKSySvnMor2Y=/0x0:3840x2160/1200x800/filters:focal(1046x111:1660x725)/cdn.vox-cdn.com/uploads/chorus_image/image/62176577/OVR_Ashe_002.0.png'
         }]
     },
@@ -603,7 +609,7 @@ const data = [
             labelFive: 'Configuration: Tank',
             description: `How to play Bastion: (1) get behind a shield or find a sneaky random corner (2) get in Sentry-mode (3) hold down primary fire at the opposing team
             (4) laugh as they all get triggered (on a related note: excellent work, Blizzard.)`,
-            iframe: 'https://www.youtube.com/embed/L4D1C7JU7ts',
+            iframe: 'https://www.youtube.com/embed/L4D1C7JU7ts?autoplay=0',
             backgroundImage: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2019/09/17131545/OVR_BrickBastion_Eichenwalde_JPA_002b.png'
         }]
     },
@@ -633,7 +639,7 @@ const data = [
             skill set that is hard to match one-on-one, Doomfist is a popular pick for gamers who want cheap elims and easy victories. Not only does
             he fly around and deal damage as a blinding rate, but he also generates his own self-shields whenever he makes contact with enemies. "Meteor Strike" is a
             "get-out-of-jail-free" card, and when timed correctly, it can also be an easy insta-kill as it leaves many enemies helpless.`,
-            iframe: 'https://www.youtube.com/embed/o79pqCH3QMQ',
+            iframe: 'https://www.youtube.com/embed/o79pqCH3QMQ?autoplay=0',
             backgroundImage: 'https://cdn.images.express.co.uk/img/dynamic/143/590x/Overwatch-Doomfist-Terry-Crews-825829.jpg'
         }]
     },
@@ -663,7 +669,7 @@ const data = [
             than anyone else, and they take things the most personally as well (aka they get butthurt all the time). Ironically, most Genjis rely completely on
             "Dragonblade", which is arguably the most OP ultimate in the game (next to Death Blossom). The highest-level Genjis are deadly accurate with their Shurikens, and have 
             combo-strikes completely in their muscle memory. "Deflect" is also one of the most powerful abilities in the game, beyond being just completely ridiculous.`,
-            iframe: 'https://www.youtube.com/embed/lYOjIDhJIG0',
+            iframe: 'https://www.youtube.com/embed/lYOjIDhJIG0?autoplay=0',
             backgroundImage: 'data:image/jpeg;base64,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'
         }]
     },
@@ -693,7 +699,7 @@ const data = [
             to achieve odd positioning where they can peak comfortably all game long, often without ever being detected. Hanzos specialize on being able to
             "charge" their arrows while fully submerged, and then momentarily popping out to fire, before quickly hiding again. This is a technique all
             Hanzo-mains master quickly.`,
-            iframe: 'https://www.youtube.com/embed/oOVb9x0zd6M',
+            iframe: 'https://www.youtube.com/embed/oOVb9x0zd6M?autoplay=0?autoplay=0',
             backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJsVUgKX3xV4MT5jtUpqOL5JMiDNH47c4os368Z3izf55gBXc'
         }]
     },
@@ -708,35 +714,35 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/5/53/Junkrat_portrait.png/revision/latest?cb=20160429040823', 'https://i.kym-cdn.com/photos/images/original/001/318/364/cc0.jpg'],
         videos: 
         [{name: 'Swear I Could Be A Top500 JR', 
-        embed: "https://www.youtube.com/embed/RAfgzbDCU1E", 
+        embed: "https://www.youtube.com/embed/RAfgzbDCU1E?autoplay=0", 
         comment: `Junkrat's kit just always feels like a natural fit to me.`},
         {name: 'Called A "God" Again', 
-        embed: "https://www.youtube.com/embed/MzI4jCXsOuY", 
+        embed: "https://www.youtube.com/embed/MzI4jCXsOuY?autoplay=0", 
         comment: `This was actually a hilarious video more than anything. Booped their Rein not once, but twice to his death while
         he was charging right at me. At some point in the match he called me a "God", and I was quite flattered, lol.`},
         {name: '"Nuts" Is A Compliment Right?', 
-        embed: "https://www.youtube.com/embed/4TmC-uRY3WA", 
+        embed: "https://www.youtube.com/embed/4TmC-uRY3WA?autoplay=0", 
         comment: `Honestly I don't think the teammate that called me "nuts" could have said it much better. Especially towards
         then end of that first round, I seriously just went into Super-Saiyan mode to win that point for our team, and it required
         some pretty extreme, crafty tactics to get it done.`},
         {name: 'Feel Like Now I Need To Re-Tire. Get It?', 
-        embed: 'https://www.youtube.com/embed/m0ZbLvoiva4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        embed: 'https://www.youtube.com/embed/m0ZbLvoiva4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ?autoplay=0', 
         comment: `Solid game with a pretty satisfying Tire.`},
         {name: 'IQ > Mechanics', 
-        embed: 'https://www.youtube.com/embed/6LcR9-NVmS4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        embed: 'https://www.youtube.com/embed/6LcR9-NVmS4?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ?autoplay=0', 
         comment: `This, along with a handful of other games, is among my most priceless because of a few
         high IQ plays that I don't think many other gamers could/would have been able to pull off themselves.`},
         {name: 'Just Bc Of Tracer Alone, This Is Priceless', 
-        embed: 'https://www.youtube.com/embed/P087uNtv8tw?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        embed: 'https://www.youtube.com/embed/P087uNtv8tw?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ?autoplay=0', 
         comment: `Never seen a Tracer in any context get owned so repeatedly by a Junkrat in
         my life. Those traps I left in the backline were 100% IQ and not arbitrary luck whatsoever.`},
         {name: '"Can You Just Die"', 
-        embed: 'https://www.youtube.com/embed/4Wsq5Pg3M0o?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        embed: 'https://www.youtube.com/embed/4Wsq5Pg3M0o?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ?autoplay=0', 
         comment: `This was the funniest Junkrat games I ever played just because this guy kept raging after me
         so hard. He started out as Hog, and after getting triggered, he made the classic rage-swap to
         Doomfist, and... I think the video tells the rest of the story best.`},
         {name: '13k DMG Junk', 
-        embed: 'https://www.youtube.com/embed/njMbEHGNvdo?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ', 
+        embed: 'https://www.youtube.com/embed/njMbEHGNvdo?list=PLks73uWy20at3_42mnnJrrMnVBFIDoRqJ?autoplay=0', 
         comment: `High damage-output game.`}],
         modalData: [{
             quote: '"I really blew that one."',
@@ -754,7 +760,7 @@ const data = [
             and an average one, however, as the former knows how to get optimal return from his kit and/or Rip-Tires. Learning to bomb-pack
             well can get a Junkrat out of hotspots consistently or help him find sneaky positioning to rain grenades from. Traps that consistently catch their prey can be among the most
             frustrating things that any opposing team has to deal with.`,
-            iframe: 'https://www.youtube.com/embed/mFGQG8I68h8',
+            iframe: 'https://www.youtube.com/embed/mFGQG8I68h8?autoplay=0',
             backgroundImage: 'https://heavyeditorial.files.wordpress.com/2017/08/junkertown-overwatch.jpg?quality=65&strip=all&w=780'
         }]
     },
@@ -784,7 +790,7 @@ const data = [
             use McCree as he was meant to be used. Other McCree "mains", however, tend to leave their entire team shorthanded for minutes in order to circle the map and high-noon.
             Without ultimate, they usually lack aim and tend to fire into nothing repeatedly. Anyone with truly good mechanics, however, will take ample advantage
             of McCree's most recent super-buff, which now allows him to headshot an opponent twice in a row within a second or two.`,
-            iframe: 'https://www.youtube.com/embed/kq4OlEDiCi8',
+            iframe: 'https://www.youtube.com/embed/kq4OlEDiCi8?autoplay=0',
             backgroundImage: 'http://hdqwalls.com/wallpapers/mccree-overwatch-fan-art-xh.jpg'
         }]
     },
@@ -815,7 +821,7 @@ const data = [
             to find a significant place in the Meta, even at the professional level. Despite not being equipped to deal "consistent"
             damage, she has one of the most versitile and effective kits in the game for someone who knows how to use it. "Blizzard" is definitely
             near the top of the list of hero ultimates with the power to generate team-kills as well.`,
-            iframe: 'https://www.youtube.com/embed/J4hB88uMY8k',
+            iframe: 'https://www.youtube.com/embed/J4hB88uMY8k?autoplay=0',
             backgroundImage: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ed5a6c5-a24d-4136-8f37-51436c86852f/dag6mm9-f471ccf1-994c-4c42-8c14-f3aa96911493.jpg/v1/fill/w_900,h_507,q_75,strp/mei_fanart_by_vafa10_dag6mm9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvNWVkNWE2YzUtYTI0ZC00MTM2LThmMzctNTE0MzZjODY4NTJmXC9kYWc2bW05LWY0NzFjY2YxLTk5NGMtNGM0Mi04YzE0LWYzYWE5NjkxMTQ5My5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.KDO1GfNR-JAUrmQj0oqSA7cTG8IgC11jU-zNzcgjuhA'
         }]
     },
@@ -830,11 +836,11 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fe/Pharah_portrait.png/revision/latest?cb=20160429041650', 'https://cdnb.artstation.com/p/assets/images/images/005/891/409/large/graxious-art-pharah-highres.jpg?1494490224'],
         videos: 
         [{name: 'Almost Perfect?', 
-        embed: "https://www.youtube.com/embed/2cRCN9x4iJY", 
+        embed: "https://www.youtube.com/embed/2cRCN9x4iJY?autoplay=0", 
         comment: `Note the public chat where the dude gets owned out of spawn, taunts me,
         keeps getting owned, and never says another word before exiting the game.`},
         {name: ['22k Total DMG, Crazy Game', 'Chabco'],
-        embed: 'https://www.youtube.com/embed/12fwhnlj0C0', 
+        embed: 'https://www.youtube.com/embed/12fwhnlj0C0?autoplay=0', 
         comment: `Few things to note here: (1) Been queuing with Mr. Charles Cortez (Chabco) recently, and it's been
         fun (2) I had a little under 12k dmg AFTER THE FIRST ROUND ALONE... (3) Wish I recorded while playing,
         but this "TheSilverFox" dweeb started calling me out unprovoked. Round 2, after the solo-ult he blurted out 
@@ -844,36 +850,36 @@ const data = [
         Cortez and I had a good laugh over it in the end.`,
         image: Chabco},
         {name: 'Dude Was Not Cool', 
-        embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8',
+        embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0',
         comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?
         After getting owned the previous game (also playing Ashe... I guess this dude was the next star pro-Ashe in training),
         this trash-talking, pretentious Kenpachi noob said something like "Imagine if I actually had a goddam tank once in a while".
         Well, he definitely had a tank this game for sure, not really sure what else he could've wanted. An aimbot?`},
         {name: 'Really? What More Could I Have Done?', 
-        embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0', 
         comment: `I've always had occasional Pharah games where I'm raining direct hits down on opposing teams
         and thinking to myself, "I could not possibly be dealing any more damage right now... how are we actually losing?"`},
         {name: 'Leave This To A Professional', 
-        embed: "https://www.youtube.com/embed/feN6hK3MRD4", 
+        embed: "https://www.youtube.com/embed/feN6hK3MRD4?autoplay=0", 
         comment: `This was back in the day when I actually was a pretty scary (in the words of my
         opponents, not my own) Pharah-main. Unfortunately, I wasn't really recording myself at all back then, but
         this is still a pretty decent performance that I was able to preserve. Got so angry at my selfish, incompetent
         team after Round 1 and started spamming the voiceline "leave this to a professional" over and over again at them
         in response. Might have been obnoxious of me, but to my credit, at least in the end I delivered.`},
         {name: 'Gamers Are Babies', 
-        embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo", 
+        embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo?autoplay=0", 
         comment: `It was pretty funny this entire game because I stayed silent, but I was definitely
         paying attention to these to idiot teammates on the other team blasting each other all
         game long. Finally lost it at the start of round 3 and just tried to humiliate them.`},
         {name: 'I Salivate For Pharah Vs Pharah Matchups', 
-        embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        embed: 'https://www.youtube.com/embed/ASEwv-OAWiU?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0', 
         comment: `When I was maining Pharah, I prided myself on my Pharah vs Pharah skills because
         it really didn't seem like there was anyone else who was my equal. Most of these
         battles will be forever lost in history, but this is one of the few I managed to preserve.
         This one felt especially good because it wasn't just a Pharah, but an entire Pharmacy, that
         I basically took on alone and defeated.`},
         {name: `Can't Touch This`, 
-        embed: 'https://www.youtube.com/embed/ebArZqyg-QA?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8', 
+        embed: 'https://www.youtube.com/embed/ebArZqyg-QA?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0', 
         comment: 'yup'}],
         modalData: [{
             quote: '"Play nice, play Pharah."',
@@ -892,7 +898,7 @@ const data = [
             At times, however, a good Pharmacy can still turn the tides of a map/round. One of the most underrated parts of good Pharah play is
             using concussive blasts effectively for sharp, sudden movements that can aid escapability, but also provide aggressive positioning for things like
             "Barrage". Situationally, it can be used more offensively to boop enemies to their deaths as well.`,
-            iframe: 'https://www.youtube.com/embed/ks-mLJS0pe8',
+            iframe: 'https://www.youtube.com/embed/ks-mLJS0pe8?autoplay=0',
             backgroundImage: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8adefab8-9a4e-4fa7-8ad7-e2e4cf9cf1e9/daxp8sa-9ee43ed2-1ab9-4261-babd-ffad247497d1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhZGVmYWI4LTlhNGUtNGZhNy04YWQ3LWUyZTRjZjljZjFlOVwvZGF4cDhzYS05ZWU0M2VkMi0xYWI5LTQyNjEtYmFiZC1mZmFkMjQ3NDk3ZDEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-Wqh9ZgTDpbz9rBwU5K9--GdUHpldSAVQV9iyrQ_y5I'
         }]
     },
@@ -922,7 +928,7 @@ const data = [
             Reaper is by far (especially after his most recent super-buff) the easiest DPS hero for anyone to succeed with. Reaper does adds an element to the game that no
             other hero does, as he has an assassin-like ability to emerge out of shadows and silently eliminate opponents before vanishing again. "Shadow Step" is an incredibly useful way
             to attain surprise positioning, and when combined with "Death Blossom", it can have devastatingly productive results.`,
-            iframe: 'https://www.youtube.com/embed/uK4WSF0rCcM',
+            iframe: 'https://www.youtube.com/embed/uK4WSF0rCcM?autoplay=0',
             backgroundImage: 'https://pbs.twimg.com/media/CxgxCqQUUAAKU7B.jpg'
         }]
     },
@@ -954,7 +960,7 @@ const data = [
             helpful in aid of teammates as they are used alone. "Tactical Visor" CAN be powerful, especially with nano, but
             it is also one of the most easily negated ults in the game. For example, it should never be used if there is ever an opposing DVa nearby
             that is still in her mech.`,
-            iframe: 'https://www.youtube.com/embed/V_0eqEbG7yA',
+            iframe: 'https://www.youtube.com/embed/V_0eqEbG7yA?autoplay=0',
             backgroundImage: 'http://img06.deviantart.net/8b04/i/2016/145/a/2/76__by_xwaxwingx-da3snim.jpg'
         }]
     },
@@ -969,41 +975,41 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fc/Sombra_portrait.png/revision/latest?cb=20170105140023', 'https://i.pinimg.com/originals/1e/8f/cd/1e8fcdd80bc5b7602da332547642de26.jpg'],
         videos: 
         [{name: ['Gold, Silver, 45% KP, & POTG', 'Chabco'],
-        embed: 'https://www.youtube.com/embed/TGnb3zn2Hu4', 
+        embed: 'https://www.youtube.com/embed/TGnb3zn2Hu4?autoplay=0', 
         comment: `Pretty laggy, but not a bad performance (major shout-out to Chabco as well).
         Also, pay attention to the kill-feed and count how many times
         our Genji actually killed someone. Me and Chabco have seriously been getting 
         the worst run of teammates ever.`,
         image: Chabco},
         {name: 'Relatively Dominant', 
-        embed: "https://www.youtube.com/embed/-oovWzSmQ8I", 
+        embed: "https://www.youtube.com/embed/-oovWzSmQ8I?autoplay=0", 
         comment: `Sombra was the hero I decided to try out most recently, and the results have been pretty positive thus far. I was afraid of her
         kit for a while because it looked intimidating, but now I feel pretty comfortable calling her one of my mains.`},
         {name: 'Methinks "BegForMercy" Was A Mercy-Main?', 
-        embed: "https://www.youtube.com/embed/HRX2Bj4-kj4", 
+        embed: "https://www.youtube.com/embed/HRX2Bj4-kj4?autoplay=0", 
         comment: `32 hacked, 15 offensive assists, silver elims. All credit goes to our Mercy though, who saved
         my ass numerous times despite (I assume) also participating in Pharmacy? Pretty sure despite her tag, she's
         a Mercy-main though bc of the obvious reasons, and also the fact that she was quite honestly the best Mercy
         I've ever played with in QP (that I can remember).`},
         {name: 'Still Shaky But Not Bad', 
-        embed: "https://www.youtube.com/embed/uSm9RlrYZ2g", 
+        embed: "https://www.youtube.com/embed/uSm9RlrYZ2g?autoplay=0", 
         comment: `Baby steps are definitely required to learn Sombra, lol.`},
         {name: 'All Im Asking You To Do Is SOMETHING', 
-        embed: 'https://www.youtube.com/embed/Kx4YJM6aZHc?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
+        embed: 'https://www.youtube.com/embed/Kx4YJM6aZHc?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0',
         comment: `No exaggeration, if EITHER of our proud, skilled-hero-only teammates were competent to even a fraction of a degree, I would have
         owned this game entirely, possibly without even dying once. I was so surprised after I took out half the team
         and saw Pharah still alive with two snipers in our comp, that I basically just tilted from there. I think in the end I accounted
         for Pharah more times than either of our snipers did? These things can get so frustrating in Overwatch...`},
         {name: 'Felt Awkward But 33 Hacked, Silver Silver', 
-        embed: 'https://www.youtube.com/embed/Du3b_Auwr6M?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/Du3b_Auwr6M?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `Didn't even feel like I played well, but I still ended with silver, silver. I'll
         take it, I guess?`},
         {name: `How... Just How... That's All...`, 
-        embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD', 
+        embed: 'https://www.youtube.com/embed/bQXWhAdvXeU?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `I don't know what I'm supposed to do more than start battles with clean, crucial
         picks on enemy healers... such that I deserve to end up on the losing side somehow.`},
         {name: 'I Need To Stop Solo-Que', 
-        embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD',
+        embed:'https://www.youtube.com/embed/wwv3lUVWRLI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0',
         comment: `Solid hack on enemy shield tank, empty clip into enemy, reload, empty clip again, reload, get enemy to 1, ponders to self: "self,
         why isn't anyone dead yet?", contemplates giving up, (all the while still emptying full clips like a madman), finally gives up and escapes,
         begins fuming at Hanzo and other teammates who just lackadaisically walk around the map all game and accomplish nothing, 
@@ -1026,7 +1032,7 @@ const data = [
             in order not to leave their team too shorthanded regularly. Also Sombras must be good at staying patient, picking their spots,
             identifying easy targets, and, most importantly, hacking the right enemy at the right time. Also, Sombra's machinegun is more
             effective than people think, especially when consistently hitting enemy heads.`,
-            iframe: 'https://www.youtube.com/embed/CzmWNIshnXE',
+            iframe: 'https://www.youtube.com/embed/CzmWNIshnXE?autoplay=0',
             backgroundImage: 'https://em.wattpad.com/5444a343b8654b7b07f8b04adff70c4bd97809c5/68747470733a2f2f696d6730302e64657669616e746172742e6e65742f353136302f692f323031362f3331372f652f332f736f6d6272615f5f5f6f76657277617463685f62795f6572656d61735f73752d64616f616d76622e6a7067?s=fit&h=360&w=360&q=80'
         }]
     },
@@ -1057,7 +1063,7 @@ const data = [
             need good turret placement, aggregating them in sneaky places, such as behind walls, where they can leave opponents helpless. Symmetra has two different styles of 
             primary fire (one tracking and one projectile), and both are equally as effective in the right situations. "Teleporter" has basically turned into a fad that died,
             but the "Photon Barrier" ultimate has emerged as a force in its stead, especially since it lasts 15(!!!) full seconds.`,
-            iframe: 'https://www.youtube.com/embed/-0TPg0rgmBo',
+            iframe: 'https://www.youtube.com/embed/-0TPg0rgmBo?autoplay=0',
             backgroundImage: 'https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/08/11094220/952e4fd6-2231-4194-b759-bcdfcfd1015d.jpg'
         }]
     },
@@ -1072,37 +1078,37 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/e/e5/Torbjorn_portrait.png/revision/latest?cb=20160429041926', 'https://joesdaily.com/wp-content/uploads/2017/08/torbjorn-fan-art.jpg'],
         videos: 
         [{name: 'Frustration Dominance', 
-        embed: "https://www.youtube.com/embed/xJmczeAocck", 
+        embed: "https://www.youtube.com/embed/xJmczeAocck?autoplay=0", 
         comment: `Was trying to play a real game out of spawn, until I saw our team run out with some idiot comp and not care.
         So naturally, like the mature person I always claim to be, I decided to fight fire by instigating it and rolled out with Torb
         myself (without the sole intention of trolling my teammates, and nothing else). The game actually ended up going much better
         than I expected, as the replay itself shows.`},
         {name: 'Give Cred to a Good Mercy', 
-        embed: "https://www.youtube.com/embed/N_NqxS4uudc", 
+        embed: "https://www.youtube.com/embed/N_NqxS4uudc?autoplay=0", 
         comment: `I will always dominate with Torb no matter when I pick him, but just in this particular instance, I have to give all the
         credit to our Mercy.`},
         {name: 'Didnt Even Play Well...', 
-        embed: "https://www.youtube.com/embed/HRxKvJ1ny9k", 
+        embed: "https://www.youtube.com/embed/HRxKvJ1ny9k?autoplay=0", 
         comment: `Even when I don't play well with Torb I still play well.`},
         {name: `Honestly Too Easy Is No Fun`, 
-        embed: 'https://www.youtube.com/embed/KKdQkMrwSgQ?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        embed: 'https://www.youtube.com/embed/KKdQkMrwSgQ?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl?autoplay=0', 
         comment: `What does it say about Blizzard's "brilliant" game design when there are such a huge
         percentage of heroes out of the overall heropool that at some point get too easy to keep playing seriously.`},
         {name: 'Gotta Love All Gold On 5 DPS Team', 
-        embed: 'https://www.youtube.com/embed/7-jlU-9qIak?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        embed: 'https://www.youtube.com/embed/7-jlU-9qIak?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl?autoplay=0', 
         comment: `Five DPS teammates and in the end the Torb gets all golds. Blizzard developers really have
         to look into this concept known as "game-balance" that is usually considered to be pretty important...`},
         {name: 'Stupid Games With Stupid Gamers...', 
-        embed: 'https://www.youtube.com/embed/qaHXoenJnJk?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        embed: 'https://www.youtube.com/embed/qaHXoenJnJk?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl?autoplay=0', 
         comment: `See title.`},
         {name: 'At Least I Try...', 
-        embed: 'https://www.youtube.com/embed/pTcdMUC2T5Q?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        embed: 'https://www.youtube.com/embed/pTcdMUC2T5Q?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl?autoplay=0', 
         comment: `Everybody in the game is selfish. I tried for quite a long time to always be team-first,
         until I realized that it's pointless with this demographic of prinkly-faced, puberty-challenged, gamer-punks.
         These days when someone complains about selfishness, I just shrug my shoulders. I probably tried harder than
         anyone for years, and I'm completely through letting myself be the martyr anymore for no good purpose.`},
         {name: '52% KP Torb', 
-        embed: 'https://www.youtube.com/embed/djKFBbI3NSo?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl', 
+        embed: 'https://www.youtube.com/embed/djKFBbI3NSo?list=PLks73uWy20aua2qtSY32M0LRQhBR5cLPl?autoplay=0', 
         comment: 'Pretty good game statistically at least?'}],
         modalData: [{
             quote: `"You're making a chicken out of a feather!"`,
@@ -1122,7 +1128,7 @@ const data = [
             for its entire duration. This allows him to jump into battles and take out vulnerable enemies at certain times, and then jump right back out. At the pro level, his turret is
             often used merely as a distraction. Torb's new "Molten Core" can deal massive damage to large groups, and if available, it is often regarded as
             "game-changing" at any level.`,
-            iframe: 'https://www.youtube.com/embed/Ev0ZgWhGVuo',
+            iframe: 'https://www.youtube.com/embed/Ev0ZgWhGVuo?autoplay=0',
             backgroundImage: 'http://7wallpapers.net/wp-content/uploads/15_Overwatch-Torbjorn.jpg'
         }]
     },
@@ -1154,7 +1160,7 @@ const data = [
             effort, for a Tracer to take out any opponent on her own considering how weak her primary fire is. Blizzard has just recently
             (as of 9/29/19), announced what is allegedly an enormous future Tracer-buff in an effort to get her back into
             the scene. Whether that will actually happen in the end or not remains to be seen.`,
-            iframe: 'https://www.youtube.com/embed/_SvYmsNCWsw',
+            iframe: 'https://www.youtube.com/embed/_SvYmsNCWsw?autoplay=0',
             backgroundImage: 'https://cdna.artstation.com/p/assets/images/images/001/773/960/large/will-murai-tracer.jpg?1452544187'
         }]
     },
@@ -1168,47 +1174,45 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: 'Frustrating Bastion', 
-        embed: "https://www.youtube.com/embed/OoRNDbx1ygs", 
+        [{name: `Shaking Off Some Rust`, 
+        embed: "https://www.youtube.com/embed/IpLMxB8ZuJc?autoplay=0",
+        comment: `Haven't played in a while, so wasn't too sharp coming out of the gate, but overall was happy
+        with my performance. Also, I liked the fact my teammates were chill, which isn't often these days lol.`},
+        {name: 'Frustrating Bastion', 
+        embed: "https://www.youtube.com/embed/OoRNDbx1ygs?autoplay=0", 
         comment: `My goodness I really wish our Sym didn't leave after the 1st round (although she wasn't so hot herself). At least
         she wasn't completely obnoxious for no reason all game long like this back-filling Bastion turned out to be. I will always
         be proud of myself for basically keeping us alive at the very end of the game with what I considered a pretty epic stall
         until the rest of our team finally returned from spawn (and our Bastion, go figure, took credit for the entire win).`},
         {name: 'Nobody Cares About Team', 
-        embed: "https://www.youtube.com/embed/g3nhCGfdA-8", 
+        embed: "https://www.youtube.com/embed/g3nhCGfdA-8?autoplay=0", 
         comment: `Let's summarize things. Round 1, I decide to go support in lieu of our team comp.
         Round 2, I'm pissed off I got gold damage and had to carry as Zen in Round 1, so I switch to Widow.
         Round 2 goes pretty well. Round 3, I look at our comp, and I want to stay Widow, but I know our team
         has a glaring hole at shield tank, so I sacrifice again. The replay of Round 3 speaks for itself. Yet
         another wonderful magic carpet ride playing this Blizzard video game masterpiece.`},
         {name: 'Windows Sucks', 
-        embed: "https://www.youtube.com/embed/vpgViDuVEq0", 
+        embed: "https://www.youtube.com/embed/vpgViDuVEq0?autoplay=0", 
         comment: `Wasn't my sharpest, but still played ok most of the game. Then, right at crunch time, my computer decided to send me
         another one of those stupid Windows Update notifications, and despite clearly applying the "do not disturb in game mode" setting a
         long long time ago, my entire screen still minimized, and I couldn't regain control of it again until I was already a pile of Reinhardt-rubble, 
         and the game was lost. Yay. Watching the replay, I was especially sympathetic to our Ana because I'm pretty sure she hard-carried
         (despite being called out by our Genji for "nanoing him while he wasn't ready"... in a QP game... without any comms... *rolls eyes*)`}, 
         {name: 'A Few High-Skill Shots', 
-        embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD", 
+        embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
         the stats didn't show anything in the end.`},
         {name: "Literally... Idek...", 
-        embed: "https://www.youtube.com/embed/B9NEI8zwUT4", 
+        embed: "https://www.youtube.com/embed/B9NEI8zwUT4?autoplay=0", 
         comment: `This is one of those times where I'm pretty sure that even if I used an aimbot, we still would've lost (*glares at
         Junkrat/Reaper... and yes I did watch the entire replay from his POV just to make sure...).`},
         {name: `"Doom, Get Widow" Lol`, 
-        embed: "https://www.youtube.com/embed/LSZYGfABz-k", 
+        embed: "https://www.youtube.com/embed/LSZYGfABz-k?autoplay=0", 
         comment: `Unfortunately no screenshot, but this is the same "GreenAlien" dude who just one game ago was bragging to the public
         chat because he apparently just reached top500 (hmm.... ok if you say so?), and just kept blabbering like an obnoxious child over
         and over again (in public chat to himself?) until I finally gave up and blocked him. Silly noob, top500 is for actually good players.`}, 
-        {name: `Wait... It's Wrong To "Main" In QP?`, 
-        embed: "https://www.youtube.com/embed/7sugwBQFT6k?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD",
-        comment: `Since when did they make the "unwritten rule" that you shouldnt play your "main" in QP? Am I just crazy or isnt QP supposed to be where nobody really gives
-        a crap or takes it too seriously, such that everyone can feel free to play whatever hero they want to at any given moment? This Sombra raged at me for "trying hard" with
-        my "main" (as if she even knew Widow was my main...?), but isn't it somewhat ironic that she's the one taking a QP game seriously enough to rage at me in public chat to
-        begin with...? Just sayin lol.`},
         {name: 'Playing Angry', 
-        embed: "https://www.youtube.com/embed/qkajFWxX-0k", 
+        embed: "https://www.youtube.com/embed/qkajFWxX-0k?autoplay=0", 
         comment: `Not particularly sure what it was that triggered me so much from the start, but I was left-clicking this entire game with some serious anger.`}],
         modalData: [{
             quote: `"C'est la vie."`,
@@ -1227,7 +1231,7 @@ const data = [
             and as an indirect result, Widowmaker has basically disappeared from the Meta. The best Widowmakers these days still focus largely on mechanics, namely through repeated
             Widow 1v1 headshot deathmatch competition. Also important are positioning and disguising location, as she can
             often be helpless against coordinated dive attacks. "Venom Mines" can often be more helpful than they seem, and "Infra-sight" can be useful, but usually not very spectacular.`,
-            iframe: 'https://www.youtube.com/embed/fvPp6XbbTb0',
+            iframe: 'https://www.youtube.com/embed/fvPp6XbbTb0?autoplay=0',
             backgroundImage: 'https://i.ytimg.com/vi/0ZQ7faeKYJg/maxresdefault.jpg'
         }]
     },
@@ -1242,43 +1246,43 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/Ana_portrait2.png/revision/latest?cb=20181108050042', 'https://static.zerochan.net/Ana.%28Overwatch%29.full.2184432.jpg'],
         videos: 
         [{name: '87% Of Match On Fire', 
-        embed: "https://www.youtube.com/embed/T23iBK5O--U", 
+        embed: "https://www.youtube.com/embed/T23iBK5O--U?autoplay=0", 
         comment: `Even I didn't realize until after the game that I was anywhere close to 87% on fire. Overall made good
         decisions and made some key plays though.`},
         {name: 'Dude Called Me a God', 
-        embed: "https://www.youtube.com/embed/gaYul7AXnqY", 
+        embed: "https://www.youtube.com/embed/gaYul7AXnqY?autoplay=0", 
         comment: `Unfortunately, after the enemy Rein called me a "God" publicly, I suddenly lost the ability to focus and/or do
         anything competently anymore. Switched to Moira as a result but was basically never able to regain my senses again for
         the rest of the game (I guess flattery affects me quite a lot, idrk). Still, everything before the "God" comment was some
         pretty solid Ana play overall.`},
         {name: 'Justified Meanness', 
-        embed: 'https://www.youtube.com/embed/cDQWPIjW0wk?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        embed: 'https://www.youtube.com/embed/cDQWPIjW0wk?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `I only troll others in this game when I feel like they deserve to be trolled. If someone seems like a good
         person (regardless of skill level), then I will always pull punches rather than deal them. But if
         someone is clearly being an obnoxious, self-serving adolescent (which is like 90% of this Overwatch demographic unfortunately),
         then I don't hold anything back, regardless of what anyone else may think. On a side note related to this video, not really 
         sure anyone else could have hit that dart on their Doomfist right of spawn, just by being aware of enemy voice lines, like I managed to.`},
         {name: 'Sick Ana in Crappy Game', 
-        embed: "https://www.youtube.com/embed/e6e-LVdC30Q", 
+        embed: "https://www.youtube.com/embed/e6e-LVdC30Q?autoplay=0", 
         comment: `Probably one of my favorite plays of all-time was during this game when I had the presence of mind to use the gondola to survive
         the enemy DVa bomb, whereas any other decision I made would have almost certainly resulted in me dying. Then icing on the cake was when the
         DVa re-meched and rushed right back at me, but I landed a sleep-dart on her that booped her completely off the side and into the canal instead.`},
         {name: 'Good Ana Considering Circumstances', 
-        embed: 'https://www.youtube.com/embed/tWlbstFA_Q4', 
+        embed: 'https://www.youtube.com/embed/tWlbstFA_Q4?autoplay=0', 
         comment: `Some games I just look at our comp before game-start in spawn, and I can just tell by looking
         that our DPS duo is going to be inept. Mix in lag issues, and I felt like we were up against a mountain
         the entire game. Considering all that, I thought I played ok.`},
         {name: 'Pretty Good Ana But Thanks To Better Team', 
-        embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        embed: 'https://www.youtube.com/embed/Owxt4LIT7Eo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `Made some good plays and enjoyed a fun game, but at the end, I had to admit that it was completely
         due to having such a superior overall team (feelsbad for their Mercy).`},
         {name: 'One Of Best Ana Games', 
-        embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `Right after this game was over, I remember thinking it felt like the best Ana game I ever played. Later on,
         after watching the replay, it didn't seem so special anymore. I'd love it if you could leave your own opinion in the
         forum so I can gain some perspective.`},
         {name: 'Top Ana-play With Good Widow Cap', 
-        embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9', 
+        embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `Decent Ana game augmented by a solid switch to Widow to cap the game strongly.`}],
         modalData: [{
             quote: `"It's just a scratch, you'll be fine!"`,
@@ -1296,7 +1300,7 @@ const data = [
             how much she can do for her team, mostly because she is usually not used to her full potential. ML-17, Jjonak, and Ryujehong tend to do it the best, and when they do,
             their teams usually win. Nano in competitive play can often feel scripted, but it is still game-changing (and has the ability to save lives). Grenades are pivotal in team-fights, as they
             both heal and do damage, while also preventing affected enemies from receiving healing for their duration.`,
-            iframe: 'https://www.youtube.com/embed/wZW9uCFc7uk',
+            iframe: 'https://www.youtube.com/embed/wZW9uCFc7uk?autoplay=0',
             backgroundImage: 'https://cdnb.artstation.com/p/assets/images/images/004/896/099/large/simon-newport-ana-uplox.jpg?1487055936'
         }]
     },
@@ -1327,7 +1331,7 @@ const data = [
             used effectively, they can change the momentum or swing of fights as drastically as any ability in the game. "Exo Boots" are most useful
             in attaining high-ground, and "Amplification Matrix" is widely considered one of Blizzard's greatest duds as an ultimate (there are very, very, very few instances
             where it will actually be a significant asset of any kind against a competent team).`,
-            iframe: 'https://www.youtube.com/embed/pg9xerZ5xog',
+            iframe: 'https://www.youtube.com/embed/pg9xerZ5xog?autoplay=0',
             backgroundImage: 'https://www.gamerbraves.com/wp-content/uploads/2019/03/Baptiste-Overwatch-feature-image.jpg'
         }]
     },
@@ -1357,7 +1361,7 @@ const data = [
             and she certainly can be blamed for Tracer falling off the map and GOATS coming into existence, at the very least. Her introduction induced a massive outcry from the fans and pros bashing
             her creator, and since then, Blizzard has nerfed her repeatedly. She features her own self-shield, which also can bash and stun any
             opponent in any situation, much like McCree's flashbang (except without requiring any aim). "Rally" is one of the most controversial and OP ultimates in game history.`,
-            iframe: 'https://www.youtube.com/embed/npKO8YDCb1c',
+            iframe: 'https://www.youtube.com/embed/npKO8YDCb1c?autoplay=0',
             backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Ub2Ln1K19KV6yHzF2CWcA37kzoFIlRballK5oQvmH7Cprkjf'
         }]
     },
@@ -1388,7 +1392,7 @@ const data = [
             Wall-riding skills are crucial for all Lúcio-mains, as well as knowing when to speed-boost teammates effectively. "Crossfade"
             (where he basically just pushes someone), is most productive on maps with edges to boop with. "Sound Barrier", along with
             "Transcendence", will always be among the most crucial assets for any team going into a fight, and usually it is being saved for a specific moment.`,
-            iframe: 'https://www.youtube.com/embed/ywTNgR3ldFc',
+            iframe: 'https://www.youtube.com/embed/ywTNgR3ldFc?autoplay=0',
             backgroundImage: 'https://static.gamespot.com/uploads/screen_kubrick/1585/15855271/3562046-2917004-lucio_009.jpg'
         }]
     },
@@ -1419,7 +1423,7 @@ const data = [
             Her greatest asset is "Resurrect", which can turn tides but also has the longest cooldown (30 secs) of any ability in the game. It is important
             as a Mercy to choose well between healing and damage-assist, and "Valkyrie" is useful, but weak amongst support ults. One benefit can be to use it strategically,
             however, to fly to teammates in peril or requiring Res.`,
-            iframe: 'https://www.youtube.com/embed/-l-ytDZWVFI',
+            iframe: 'https://www.youtube.com/embed/-l-ytDZWVFI?autoplay=0',
             backgroundImage: 'https://pre09.deviantart.net/6238/th/pre/i/2016/124/0/9/overwatch_mercy_fanart_by_alexnegrea-da0y27s.jpg'
         }]
     },
@@ -1450,7 +1454,7 @@ const data = [
             fire on top of that, as well as above-average mobility and the choice to just vanish into thin air with "Fade", made it hard for Moiras to fail. Moira
             is best-served in tank-heavy comps that can best appreciate her mass-heal abilities, which is tops in the game. "Coalescence"
             is often mistakenly used offensively when it should be used for healing instead.`,
-            iframe: 'https://www.youtube.com/embed/sZrsi9x5uZk',
+            iframe: 'https://www.youtube.com/embed/sZrsi9x5uZk?autoplay=0',
             backgroundImage: 'https://cdn.vox-cdn.com/thumbor/OZ_td7xfAiKmcdbgPiynIgBtvNI=/0x0:3840x2160/1200x800/filters:focal(793x353:1407x967)/cdn.vox-cdn.com/uploads/chorus_image/image/57635351/Overwatch_Moira_001_png_jpgcopy.0.jpg'
         }]
     },
@@ -1480,7 +1484,7 @@ const data = [
             He has so much to offer teams primarily due to just two abilities in particular: discord orbs and "Transcendence". When discord orbs are
             placed used correctly, a team's margin for success increases exponentially. Good Zens must also projectile-volley his orb of destructions well,
             and, just like Lúcio's "Sound Barrier", "Transcendence" is usually saved for specific moments.`,
-            iframe: 'https://www.youtube.com/embed/SBXpKdmJBLU',
+            iframe: 'https://www.youtube.com/embed/SBXpKdmJBLU?autoplay=0',
             backgroundImage: 'https://1lal3e4eckus2d9p8g17wl8c-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/owl-960x540.jpg'
         }]
     }

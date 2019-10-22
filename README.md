@@ -88,6 +88,5 @@ if (hourCheck > 12) {
     newTimeString = (this.props.data.time_posted + 'AM EST');
 }
 ```
---
 ## Contributors 
 * Eugene Kim: https://github.com/ekim1707 

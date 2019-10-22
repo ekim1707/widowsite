@@ -12,6 +12,7 @@ This is a project I completed as a practice tool on the side of learning React. 
   * Screenshots
   * Github Link
   * Code Examples
+  * Contributors
 
 ## What It Is
 I merely needed a subject-matter to build a practice site with, and I decided on this theme because I already had been planning to make a website of this content for quite some time anyway. As my focus was almost entirely on mastering React basics (and not necessarily on creating a fully functioning product), however, this project does not include a back-end portion (yet), and thus as of now, the Forum section cannot communicate with any actual database.
@@ -87,3 +88,6 @@ if (hourCheck > 12) {
     newTimeString = (this.props.data.time_posted + 'AM EST');
 }
 ```
+--
+## Contributors 
+* Eugene Kim: https://github.com/ekim1707 

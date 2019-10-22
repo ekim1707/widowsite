@@ -7,7 +7,7 @@ This is a project I completed as a practice tool on the side of learning React. 
 
 ## Contents
   * What It Is
-  * What We Used
+  * What I Used
   * Challenges
   * Screenshots
   * Github Link

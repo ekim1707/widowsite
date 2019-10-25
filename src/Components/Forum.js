@@ -21,7 +21,7 @@ class Forum extends Component {
     }
 
     getData() {
-        const apiURL = `${window.apiHost}/react-project-forum`;
+        const apiURL = `https://still-falls-16479.herokuapp.com/react-project-forum`;
         const res = axios.get(apiURL);
         return res;
     }
@@ -53,7 +53,7 @@ class Forum extends Component {
             dateb64: base64.encode(currentDate),
             timeb64: base64.encode(currentTime)
         }
-        const apiURL = `${window.apiHost}/react-project-forum`;
+        const apiURL = `https://still-falls-16479.herokuapp.com/react-project-forum`;
         const res = axios.post(apiURL, postData);
         res.then((response) => {
             this.setState({

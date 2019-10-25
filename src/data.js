@@ -1,4 +1,5 @@
 import Chabco from './chabco.png';
+import hanzochabco from './hanzochabco.png';
 import reaper from './reaper.png';
 import dva from './dva.png';
 import mercy from './mercy.png';
@@ -379,7 +380,11 @@ const data = [
         comment: `Just a goofy clip from a while ago. After I said sorry, and the clip ended, the Mercy said
         "Don't be. You put me out of my misery" (to paraphrase) lolol... It's not fun trying to heal on all these
         teams full of clowns sometimes.`, 
-        image: ana}],
+        image: ana},
+        {name: 'I Love Blizzard', 
+        embed: 'https://www.youtube.com/embed/oGIC3zAOKPE?autoplay=0',
+        comment: `I really think the clip speaks for itself.`, 
+        image: widowmaker}],
         modalData: [{
             quote: '"Precision German engineering."',
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c4/Ability-reinhardt1.png/200px-Ability-reinhardt1.png?version=c6df80775dc74395a9709280fc2f88b5',
@@ -1198,6 +1203,10 @@ const data = [
         long long time ago, my entire screen still minimized, and I couldn't regain control of it again until I was already a pile of Reinhardt-rubble, 
         and the game was lost. Yay. Watching the replay, I was especially sympathetic to our Ana because I'm pretty sure she hard-carried
         (despite being called out by our Genji for "nanoing him while he wasn't ready"... in a QP game... without any comms... *rolls eyes*)`}, 
+        {name: ['Double Sniper', 'Chabco'], 
+        embed: "https://www.youtube.com/embed/VrYj6MyB_n8?autoplay=0", 
+        comment: `Not the best, but also not a bad game either. First time Chabco and I went double sniper together.`,
+        image: hanzochabco},
         {name: 'A Few High-Skill Shots', 
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
@@ -1210,10 +1219,7 @@ const data = [
         embed: "https://www.youtube.com/embed/LSZYGfABz-k?autoplay=0", 
         comment: `Unfortunately no screenshot, but this is the same "GreenAlien" dude who just one game ago was bragging to the public
         chat because he apparently just reached top500 (hmm.... ok if you say so?), and just kept blabbering like an obnoxious child over
-        and over again (in public chat to himself?) until I finally gave up and blocked him. Silly noob, top500 is for actually good players.`}, 
-        {name: 'Playing Angry', 
-        embed: "https://www.youtube.com/embed/qkajFWxX-0k?autoplay=0", 
-        comment: `Not particularly sure what it was that triggered me so much from the start, but I was left-clicking this entire game with some serious anger.`}],
+        and over again (in public chat to himself?) until I finally gave up and blocked him. Silly noob, top500 is for actually good players.`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',

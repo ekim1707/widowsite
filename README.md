@@ -35,7 +35,6 @@ There weren't too many challenges in this project, given how simple it was to ma
 [Github](https://github.com/ekim1707/widowsite)
 
 ## Code Examples
----
   Filter method used for Hero card page search bar:
 ```
 const heroSearch = data.filter(function (data) {

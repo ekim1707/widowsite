@@ -27,39 +27,39 @@ const data = [
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/d/dc/Dva_portrait.png/revision/latest?cb=20160429040128', 'https://images5.alphacoders.com/659/thumb-350-659055.jpg'], 
         videos: 
         [{name: '28% Team DMG',
-        embed: 'https://www.youtube.com/embed/rxO1t2uRFy4?autoplay=0?autoplay=0',
+        embed: 'https://www.youtube.com/embed/rxO1t2uRFy4?autoplay=0',
         comment: `Three of my favorite DPS mains/former-mains featured in one game. Pretty happy with how I played
         overall for each hero.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Healer Trio', 
-        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/v_k4d-xm-mI?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `One of my favorite videos. Planned from the start to play a different support hero each round (God-willing
         it actually went to three rounds, which it did). Pretty pleased with my performace with each hero played.`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'Brig Upvotes Self?', 
-        embed: 'https://www.youtube.com/embed/67lT5mhyzvI?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/67lT5mhyzvI?autoplay=0', 
         comment: `65% KP split between Pharah and Sombra. Gotta love a Brig who talks so brashly... as if
         whipping hacked, helpless enemies to death without having to aim at all is really that difficult. If I was a betting man, and I'm
         not, I'm 100% all-in that that immediate lone upvote of her came from herself lol...`,
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
-        {name: 'Reaper Is Too Easy To Take Seriously', 
-        embed: 'https://www.youtube.com/embed/WApngH1CzXs?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        {name: 'EOG Hamster Blamed... Me. Really??', 
+        embed: 'https://www.youtube.com/embed/WFsShe4v_4k?autoplay=0', 
         comment: `I used to take Reaper seriously when I first started playing, to the point where people kept
         calling me a Reaper-main. I don't quite have the ability I used to anymore, but I can still hold my own
         alright at least.`, 
-        image: reaper},
+        image: soldier},
         {name: '60% KP', 
-        embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8?autoplay=0?autoplay=0", 
+        embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8?autoplay=0", 
         comment: `I lost interest in playing DVa (and just tanks in general) a long, long time ago, but I still think whenever I reach
         into the toolbag, I can play her well.`, 
         image: dva},
         {name: 'Yes I Actually Played Mercy. Once.', 
-        embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb?autoplay=0?autoplay=0", 
+        embed: "https://www.youtube.com/embed/h2i_ZHnMukY?list=PLks73uWy20atPYjoDn-sUmMtUWAHulajb?autoplay=0", 
         comment: `Mercy is the most boring hero ever. I think I could count the amount of times I've played her in my
         entire life on two hands, but this one particular game actually ended up being a little bit fun.`,  
         image: mercy},
         {name: 'Im Actually A Pretty Sick Shield Tank', 
-        embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM?autoplay=0?autoplay=0", 
+        embed: "https://www.youtube.com/embed/e_x_e_pw974?list=PLks73uWy20avxzWXNUYF8mBIOb2iZ9ktM?autoplay=0", 
         comment: `Rein was probably the hero I was most scared to try when I first started playing. One day, 
         I just decided to screw inhibition and learn how to play him, so I told my team before a game that I
         was probably gonna suck, but I was gonna play him anyway. They were pretty supportive, and we actually
@@ -68,52 +68,52 @@ const data = [
         playing him completely. This is one of the old videos from my Rein days that I managed to save.`, 
         image: reinhardt},
         {name: 'Mercy Needed A Cowboy', 
-        embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/Y4a1kS-HP04?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `Most McCrees never actually play him the right way. If I cared enough to take him seriously,
         I think I could be an exception.`, 
         image: mccree},
         {name: "It's High Noon", 
-        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `I'm definitely not a good McCree myself (at least not anymore), but I'd say in games like
         this one, I at least hold my own unlike 80% of McCrees out there.`, 
         image: mccree},
         {name: 'Swear This Hanzo Hero Is So Stupid', 
-        embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `There really is no hero I hate more than Hanzo. As I tell many people, I prefered him more
         when he had scatter, even as an enemy. I probably play him nowadays as rarely as I do Mercy, but this
         one time I think I did alright.`, 
         image: hanzo},
         {name: 'Yeah Sym But Still Pretty Epic', 
-        embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/2-b1uSWmcM0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `I've actually had a handful of epic Sym games (considering I play her so rarely), but this is the
         only video of one I was able to dig up. In particular, I'm proud of the play I made at the end,
         which was completely in the moment and unscripted.`, 
         image: symmetra}, 
         {name: 'Can I At Least Get a Card', 
-        embed: "https://www.youtube.com/embed/x84xe5GdNfo?autoplay=0?autoplay=0", 
+        embed: "https://www.youtube.com/embed/x84xe5GdNfo?autoplay=0", 
         comment: `When I first started playing, I exclusively played Soldier for about a year. Like seriously, seriously
         exclusively. These days I never do except rare occasions, but I always feel pretty comfortable
         regardless of how long it's been. This game made me chuckle because I don't think I could have possibly
         been more productive or helpful to my team, but for some reason Blizzard didn't even think I deserved a card.`, 
         image: soldier},
         {name: 'Dominant Soldier IMO', 
-        embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/NQZGLFNq388?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `Dusted off Soldier again and had a pretty decent game.`, 
         image: soldier},
         {name: 'Tracer Begins', 
-        embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0", 
+        embed: "https://www.youtube.com/embed/8mV_oP0zkT0?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0", 
         comment: `This my first serious attempt at adding Tracer to my bag of "mains" after over two years of
         not playing her at all. Ended up having a pretty memorable experience over the course of these two games.
         (Note to Blizzard: I fully believe I deserved both POTGs... can a crappy Sym play possibly be more
         deserving than a 3-kill Pulse that wins the game?)`, 
         image: tracer},
         {name: 'Tracer Vs Clan owo', 
-        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `I just enjoyed this game because the entire owo clan I was playing against is so goofy and chill.
         Had prior experience with them, and they always keep it light and fun in the end, which I appreciate.`, 
         image: tracer},
         {name: '49% KP Rialto', 
-        embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0?autoplay=0', 
+        embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `I was pretty frustrated with my team. Hopefully you can understand why.`, 
         image: tracer}],
         modalData: [{
@@ -271,6 +271,30 @@ const data = [
         across my FOV instead. You've had years and years and years to fix this stupid ability,
         Blizzard, so screw you, I'm out."`, 
         image: ana}, 
+        {name: 'Pfft. So predictable', 
+        embed: 'https://www.youtube.com/embed/szAKrZVaa_U?autoplay=0', 
+        comment: '110% knew that Tracer was gonna come out of that door at some point lol.', 
+        image: soldier},
+        {name: 'Ameizingly Slept', 
+        embed: 'https://www.youtube.com/embed/5WiCJ0khDeA?autoplay=0', 
+        comment: `I shoot Mei's coming out of ice cube all the time, but darting them is very different because
+        the dart is a projectile. The timing on this one felt so good.`, 
+        image: ana},
+        {name: 'These Hitboxes...', 
+        embed: 'https://www.youtube.com/embed/zwFyrDlI_IM?autoplay=0', 
+        comment: `The first shot I understand because I guess it "grazed" the wall instead, but did the second
+        shot not go right through the top of that Torb's head? After I watched this again, I researched a little
+        on Overwatch forums, and I'm not the only one fed up with Blizzard's hitboxes... there are many people
+        who straight-up quit the game because of these crazy noregs (btw I understand the concept of lag and multiple
+        servers too, but I played Quake2 for a long time about a decade ago, and even that was a million times better).
+        I also read for the first time that apparently IF YOU HIT AN ENEMY'S GUN IN OVERWATCH THEN IT DOESN'T COUNT AS
+        A HIT. Which is great except for the small fact that THE GUN IS STILL INCLUDED IN EVERY PLAYER'S OUTLINED CARICATURE.
+        IF IT'S NOT SUPPOSED TO COUNT AS A HIT WHY NOT TAKE IT OUTSIDE OF THE HITBOX RED/GREEN OUTLINE. This is insane. No
+        freaking hitscan is going to analyze each enemy's image before he shoots and make sure he's aiming at anatomical
+        body parts instead of a freaking gun in the middle of an intense match (esp when Widows are getting dived
+        upon by like 3 enemies constantly). WE RELY ON THE FREAKING OUTLINE TO MAKE DECISIONS ALMOST ENTIRELY AT TIMES.
+        I swear Blizzard is some frustrating... (fill-in the blank).`, 
+        image: widowmaker},
         {name: 'I Didnt Die? Seriously?', 
         embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0", 
         comment: `This was probably a thousand times funnier in the moment than on the replay,

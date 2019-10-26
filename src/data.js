@@ -44,9 +44,9 @@ const data = [
         image: 'https://www.wherescape.com/media/3274/montage-color.png'},
         {name: 'EOG Hamster Blamed... Me. Really??', 
         embed: 'https://www.youtube.com/embed/WFsShe4v_4k?autoplay=0', 
-        comment: `I used to take Reaper seriously when I first started playing, to the point where people kept
-        calling me a Reaper-main. I don't quite have the ability I used to anymore, but I can still hold my own
-        alright at least.`, 
+        comment: `I think I'll let the video/chat speak for itself. FYI, I'm only mean in chat when I have a
+        a reason to be. As you can see, despite being pretty frustrated myself, all I said after the game was
+        "lol gg".`, 
         image: soldier},
         {name: '60% KP', 
         embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8?autoplay=0", 

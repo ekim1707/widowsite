@@ -46,7 +46,7 @@ const data = [
         embed: 'https://www.youtube.com/embed/WFsShe4v_4k?autoplay=0', 
         comment: `I think I'll let the video/chat speak for itself. FYI, I'm only mean in chat when I have a
         a reason to be. As you can see, despite being pretty frustrated myself, all I said after the game was
-        "lol gg".`, 
+        "lol gg" initially.`, 
         image: soldier},
         {name: '60% KP', 
         embed: "https://www.youtube.com/embed/IW23M2d2x-4?list=PLks73uWy20atNs6H9TwlOtPAWfZJEe5w8?autoplay=0", 

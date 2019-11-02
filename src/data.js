@@ -1254,10 +1254,10 @@ const data = [
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
         the stats didn't show anything in the end.`},
-        {name: "Literally... Idek...", 
-        embed: "https://www.youtube.com/embed/B9NEI8zwUT4?autoplay=0", 
-        comment: `This is one of those times where I'm pretty sure that even if I used an aimbot, we still would've lost (*glares at
-        Junkrat/Reaper... and yes I did watch the entire replay from his POV just to make sure...).`}],
+        {name: "Ashe and a Peacock", 
+        embed: "https://www.youtube.com/embed/Ia5D5U3QVis?autoplay=0", 
+        comment: `Haha nothing that special, but it was fun taking out this other team's Sombra/Ashe duo at times.
+        Two enemy heroes that I love to hate.`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',

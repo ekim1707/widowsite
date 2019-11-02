@@ -230,6 +230,12 @@ const data = [
         {name: 'Widow Highlight Reel', 
         embed: "https://www.youtube.com/embed/Kd72ZTDWEes?autoplay=0",
         comment: `Three recent Widow highlights I saved.`, 
+        image: widowmaker},
+        {name: 'To Kill A Peacockbird', 
+        embed: "https://www.youtube.com/embed/M2oiiKO7Ijc?autoplay=0",
+        comment: `In general most people hate to go up against enemy Doomfists, Genjis, and Sombras. I've
+        actually practiced widow-counters against them enough that I'm happy when I see them on the other team.
+        I don't always pull these kinds of plays off, but when I do, they give a very, very satisfying feeling.`, 
         image: widowmaker}],
         modalData: [{
             quote: '"Do you need a hug?"',
@@ -294,6 +300,13 @@ const data = [
         body parts instead of a freaking gun in the middle of an intense match (esp when Widows are getting dived
         upon by like 3 enemies constantly). WE RELY ON THE FREAKING OUTLINE TO MAKE DECISIONS ALMOST ENTIRELY AT TIMES.
         I swear Blizzard is some frustrating... (fill-in the blank).`, 
+        image: widowmaker},
+        {name: 'These Hitboxes Part 2', 
+        embed: 'https://www.youtube.com/embed/4Sm6LUaEYko?autoplay=0', 
+        comment: `Unlike the video before this one, I'm not gonna talk this one to death, but... is there
+        really any debate with this one? Two straight headshots clearly within Junkrat's caricature... I'm
+        really the only person in the world who thinks something's fishy with hitboxes in this game, especially
+        Hanzo and Junkrat (among others), and there might be some small design flaws with them?`, 
         image: widowmaker},
         {name: 'I Didnt Die? Seriously?', 
         embed: "https://www.youtube.com/embed/7tNdfTCm_xA?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0", 
@@ -1203,7 +1216,13 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: `Shaking Off Some Rust`, 
+        [{name: `The "Nutty" Game`, 
+        embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
+        comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing
+        it at once at the end, it was definitely cool but also kind of weird... For some reason I just keot thinking
+        about peanut butter or spreading some nutella on a cracker or something... this young generation slang just
+        seems so silly sometimes, idek lol.`},
+        {name: `Shaking Off Some Rust`, 
         embed: "https://www.youtube.com/embed/IpLMxB8ZuJc?autoplay=0",
         comment: `Haven't played in a while, so wasn't too sharp coming out of the gate, but overall was happy
         with my performance. Also, I liked the fact my teammates were chill, which isn't often these days lol.`},
@@ -1238,12 +1257,7 @@ const data = [
         {name: "Literally... Idek...", 
         embed: "https://www.youtube.com/embed/B9NEI8zwUT4?autoplay=0", 
         comment: `This is one of those times where I'm pretty sure that even if I used an aimbot, we still would've lost (*glares at
-        Junkrat/Reaper... and yes I did watch the entire replay from his POV just to make sure...).`},
-        {name: `"Doom, Get Widow" Lol`, 
-        embed: "https://www.youtube.com/embed/LSZYGfABz-k?autoplay=0", 
-        comment: `Unfortunately no screenshot, but this is the same "GreenAlien" dude who just one game ago was bragging to the public
-        chat because he apparently just reached top500 (hmm.... ok if you say so?), and just kept blabbering like an obnoxious child over
-        and over again (in public chat to himself?) until I finally gave up and blocked him. Silly noob, top500 is for actually good players.`}],
+        Junkrat/Reaper... and yes I did watch the entire replay from his POV just to make sure...).`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',

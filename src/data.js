@@ -1216,7 +1216,11 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: `The "Nutty" Game`, 
+        [{name: "Flawless Victory", 
+        embed: "https://www.youtube.com/embed/A-tBtPgOJtM?autoplay=0", 
+        comment: `Just a solid recent game. A lot of unluckiness like usual, and a few noregs, but did what
+        I had to well enough I think.`},
+        {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing
         it at once at the end, it was definitely cool but also kind of weird... For some reason I just keot thinking
@@ -1253,11 +1257,7 @@ const data = [
         {name: 'A Few High-Skill Shots', 
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
-        the stats didn't show anything in the end.`},
-        {name: "Ashe and a Peacock", 
-        embed: "https://www.youtube.com/embed/Ia5D5U3QVis?autoplay=0", 
-        comment: `Haha nothing that special, but it was fun taking out this other team's Sombra/Ashe duo at times.
-        Two enemy heroes that I love to hate.`}],
+        the stats didn't show anything in the end.`}],
         modalData: [{
             quote: `"C'est la vie."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca',

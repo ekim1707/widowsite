@@ -1216,10 +1216,11 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: "Flawless Victory", 
-        embed: "https://www.youtube.com/embed/A-tBtPgOJtM?autoplay=0", 
-        comment: `Just a solid recent game. A lot of unluckiness like usual, and a few noregs, but did what
-        I had to well enough I think.`},
+        [{name: "Not Surprised You Chose Hanzo", 
+        embed: "https://www.youtube.com/embed/g_bjmVI9ig8?autoplay=0", 
+        comment: `For the record, I may have said a few things, but I made a huge conscious effort to bite my 
+        tongue and not go off on this guy a whole lot worse than that. I refuse to feel guilty about attacking
+        someone when they are that kind of person that says those kinds of things.`},
         {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing

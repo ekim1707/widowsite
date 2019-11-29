@@ -1216,11 +1216,18 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: "Not Surprised You Chose Hanzo", 
-        embed: "https://www.youtube.com/embed/g_bjmVI9ig8?autoplay=0", 
-        comment: `For the record, I may have said a few things, but I made a huge conscious effort to bite my 
-        tongue and not go off on this guy a whole lot worse than that. I refuse to feel guilty about attacking
-        someone when they are that kind of person that says those kinds of things.`},
+        [{name: "FTR, Genji-Mains Are Complete Losers", 
+        embed: "https://www.youtube.com/embed/KrYaat9CBz4?autoplay=0", 
+        comment: `Aside from another self-obsessed Genji's ego, here are threefold complaints about my team:
+        (1) Our Mei is in our backline and spamming icicles (why...?) at Genji who is 100%
+        clearly standing still, in the wide-open, reflecting at me for everyone to see. On top of it, whilst
+        being an airhead, she also got one-shot by a crappy widow from long, long distance. So in 3 stupid
+        seconds we're suddenly down two ppl already.
+        (2) Instead of easily finishing off an enemy that was 1, our Pharah somehow got stuck next to a wall
+        and just... slowly... floated... to her own death... somehow...
+        (3) I'm pretty sure I critically injured Genji like 3 times in the MIDDLE of my team, and nobody had
+        enough aim to even DAMAGE him further, let alone finish him off.
+        (4) I swear I play with monkeys, or people who are drunk or on drugs and dgaf.`},
         {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing

@@ -1258,10 +1258,10 @@ const data = [
         could I have done any better of a job regaining point control for our team and eventually allowing
         us to somehow come back and win. Not even great stats (joined way late) or anything, but I'm pretty
         proud of this one.`}, 
-        {name: ['Double Sniper', 'Chabco'], 
-        embed: "https://www.youtube.com/embed/VrYj6MyB_n8?autoplay=0", 
-        comment: `Not the best, but also not a bad game either. First time Chabco and I went double sniper together.`,
-        image: hanzochabco},
+        {name: `Sorry Gold Goose Dude Couldn't Suppress This One`, 
+        embed: "https://www.youtube.com/embed/wqTWJW3CU0Q?autoplay=0", 
+        comment: `I really try hard not to call out my team publicly, but when they make the OW experience this
+        crappy for others, why should they not be called out?`},
         {name: 'A Few High-Skill Shots', 
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact

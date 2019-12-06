@@ -1220,7 +1220,7 @@ const data = [
         embed: "https://www.youtube.com/embed/5_ictCQ3tVA?autoplay=0",
         comment: `Had some CPU and lag issues that led to some accuracy fails, but all in all... I don't think
         we win that game without me. Especially since we only back-capped that second point in OT because basically
-        their entire team tried to lay a trap literally just for me in the backline and C9'd. I didn't even die...
+        their entire team tried to lay a trap just for me in the backline and C9'd. I didn't even die...
         it seriously felt so good.`},
         {name: "FTR, Genji-Mains Are Complete Losers", 
         embed: "https://www.youtube.com/embed/KrYaat9CBz4?autoplay=0", 

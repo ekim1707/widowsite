@@ -1216,7 +1216,13 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: "FTR, Genji-Mains Are Complete Losers", 
+        [{name: `One Man Show?`, 
+        embed: "https://www.youtube.com/embed/5_ictCQ3tVA?autoplay=0",
+        comment: `Had some CPU and lag issues that led to some accuracy fails, but all in all... I don't think
+        we win that game without me. Especially since we only back-capped that second point in OT because basically
+        their entire team tried to lay a trap literally just for me in the backline and C9'd. I didn't even die...
+        it seriously felt so good.`},
+        {name: "FTR, Genji-Mains Are Complete Losers", 
         embed: "https://www.youtube.com/embed/KrYaat9CBz4?autoplay=0", 
         comment: `Aside from another self-obsessed Genji's ego, here are threefold complaints about my team:
         (1) Our Mei is in our backline and spamming icicles (why...?) at Genji who is 100%
@@ -1234,10 +1240,6 @@ const data = [
         it at once at the end, it was definitely cool but also kind of weird... For some reason I just keot thinking
         about peanut butter or spreading some nutella on a cracker or something... this young generation slang just
         seems so silly sometimes, idek lol.`},
-        {name: `Shaking Off Some Rust`, 
-        embed: "https://www.youtube.com/embed/IpLMxB8ZuJc?autoplay=0",
-        comment: `Haven't played in a while, so wasn't too sharp coming out of the gate, but overall was happy
-        with my performance. Also, I liked the fact my teammates were chill, which isn't often these days lol.`},
         {name: 'Frustrating Bastion', 
         embed: "https://www.youtube.com/embed/OoRNDbx1ygs?autoplay=0", 
         comment: `My goodness I really wish our Sym didn't leave after the 1st round (although she wasn't so hot herself). At least

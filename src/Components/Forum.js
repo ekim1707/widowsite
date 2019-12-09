@@ -127,7 +127,7 @@ class Forum extends Component {
                                     <div className="input-field forum">
                                         <i className={`material-icons prefix ${this.state.reveal}`}>{this.state.account_circle}</i>
                                         <input onChange={this.changeTag} value={this.state.tag} className={this.state.warn} id="icon_prefix" type="text" />
-                                        <label htmlFor="icon-prefix">Temporary Tag (10 char max)</label>
+                                        <label htmlFor="icon-prefix">Temporary Tag</label>
                                     </div>
                                 </div>
                                 <button className="btn-large xlarge" type="submit">Submit</button>

@@ -5,3 +5,256 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    .welcome-message {
+        color: whitesmoke;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    @keyframes fade {
+        0%, 100% {
+          opacity: 1
+        }
+    }
+    .header {
+        display: none;
+    }
+    .body-image {
+        height: 92%;
+    }
+    #modal1 {
+        height: 60% !important;
+    }
+    .video-header {
+        height: 10%
+    }
+    .video-body {
+        position: relative;
+        height: 82%;
+    }
+    .sidebar-image {
+        height: 100%;
+    }
+    .video-iframe {
+        width: 85%;
+        height: 65%;
+    }
+    .video-comment-right {
+        position: absolute;
+        width: 85%;
+        height: 35%;
+        right: 0;
+        bottom: 0;
+    }
+    .video-lis-images {
+        display: none;
+    }
+    .video-lis-names {
+        font-size: 15px;
+    }
+    .forum-messageboard-container {
+        flex-flow: column nowrap;
+    }
+    .forum-messageboard-post {
+        width: 100%;
+        height: 30%;
+    }
+    .forum-messageboard {
+        width: 100%;
+        height: 69.5%;
+    }
+    .forum-post-container {
+        height: 60%;
+    }
+    .forum-post-row {
+        height: 41%;
+    }
+    .forum-messageboard-message {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    .title {
+        position: absolute;
+        width: initial;
+        height: initial;
+        font-size: 40px;
+        right: 50%;
+        transform: translateX(50%);
+        top: 40%;
+    }
+    .toggle-heroes {
+        flex-flow: row wrap;
+        height: 35%;
+    }
+    .body-heroes {
+        top: 35%;
+        height: 57%;
+    }
+    .toggle-heroes > .input-field.absolute {
+        width: 40%;
+    }
+    .video-header {
+        flex-flow: row wrap;
+        height: 25%;
+    }
+    .video-hero, .youtube-channel-link {
+        width: 20%;
+        height: 50%;
+    }
+    .video-body {
+        height: 67%;
+    }
+    .video-comment-right {
+        display: none;
+    }
+    .video-menu-container {
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        bottom: 0;
+    }
+    .video-menu {
+        flex-flow: row wrap;
+        background: gray;
+    }
+    .video-menu-ul {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .video-lis {
+        width: 25%;
+        height: 50%;
+    }
+    .video-lis-names {
+        padding: 0;
+        font-size: 10px;
+    }
+    .video-iframe {
+        width: 100%;
+        height: 60%;
+        left: 0;
+        bottom: 25%;
+    }
+    .disclaimer-image {
+        display: none;
+    }
+    .disclaimer-message {
+        width: 100%;
+        font-size: 9px;
+    }
+    .forum-messageboard-post {
+        height: 40%;
+    }
+    .forum-messageboard {
+        height: 59.5%;
+    }
+    .input-field-container {
+        width: 69%;
+    }
+    .forum-messageboard-row {
+        height: 35%;
+    }
+    .xlarge {
+        align-items: center;
+        width: 30%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .welcome-message {
+        color: whitesmoke;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    @keyframes fade {
+        0%, 100% {
+          opacity: 1
+        }
+    }
+    .header {
+        display: none;
+    }
+    .welcome {
+        margin-top: 20px;
+    }
+    .body-image {
+        height: 92%;
+    }
+    i.medium {
+        font-size: 2rem;
+    }
+    .toggle-heroes > .btn-large {
+        height: 35px;
+        line-height: 35px;
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .btn-floating.btn-large {
+        width: 35px;
+        height: 35px;
+        padding: 0;
+    }
+    .btn-floating.btn-large i {
+        line-height: 35px;
+    }
+    .btn-large i {
+        font-size: .8rem;
+    }
+    .toggle-heroes {
+        height: 15%;
+    }
+    .body-heroes {
+        top: 15%;
+        height: 77%;
+    }
+    #overview-search {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .video-lis-names {
+        font-size: 8px;
+        color: black;
+        font-weight: initial;
+    }
+    #golf-clap {
+        padding: 5px;
+    }
+    .commentary {
+        font-size: 10px;
+    }
+    .disclaimer-image {
+        display: none;
+    }
+    .forum-title-container {
+        font-size: 3em;
+    }
+    .disclaimer-message {
+        width: 100%;
+        font-size: 10px;
+    }
+    .forum-post-container {
+        height: 75%;
+    }
+    .forum-post-row {
+        height: 26%;
+    }
+    .forum-messageboard-row {
+        height: 35%;
+    }
+    .forum-messageboard-message {
+        font-size: 15px;
+    }
+    .input-field-container {
+        width: 69%;
+    }
+    .xlarge {
+        align-items: center;
+        width: 30%;
+        padding: 0;
+        font-size: 10px;
+    }
+}

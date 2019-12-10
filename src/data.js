@@ -1225,7 +1225,7 @@ const data = [
         {name: "Bronzemercy Is A Genji? Me-Senses A Troll", 
         embed: "https://www.youtube.com/embed/3sZHb5P89yU?autoplay=0", 
         comment: `But actually the dude was pretty chill. Probably first Genji I've ever seen who didn't
-        act like a butthurt child in any way.`},
+        act like a butthurt child.`},
         {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing

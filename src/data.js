@@ -1222,18 +1222,10 @@ const data = [
         we win that game without me. Especially since we only back-capped that second point in OT because basically
         their entire team tried to lay a trap just for me in the backline and C9'd. I didn't even die...
         it seriously felt so good.`},
-        {name: "FTR, Genji-Mains Are Complete Losers", 
-        embed: "https://www.youtube.com/embed/KrYaat9CBz4?autoplay=0", 
-        comment: `Aside from another self-obsessed Genji's ego, here are threefold complaints about my team:
-        (1) Our Mei is in our backline and spamming icicles (why...?) at Genji who is 100%
-        clearly standing still, in the wide-open, reflecting at me for everyone to see. On top of it, whilst
-        being an airhead, she also got one-shot by a crappy widow from long, long distance. So in 3 stupid
-        seconds we're suddenly down two ppl already.
-        (2) Instead of easily finishing off an enemy that was 1, our Pharah somehow got stuck next to a wall
-        and just... slowly... floated... to her own death... somehow...
-        (3) I'm pretty sure I critically injured Genji like 3 times in the MIDDLE of my team, and nobody had
-        enough aim to even DAMAGE him further, let alone finish him off.
-        (4) I swear I play with monkeys, or people who are drunk or on drugs and dgaf.`},
+        {name: "Bronzemercy Is A Genji? Me-Senses A Troll", 
+        embed: "https://www.youtube.com/embed/3sZHb5P89yU?autoplay=0", 
+        comment: `But actually the dude was pretty chill. Probably first Genji I've ever seen who didn't
+        act like a butthurt child in any way.`},
         {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing

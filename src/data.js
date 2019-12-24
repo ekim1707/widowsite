@@ -815,7 +815,36 @@ const data = [
         voice: 'Matthew Mercer',
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f3/Mccree_portrait.png/revision/latest?cb=20160429041214', 'https://pm1.narvii.com/6519/cf0621c0462c9c50dc8c3bd133c4fb676975f4b6_hq.jpg'],
-        videos: '',
+        videos: 
+        [{name: 'The McCree Saga Begins', 
+        embed: 'https://www.youtube.com/embed/H4dLd7o2qmo?autoplay=0', 
+        comment: `First time taking McCree seriously in a while, and it 
+        feels good so far.`},
+        {name: 'Felt Good Until Battery Died', 
+        embed: "https://www.youtube.com/embed/tmHo5UB91g0?autoplay=0", 
+        comment: `Dang that was some serious flattery, thanks Ana lol.`},
+        {name: 'Straight Carry', 
+        embed: "https://www.youtube.com/embed/ozt6CSKKwrc?autoplay=0", 
+        comment: `Without me... we stand no chance.`},
+        {name: '58%KP', 
+        embed: "https://www.youtube.com/embed/d0gXzsxBUCw?autoplay=0", 
+        comment: `Highest ever full-game KP with McCree?`},
+        {name: `Dominant 67% Overall KP`, 
+        embed: 'https://www.youtube.com/embed/4NBj3P8spjQ?autoplay=0', 
+        comment: `One of most dominant all around performances ever. 
+        McCree second round.`},
+        {name: 'When Will the Mei OP End', 
+        embed: 'https://www.youtube.com/embed/cxgFkVJhyQE?autoplay=0', 
+        comment: `The amount of ridiculous ways that Mei's get away with 
+        crap and abuse their abilities to just OP their opponents is complete bs.`},
+        {name: 'Stay Punny', 
+        embed: 'https://www.youtube.com/embed/iqNa6CaW5w8?autoplay=0', 
+        comment: `See title.`},
+        {name: `Can't Go Heals`, 
+        embed: 'https://www.youtube.com/embed/_fuIGUXqONI?autoplay=0', 
+        comment: `If I ever try to go heals anymore, we lose guaranteed 
+        bc our dps can't do damage. So I don't even have the option to play 
+        anything other than main DPS anymore.`}],
         modalData: [{
             quote: `"Well, it's high noon somewhere in the world."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/0/08/Ability-mccree1.png/200px-Ability-mccree1.png?version=c8fa661183b3e62d6e91b281a21e1219',

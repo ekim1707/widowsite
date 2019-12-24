@@ -5,7 +5,7 @@ import sombra from '../sombra.png';
 import ana from '../ana.png';
 import junkrat from '../junkrat.png';
 import pharah from '../pharah.png';
-import torbjorn from '../torbjorn.png';
+import mccree from '../mccree.png';
 
 class Videos extends Component {
     constructor() {
@@ -47,8 +47,8 @@ class Videos extends Component {
           document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/84/51/90/84519048b449d09ef1bdfcefd1179d8a.jpg')";
         } else if (hero === 'Pharah') {
           document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/a1/84/5e/a1845e76c0b76977eae1b1d74ce08011.jpg')";
-        } else if (hero === 'Torbjörn') {
-          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/bb/73/ee/bb73ee2cf588b33b9e303bcbe0ed95d3.jpg')";
+        } else if (hero === 'McCree') {
+          document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.pinimg.com/originals/c4/cf/4d/c4cf4d2e71865fcbe24be016bd037e2d.jpg')";
         } else if ((hero === 'Orisa') || (hero === 'Reinhardt') || (hero === 'DV.a')) {
           document.getElementById('sidebar-image').style.backgroundImage = "url('https://i.imgur.com/qrewlPG.png')";
         }
@@ -101,7 +101,7 @@ class Videos extends Component {
                     <img onClick={(e) => this.clickHero(e, 'Ana')} src={ana} width="10%" height="100%" alt="video-header" className="video-hero" id="ana-portrait" />
                     <img onClick={(e) => this.clickHero(e, 'Junkrat')} src={junkrat} width="10%" height="100%" alt="video-header" className="video-hero" id="junkrat-portrait" />
                     <img onClick={(e) => this.clickHero(e, 'Pharah')} src={pharah} width="10%" height="100%" alt="video-header" className="video-hero" id="pharah-portrait" />
-                    <img onClick={(e) => this.clickHero(e, 'Torbjörn')} src={torbjorn} width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
+                    <img onClick={(e) => this.clickHero(e, 'McCree')} src={mccree} width="10%" height="100%" alt="video-header" className="video-hero" id="torbjorn-portrait" />
                     <img onClick={(e) => this.clickHero(e, 'DV.a')} src="http://icons.iconarchive.com/icons/tribalmarkings/colorflow/256/miscellaneous-icon.png" width="10%" height="100%" alt="video-header" className="video-hero" id="all-portrait" />
                     <img onClick={(e) => this.clickHero(e, 'Orisa')} src="https://www.fortnitehut.com/fortnite-font-generator-images/dD1Hb2xmIENsYXAmcz0xNzBweCZjPUExRDU0RCY.png" width="10%" height="100%" alt="video-header" className="video-hero" id="golf-clap" />
                     <img onClick={(e) => this.clickHero(e, 'Reinhardt')} src="https://www.pngkey.com/png/full/809-8095773_website-web-product-kinda-funny-joomla-design-clipart.png" width="10%" height="100%" alt="video-header" className="video-hero" id="kinda-funny" />

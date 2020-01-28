@@ -1245,16 +1245,12 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: `One Man Show?`, 
-        embed: "https://www.youtube.com/embed/5_ictCQ3tVA?autoplay=0",
-        comment: `Had some CPU and lag issues that led to some accuracy fails, but all in all... I don't think
-        we win that game without me. Especially since we only back-capped that second point in OT because basically
-        their entire team tried to lay a trap just for me in the backline and C9'd. I didn't even die...
-        it seriously felt so good.`},
-        {name: "Bronzemercy Is A Genji? Me-Senses A Troll", 
-        embed: "https://www.youtube.com/embed/3sZHb5P89yU?autoplay=0", 
-        comment: `But actually the dude was pretty chill. Probably first Genji I've ever seen who didn't
-        act like a butthurt child.`},
+        [{name: `Not Yourself? Have A Snickers`, 
+        embed: "https://www.youtube.com/embed/FAZaEGU5gls?autoplay=0",
+        comment: `Funny guy lol.`},
+        {name: "Gotta Admit FeltGoodMan", 
+        embed: "https://www.youtube.com/embed/JDPmqDsGDpQ?autoplay=0", 
+        comment: `Fun game.`},
         {name: `The "Nutty" Game`, 
         embed: "https://www.youtube.com/embed/m6aKcJjToWA?autoplay=0", 
         comment: `In my entire life I've never been referred to as "nutty" before, so when everybody was doing

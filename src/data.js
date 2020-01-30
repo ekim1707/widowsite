@@ -1245,7 +1245,13 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: `Not Yourself? Have A Snickers`, 
+        [{name: 'Mei FTW Rofl', 
+        embed: "https://www.youtube.com/embed/5nhUOvEZRwg?autoplay=0", 
+        comment: `I wasn't really upset about it or anything... but really, Mei? Rofl.`},
+        {name: 'Flawless Victory', 
+        embed: "https://www.youtube.com/embed/NSYGCtv6PpQ?autoplay=0", 
+        comment: `Not the flashiest game, but I enjoyed playing it.`},
+        {name: `Not Yourself? Have A Snickers`, 
         embed: "https://www.youtube.com/embed/FAZaEGU5gls?autoplay=0",
         comment: `Funny guy lol.`},
         {name: "Gotta Admit FeltGoodMan", 
@@ -1257,19 +1263,6 @@ const data = [
         it at once at the end, it was definitely cool but also kind of weird... For some reason I just keot thinking
         about peanut butter or spreading some nutella on a cracker or something... this young generation slang just
         seems so silly sometimes, idek lol.`},
-        {name: 'Frustrating Bastion', 
-        embed: "https://www.youtube.com/embed/OoRNDbx1ygs?autoplay=0", 
-        comment: `My goodness I really wish our Sym didn't leave after the 1st round (although she wasn't so hot herself). At least
-        she wasn't completely obnoxious for no reason all game long like this back-filling Bastion turned out to be. I will always
-        be proud of myself for basically keeping us alive at the very end of the game with what I considered a pretty epic stall
-        until the rest of our team finally returned from spawn (and our Bastion, go figure, took credit for the entire win).`},
-        {name: 'Nobody Cares About Team', 
-        embed: "https://www.youtube.com/embed/g3nhCGfdA-8?autoplay=0", 
-        comment: `Let's summarize things. Round 1, I decide to go support in lieu of our team comp.
-        Round 2, I'm pissed off I got gold damage and had to carry as Zen in Round 1, so I switch to Widow.
-        Round 2 goes pretty well. Round 3, I look at our comp, and I want to stay Widow, but I know our team
-        has a glaring hole at shield tank, so I sacrifice again. The replay of Round 3 speaks for itself. Yet
-        another wonderful magic carpet ride playing this Blizzard video game masterpiece.`},
         {name: `Even I Don't Know How We Won`, 
         embed: "https://www.youtube.com/embed/Um14s7P54oQ?autoplay=0", 
         comment: `I was so certain we were going to lose this game easily when it waas 50% - 99% Overtime,

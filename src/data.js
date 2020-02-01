@@ -816,7 +816,10 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f3/Mccree_portrait.png/revision/latest?cb=20160429041214', 'https://pm1.narvii.com/6519/cf0621c0462c9c50dc8c3bd133c4fb676975f4b6_hq.jpg'],
         videos: 
-        [{name: 'The McCree Saga Begins', 
+        [{name: `McCree, a la Paris`, 
+        embed: 'https://www.youtube.com/embed/z1Teu5AW-28?autoplay=0', 
+        comment: `Lol.`},
+        {name: 'The McCree Saga Begins', 
         embed: 'https://www.youtube.com/embed/H4dLd7o2qmo?autoplay=0', 
         comment: `First time taking McCree seriously in a while, and it 
         feels good so far.`},
@@ -839,12 +842,7 @@ const data = [
         crap and abuse their abilities to just OP their opponents is complete bs.`},
         {name: 'Stay Punny', 
         embed: 'https://www.youtube.com/embed/iqNa6CaW5w8?autoplay=0', 
-        comment: `See title.`},
-        {name: `Can't Go Heals`, 
-        embed: 'https://www.youtube.com/embed/_fuIGUXqONI?autoplay=0', 
-        comment: `If I ever try to go heals anymore, we lose guaranteed 
-        bc our dps can't do damage. So I don't even have the option to play 
-        anything other than main DPS anymore.`}],
+        comment: `See title.`}],
         modalData: [{
             quote: `"Well, it's high noon somewhere in the world."`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/0/08/Ability-mccree1.png/200px-Ability-mccree1.png?version=c8fa661183b3e62d6e91b281a21e1219',

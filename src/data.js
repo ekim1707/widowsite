@@ -816,7 +816,7 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/f3/Mccree_portrait.png/revision/latest?cb=20160429041214', 'https://pm1.narvii.com/6519/cf0621c0462c9c50dc8c3bd133c4fb676975f4b6_hq.jpg'],
         videos: 
-        [{name: `McCree, a la Paris`, 
+        [{name: `McCree, à la Paris`, 
         embed: 'https://www.youtube.com/embed/z1Teu5AW-28?autoplay=0', 
         comment: `Lol.`},
         {name: 'The McCree Saga Begins', 

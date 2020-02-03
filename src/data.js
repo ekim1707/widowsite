@@ -918,12 +918,9 @@ const data = [
         about two years before this one. This guy was taking himself so seriously over the most idiotic of things, and
         Cortez and I had a good laugh over it in the end.`,
         image: Chabco},
-        {name: 'Dude Was Not Cool', 
-        embed: 'https://www.youtube.com/embed/kSgo-M7cQ1c?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0',
-        comment: `Way to not take a video game (a QP game for that matter...) too seriously or anything, you know?
-        After getting owned the previous game (also playing Ashe... I guess this dude was the next star pro-Ashe in training),
-        this trash-talking, pretentious Kenpachi noob said something like "Imagine if I actually had a goddam tank once in a while".
-        Well, he definitely had a tank this game for sure, not really sure what else he could've wanted. An aimbot?`},
+        {name: 'Silver Damage In Just One Round', 
+        embed: 'https://www.youtube.com/embed/pojauLPqTZI?autoplay=0',
+        comment: `Hmm.`},
         {name: 'Really? What More Could I Have Done?', 
         embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0', 
         comment: `I've always had occasional Pharah games where I'm raining direct hits down on opposing teams

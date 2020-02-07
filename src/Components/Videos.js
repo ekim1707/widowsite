@@ -81,7 +81,7 @@ class Videos extends Component {
                     return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis toggle-size selected" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
                 }
                 return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis toggle-size" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name}</span></li>
-            } else if ((video.name[1] === 'Chabco')) {
+            } else if ((['Chabco', 'jHoon', 'jHoon2'].includes(video.name[1]))) {
                 if (this.state.selected === i) {
                     return <li onClick={(e) => this.selectVideo(e, i)} className="video-lis selected" key={i}><img className="video-lis-images" src={video.image} alt="misc" /><span className="video-lis-names">{video.name[0]}</span></li>
                 }

@@ -14,6 +14,8 @@ import pharah from './pharah.png';
 import ana from './ana.png';
 import junkrat from './junkrat.png';
 import zenyatta from './zenyatta.png';
+import jHoon from "./jHoon.png";
+import jHoon2 from "./jHoon2.png";
 
 const data = [
     {
@@ -1265,10 +1267,10 @@ const data = [
         could I have done any better of a job regaining point control for our team and eventually allowing
         us to somehow come back and win. Not even great stats (joined way late) or anything, but I'm pretty
         proud of this one.`}, 
-        {name: `Sorry Gold Goose Dude Couldn't Suppress This One`, 
-        embed: "https://www.youtube.com/embed/wqTWJW3CU0Q?autoplay=0", 
-        comment: `I really try hard not to call out my team publicly, but when they make the OW experience this
-        crappy for others, why should they not be called out?`},
+        {name: [`"Solo-ulted" Is My Life Story`, `jHoon2`], 
+        embed: "https://www.youtube.com/embed/GHL0NLBBpec?autoplay=0", 
+        comment: `Idk I guess people just really don't like me very easily.`,
+        image: jHoon2},
         {name: 'A Few High-Skill Shots', 
         embed: "https://www.youtube.com/embed/yI2vxhmlZE0?list=PLks73uWy20at61fN_GXo7wzyNif1QZLXD?autoplay=0", 
         comment: `Mostly proud of this game because of a few nasty, high-skill shots, despite the fact
@@ -1308,6 +1310,10 @@ const data = [
         embed: "https://www.youtube.com/embed/T23iBK5O--U?autoplay=0", 
         comment: `Even I didn't realize until after the game that I was anywhere close to 87% on fire. Overall made good
         decisions and made some key plays though.`},
+        {name: ['Bash Brothers', 'jHoon'], 
+        embed: 'https://www.youtube.com/embed/VlVJK_123YI?autoplay=0', 
+        comment: `Dang that was fun, esp the combo on Tracer.`,
+        image: jHoon},
         {name: 'Dude Called Me a God', 
         embed: "https://www.youtube.com/embed/gaYul7AXnqY?autoplay=0", 
         comment: `Unfortunately, after the enemy Rein called me a "God" publicly, I suddenly lost the ability to focus and/or do
@@ -1339,10 +1345,7 @@ const data = [
         embed: 'https://www.youtube.com/embed/WAar5xJBgOg?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
         comment: `Right after this game was over, I remember thinking it felt like the best Ana game I ever played. Later on,
         after watching the replay, it didn't seem so special anymore. I'd love it if you could leave your own opinion in the
-        forum so I can gain some perspective.`},
-        {name: 'Top Ana-play With Good Widow Cap', 
-        embed: 'https://www.youtube.com/embed/aR-p3bulTyo?list=PLks73uWy20av2y1r_e0WpZL4lDFTVaVM9?autoplay=0', 
-        comment: `Decent Ana game augmented by a solid switch to Widow to cap the game strongly.`}],
+        forum so I can gain some perspective.`}],
         modalData: [{
             quote: `"It's just a scratch, you'll be fine!"`,
             primaryOne: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/fc/Ability-ana1.png/200px-Ability-ana1.png?version=1101920478ed5840a6a4d4698ee87951',

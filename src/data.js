@@ -1244,7 +1244,7 @@ const data = [
         videos: 
         [{name: `900`, 
         embed: "https://www.youtube.com/embed/LQe5d-is4kY?autoplay=0", 
-        comment: `I honestly still have no idea what 900 means, but it was funny to me, so sure why not lol.`}, 
+        comment: `I honestly still have no idea what 900 means, but it was funny to me anyway lol.`}, 
         {name: 'Mei FTW Rofl', 
         embed: "https://www.youtube.com/embed/5nhUOvEZRwg?autoplay=0", 
         comment: `I wasn't really upset about it or anything... but really, Mei? Rofl.`},

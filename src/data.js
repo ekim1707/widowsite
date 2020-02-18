@@ -1242,7 +1242,10 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/0/0b/WIDOW.png/revision/latest?cb=20190226041021', 'https://cdnb.artstation.com/p/assets/images/images/010/578/007/large/alice-mok-kerrigan-widow-final.jpg?1525167366'],
         videos: 
-        [{name: 'Mei FTW Rofl', 
+        [{name: `900`, 
+        embed: "https://www.youtube.com/embed/LQe5d-is4kY?autoplay=0", 
+        comment: `I honestly still have no idea what 900 means, but it was funny to me, so sure why not lol.`}, 
+        {name: 'Mei FTW Rofl', 
         embed: "https://www.youtube.com/embed/5nhUOvEZRwg?autoplay=0", 
         comment: `I wasn't really upset about it or anything... but really, Mei? Rofl.`},
         {name: 'Flawless Victory', 
@@ -1260,13 +1263,6 @@ const data = [
         it at once at the end, it was definitely cool but also kind of weird... For some reason I just keot thinking
         about peanut butter or spreading some nutella on a cracker or something... this young generation slang just
         seems so silly sometimes, idek lol.`},
-        {name: `Even I Don't Know How We Won`, 
-        embed: "https://www.youtube.com/embed/Um14s7P54oQ?autoplay=0", 
-        comment: `I was so certain we were going to lose this game easily when it waas 50% - 99% Overtime,
-        and I was just bouncing around the map trying to stay alive. Zen helped me stay alive, but damn,
-        could I have done any better of a job regaining point control for our team and eventually allowing
-        us to somehow come back and win. Not even great stats (joined way late) or anything, but I'm pretty
-        proud of this one.`}, 
         {name: [`"Solo-ulted" Is My Life Story`, `jHoon2`], 
         embed: "https://www.youtube.com/embed/GHL0NLBBpec?autoplay=0", 
         comment: `Idk I guess people just really don't like me very easily.`,

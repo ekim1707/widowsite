@@ -33,6 +33,11 @@ const data = [
         comment: `One of those games it doesn't even matter the stats, you just know you dominated while you 
         were actually playing the game.`, 
         image: soldier},
+        {name: "WTF Was That Rofl", 
+        embed: 'https://www.youtube.com/embed/WFcCFotxUfI?autoplay=0', 
+        comment: `I don't even know if I was dominant, or if that was just the goofiest game ever, or what 
+        lolol, but I def enjoyed playing it.`, 
+        image: soldier},
         {name: '28% Team DMG',
         embed: 'https://www.youtube.com/embed/rxO1t2uRFy4?autoplay=0',
         comment: `Three of my favorite DPS mains/former-mains featured in one game. Pretty happy with how I played
@@ -74,11 +79,6 @@ const data = [
         and at one brief period, I was a pretty nasty Rein in my own opinion. Then I lost interest, and stopped
         playing him completely. This is one of the old videos from my Rein days that I managed to save.`, 
         image: reinhardt},
-        {name: "It's High Noon", 
-        embed: 'https://www.youtube.com/embed/o81Azh2tgWw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
-        comment: `I'm definitely not a good McCree myself (at least not anymore), but I'd say in games like
-        this one, I at least hold my own unlike 80% of McCrees out there.`, 
-        image: mccree},
         {name: 'Swear This Hanzo Hero Is So Stupid', 
         embed: 'https://www.youtube.com/embed/lDW3IBWlOFw?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
         comment: `There really is no hero I hate more than Hanzo. As I tell many people, I prefered him more

@@ -33,6 +33,12 @@ const data = [
         comment: `One of those games it doesn't even matter the stats, you just know you dominated while you 
         were actually playing the game.`, 
         image: soldier},
+        {name: 'Random Queue = More Challenging?', 
+        embed: 'https://www.youtube.com/embed/EoK3Xen671Q?autoplay=0', 
+        comment: `Game is getting stale. Trying out a new random queue thing where I have to play the hero 
+        I land on (unless it's a tank). Pretty happy with this Tracer game considering I don't think I've played
+        Tracer in like a year or something.`, 
+        image: tracer},
         {name: "WTF Was That Rofl", 
         embed: 'https://www.youtube.com/embed/WFcCFotxUfI?autoplay=0', 
         comment: `I don't even know if I was dominant, or if that was just the goofiest game ever, or what 
@@ -108,11 +114,6 @@ const data = [
         not playing her at all. Ended up having a pretty memorable experience over the course of these two games.
         (Note to Blizzard: I fully believe I deserved both POTGs... can a crappy Sym play possibly be more
         deserving than a 3-kill Pulse that wins the game?)`, 
-        image: tracer},
-        {name: 'Tracer Vs Clan owo', 
-        embed: 'https://www.youtube.com/embed/ooAvUfStsRY?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 
-        comment: `I just enjoyed this game because the entire owo clan I was playing against is so goofy and chill.
-        Had prior experience with them, and they always keep it light and fun in the end, which I appreciate.`, 
         image: tracer},
         {name: '49% KP Rialto', 
         embed: 'https://www.youtube.com/embed/2JPz7qv6xNI?list=PLks73uWy20at974kh-ijifZYsEBAQK7fD?autoplay=0', 

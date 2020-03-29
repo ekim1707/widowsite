@@ -269,7 +269,12 @@ const data = [
         class: 'Tank',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/c/c7/Reinhardt_portrait.png/revision/latest/scale-to-width-down/1000?cb=20160429041744', 'https://pbs.twimg.com/media/CmSpDzLXYAAByLi.jpg'], 
         videos: 
-        [{name: 'Reaper Darted During Bomb', 
+        [{name: 'The Grandma IQ', 
+        embed: 'https://www.youtube.com/embed/CMjcKVUp7Cc?autoplay=0', 
+        comment: `I guess the DVa sleep at the end didn't really theoretically accomplish that much, but still 
+        proud of this play overall.`, 
+        image: ana},
+        {name: 'Reaper Darted During Bomb', 
         embed: 'https://www.youtube.com/embed/dBLQZGmQiBc?list=PLks73uWy20avynwTtD5zV18Xz68FWlDQ5?autoplay=0', 
         comment: 'Pretty glad I had the presence of mind to let him sleep through that bomb instead of mistakenly waking him up instead.', 
         image: ana},

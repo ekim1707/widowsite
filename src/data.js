@@ -919,7 +919,7 @@ const data = [
         on my team who for some reason doesn't feel I deserve it... lol). Anyway, esp after watching the replay and 
         acknowledging that the enemy widow was prbly at least decent for this elo, I guess you could argue that 
         "oh bc your Mercy ignored everyone else the entire time it left them all screwed". My personal opinion, 
-        however, is that two noobs really want to play some hotshot heroes like Ashe and Hanzo and dont give a 
+        however, is that two noobs really wanted to play some hotshot heroes like Ashe and Hanzo and didn't give a 
         crap about the rest of their team in their path to superstardom. Sounds not only likely, but typical, no?`},
         {name: 'Yeah We Lost But Like, Seriously...', 
         embed: "https://www.youtube.com/embed/-3-LR30rsHo?autoplay=0", 

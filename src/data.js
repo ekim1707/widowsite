@@ -912,7 +912,19 @@ const data = [
         class: 'Damage',
         image: ['https://vignette.wikia.nocookie.net/overwatch/images/f/fe/Pharah_portrait.png/revision/latest?cb=20160429041650', 'https://cdnb.artstation.com/p/assets/images/images/005/891/409/large/graxious-art-pharah-highres.jpg?1494490224'],
         videos: 
-        [{name: 'Almost Perfect?', 
+        [{name: 'When I Actually Get A Pharmercy', 
+        embed: 'https://www.youtube.com/embed/lYEkkuH9kwE?autoplay=0', 
+        comment: `Despite consistently destroying every game I've played with Pharah up until now, I think I can 
+        count the number of times I've actually gotten Pharmercy on one hand (including times I've had a Mercy 
+        on my team who for some reason doesn't feel I deserve it... lol). Anyway, esp after watching the replay and 
+        acknowledging that the enemy widow was prbly at least decent for this elo, I guess you could argue that 
+        "oh bc your Mercy ignored everyone else the entire time it left them all screwed". My personal opinion, 
+        however, is that two noobs really want to play some hotshot heroes like Ashe and Hanzo and dont give a 
+        crap about the rest of their team in their path to superstardom. Sounds not only likely, but typical, no?`},
+        {name: 'Yeah We Lost But Like, Seriously...', 
+        embed: "https://www.youtube.com/embed/-3-LR30rsHo?autoplay=0", 
+        comment: `Don't know how much better I could have played as Pharah in a losing effort.`},
+        {name: 'Almost Perfect?', 
         embed: "https://www.youtube.com/embed/2cRCN9x4iJY?autoplay=0", 
         comment: `Note the public chat where the dude gets owned out of spawn, taunts me,
         keeps getting owned, and never says another word before exiting the game.`},
@@ -929,17 +941,6 @@ const data = [
         {name: 'Silver Damage In Just One Round', 
         embed: 'https://www.youtube.com/embed/pojauLPqTZI?autoplay=0',
         comment: `Hmm.`},
-        {name: 'Really? What More Could I Have Done?', 
-        embed: 'https://www.youtube.com/embed/pbWGFXoqkQg?list=PLks73uWy20aueh5AiVpM96AEBwsFegUB8?autoplay=0', 
-        comment: `I've always had occasional Pharah games where I'm raining direct hits down on opposing teams
-        and thinking to myself, "I could not possibly be dealing any more damage right now... how are we actually losing?"`},
-        {name: 'Leave This To A Professional', 
-        embed: "https://www.youtube.com/embed/feN6hK3MRD4?autoplay=0", 
-        comment: `This was back in the day when I actually was a pretty scary (in the words of my
-        opponents, not my own) Pharah-main. Unfortunately, I wasn't really recording myself at all back then, but
-        this is still a pretty decent performance that I was able to preserve. Got so angry at my selfish, incompetent
-        team after Round 1 and started spamming the voiceline "leave this to a professional" over and over again at them
-        in response. Might have been obnoxious of me, but to my credit, at least in the end I delivered.`},
         {name: 'Gamers Are Babies', 
         embed: "https://www.youtube.com/embed/sMDu3Pvg5Jo?autoplay=0", 
         comment: `It was pretty funny this entire game because I stayed silent, but I was definitely
